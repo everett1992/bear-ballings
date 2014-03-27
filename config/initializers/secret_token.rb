@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-BearBallings::Application.config.secret_key_base = '2bb77b2f11204213454c43713dbe35857721176aea4b5d09cde10b4c1858c4d1dfda077f1c05d3306cbba696bdf4bef78a62ba2d8f6f56871d0f4b8e3a513e58'
+BearBallings::Application.config.secret_key_base = '202155c48a741e95e9513139df80183e5dcd3938cdad49e89e7c73514ee0827a12fa098625aef719b5285286598a7faf5fd10bc3c93b44a64ef8aa62bff6223e'
