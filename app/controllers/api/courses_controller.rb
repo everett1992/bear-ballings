@@ -1,5 +1,5 @@
 class Api::CoursesController < ApplicationController
   def index
-    @courses = Courses.all
+    @courses = Courses.limit(params[:limit]).offset(params[:offset])
   end
 end
