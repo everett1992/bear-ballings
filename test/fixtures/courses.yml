@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  department: MyString
+  number: 
+  title: MyString
+
+two:
+  department: MyString
+  number: 
+  title: MyString
