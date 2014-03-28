@@ -3,7 +3,17 @@ namespace :courses do
   task :parse => :environment do
     input_file = 'lib/assets/courses.txt'
     output_file = 'lib/assets/invalid_courses.txt'
+    regex = %r{
+      (?<department> .+ ){0}
 
+      (?<number> .+ ){0}
+
+      (?<title> .+ ){0}
+
+      \(['"]\g<department>['"],\s+['"]\g<number>['"],\s+['"]\g<title>['"]\)
+    }x
+
+    #:: validate existance and readability of the input file
     unless File.exists? input_file
       puts "#{input_file} does not exist."
       exit 1
@@ -19,28 +29,18 @@ namespace :courses do
     invalid_lines = Array.new
 
     File.open(input_file, 'r') do |f|
-
-      regex = %r{
-        (?<department> .+ ){0}
-
-        (?<number> [0-9]+ ){0}
-
-        (?<title> .+ ){0}
-
-        \(['"]\g<department>['"],\s+['"]\g<number>['"],\s+['"]\g<title>['"]\)
-      }x
-
       f.each_line do |line|
-
-
         rr = regex.match line
-
-        if rr
-          attrs = [:department, :number, :title]
-          course_hash = Hash[attrs.map { |key| [key, rr[key]] }]
-          Courses.create course_hash
+        attrs = %i{department number title}
+        course_hash = if rr
+          Hash[attrs.map { |key| [key, rr[key]] }]
         else
-          invalid_lines << line
+          Hash[attrs.zip(Array.new(attrs.length, nil))]
+        end
+
+        course = Courses.create course_hash
+        unless course.valid?
+          invalid_lines << "#{line.chomp}: #{course.errors.full_messages.join(', ')}\n"
         end
       end
     end
