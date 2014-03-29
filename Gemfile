@@ -6,6 +6,9 @@ gem 'rails', '4.0.0'
 gem 'mongoid', '~> 4.0.0.beta1', github: 'mongoid/mongoid'
 gem 'bson_ext'
 
+# JavaScript Runtime
+gem 'therubyracer'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
