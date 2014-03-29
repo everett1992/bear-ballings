@@ -7,3 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 #
 Rake::Task['courses:parse'].invoke
+usernames = ['palacee1', 'everetc1']
+usernames.each do |name|
+  Users.create(name: name)
+end
