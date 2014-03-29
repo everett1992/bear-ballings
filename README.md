@@ -21,10 +21,14 @@
 ## Rake
 
 Rake is ruby's make.
-Tasks are defined in `/lib/tasks`
+To see a list of avaliable rake tasts run `$ rake -T`
+Custom tasks are defined in `/lib/tasks`
 
 Relevent tasks
 
-- `$ rake db:setup` Setup the database
-- `$ rake db:reset` Drops all data from the database and loads seeds
-- `$ rake courses:parse` Gets courses from `/lib/assets/courses.txt`
+| Command    | Desc                                                          |
+| ---------- | ------------------------------------------------------------- |
+| `test`     | Run Unit, Functional, and unit tests.                         |
+| `db:setup` | Setup the database.                                           |
+| `db:seed`  | Runs `db/seeds.rb` and populates the database with test info. |
+| `db:reset` | Drops all data from the database and loads seeds.             |
