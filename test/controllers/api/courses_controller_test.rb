@@ -27,4 +27,12 @@ class Api::CoursesControllerTest < ActionController::TestCase
     get :index, {format: 'json', limit: 10, offset: offset}
     assert_equal courses, assigns(:courses)
   end
+
+  test 'index should query by department' do
+    dep = 'CSC'
+    courses = Courses.all.select { |c| c.department == dep }
+    get :index, {format: 'json', department: dep}
+    assert_response :success
+    assert_equal courses, assigns(:courses)
+  end
 end
