@@ -35,4 +35,12 @@ class Api::CoursesControllerTest < ActionController::TestCase
     assert_response :success
     assert_equal courses, assigns(:courses)
   end
+
+  test "Should route api/courses to api/courses#index" do
+    assert_routing({method: 'get', path: 'api/courses'}, {
+        format: :json,
+        action: 'index',
+        controller: 'api/courses'
+    })
+  end
 end

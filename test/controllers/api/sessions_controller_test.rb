@@ -18,7 +18,7 @@ class Api::SessionsControllerTest < ActionController::TestCase
     post :create, {format: :json, user_name: 'palacee1'}
     assert_response :success
     assert_template 'users/show'
-    user=User.where(name: 'palacee1').first
+    user = User.where(name: 'palacee1').first
     assert_equal user, assigns(:user)
     assert_equal user._id, session[:user_id]
   end
@@ -27,5 +27,21 @@ class Api::SessionsControllerTest < ActionController::TestCase
     post :destroy
     assert_response 200
     assert_nil session[:user_id]
+  end
+
+  test "Should route api/login to api/sessions#destroy" do
+    assert_routing({method: 'post', path: 'api/login'}, {
+        format: :json,
+        action: 'create',
+        controller: 'api/sessions'
+    })
+  end
+
+  test "Should route api/logout to api/sessions#destroy" do
+    assert_routing({method: 'post', path: 'api/logout'}, {
+        format: :json,
+        action: 'destroy',
+        controller: 'api/sessions'
+    })
   end
 end

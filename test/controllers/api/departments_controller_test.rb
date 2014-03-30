@@ -7,4 +7,12 @@ class Api::DepartmentsControllerTest < ActionController::TestCase
     assert_template :index
     assert_not_nil assigns(:departments)
   end
+
+  test "Should route api/departments to api/courses#index" do
+    assert_routing({method: 'get', path: 'api/departments'}, {
+        format: :json,
+        action: 'index',
+        controller: 'api/departments'
+    })
+  end
 end
