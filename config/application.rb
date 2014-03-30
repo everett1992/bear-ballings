@@ -17,7 +17,11 @@ Bundler.require(:default, Rails.env)
 
 module BearBallings
   class Application < Rails::Application
+    # Silence locale error on validation.
     config.i18n.enforce_available_locales = true
+
+    # Disable modle preloading because we aren't using inheritance. http://mongoid.org/en/mongoid/docs/rails.html
+    config.mongoid.preload_models = false
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
