@@ -1,9 +1,9 @@
 class Courses
   #:: Fields
   include Mongoid::Document
-  field :department, type: String
-  field :number,     type: Integer
-  field :title,      type: String
+  field :d, as: :department, type: String
+  field :n, as: :number,     type: Integer
+  field :t, as: :title,      type: String
 
   #:: Validations
   validates_presence_of :department, :number, :title

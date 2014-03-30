@@ -1,4 +1,4 @@
 class Users
   include Mongoid::Document
-  field :name, type: String
+  field :n, as: :name, type: String
 end
