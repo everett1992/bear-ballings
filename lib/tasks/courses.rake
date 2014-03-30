@@ -38,7 +38,7 @@ namespace :courses do
           Hash[attrs.zip(Array.new(attrs.length, nil))]
         end
 
-        course = Courses.create course_hash
+        course = Course.create course_hash
         unless course.valid?
           invalid_lines << "#{line.chomp}: #{course.errors.full_messages.join(', ')}\n"
         end
@@ -50,7 +50,7 @@ namespace :courses do
         f.write line
       end
     end
-    puts "There are now #{Courses.count} courses"
+    puts "There are now #{Course.count} courses"
     puts "#{invalid_lines.count} invalid lines writen to #{output_file}"
   end
 end

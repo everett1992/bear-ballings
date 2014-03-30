@@ -1,4 +1,4 @@
-class Courses
+class Course
   #:: Fields
   include Mongoid::Document
   field :d, as: :department, type: String

@@ -10,12 +10,12 @@ class Api::CoursesControllerTest < ActionController::TestCase
 
   test 'index should return all courses' do
     get :index, {format: 'json'}
-    assert_equal Courses.count, assigns(:courses).length
+    assert_equal Course.count, assigns(:courses).length
   end
 
   test 'index should limit courses' do
     limit = 10
-    courses = Courses.all.take(limit)
+    courses = Course.all.take(limit)
     get :index, {format: 'json', limit: limit}
     assert_equal courses, assigns(:courses)
   end
@@ -23,14 +23,14 @@ class Api::CoursesControllerTest < ActionController::TestCase
   test 'index should offset courses' do
     offset = 10
     limit = 10
-    courses = Courses.limit(limit + offset).drop(offset)
+    courses = Course.limit(limit + offset).drop(offset)
     get :index, {format: 'json', limit: 10, offset: offset}
     assert_equal courses, assigns(:courses)
   end
 
   test 'index should query by department' do
     dep = 'CSC'
-    courses = Courses.all.select { |c| c.department == dep }
+    courses = Course.all.select { |c| c.department == dep }
     get :index, {format: 'json', department: dep}
     assert_response :success
     assert_equal courses, assigns(:courses)

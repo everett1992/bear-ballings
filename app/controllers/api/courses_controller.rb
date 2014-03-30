@@ -1,6 +1,6 @@
 class Api::CoursesController < ApplicationController
   def index
-    @courses = Courses
+    @courses = Course
       .where(query_params)
       .limit(params[:limit])
       .offset(params[:offset])
