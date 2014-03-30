@@ -18,7 +18,7 @@ class Api::SessionsControllerTest < ActionController::TestCase
     post :create, {format: :json, user_name: 'palacee1'}
     assert_response :success
     assert_template 'users/show'
-    user=Users.where(name: 'palacee1').first
+    user=User.where(name: 'palacee1').first
     assert_equal user, assigns(:user)
     assert_equal user._id, session[:user_id]
   end

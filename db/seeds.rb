@@ -9,5 +9,5 @@
 Rake::Task['courses:parse'].invoke
 usernames = ['palacee1', 'everetc1']
 usernames.each do |name|
-  Users.create(name: name)
+  User.create(name: name)
 end

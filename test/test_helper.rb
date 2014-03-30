@@ -9,7 +9,7 @@ if Courses.count == 0
   puts "No Courses found, seeding test database"
   Rake::Task['db:seed'].invoke
 end
-if Users.count == 0
+if User.count == 0
   puts "No Users found, seeding test database"
   Rake::Task['db:seed'].invoke
 end

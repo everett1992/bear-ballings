@@ -1,6 +1,6 @@
 class Api::SessionsController < ApplicationController
   def create
-    @user = Users.where(name: params[:user_name]).first
+    @user = User.where(name: params[:user_name]).first
     if @user
       session[:user_id]=@user._id
       render 'api/users/show'
