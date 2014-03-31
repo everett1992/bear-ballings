@@ -3,15 +3,17 @@
   <h1>Bear Ballings</h1>
 </header>
 <div id="container">
-  <div>
+  <div id="left">
     <form id="search" action="#">
-      <input type="text" placeholder="Course Search"/>
+      <input id="searchtext" type="text" placeholder="Course Search" disabled/>
     </form>
     <ul id="courses">
     </ul>
   </div>
-  <div>
+  <div id="right">
     <ol id="planner">
     </ol>
   </div>
 </div>
+<script src="//underscorejs.org/underscore-min.js"></script>
+<%= javascript_include_tag "javascript" %>

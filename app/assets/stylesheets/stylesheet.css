@@ -73,19 +73,17 @@ header h1 {
     flex-direction:row;
     flex-wrap:nowrap;
     justify-content:center;
-    align-items:flex-start;
-    align-content:flex-start;
+    align-items:stretch;
+    align-content:stretch;
     height:calc(100% - 6ex);
 }
 
 #container > div {
-    /*width:33.3333333333333%;*/
     width:50%;
     height:100%;
     border-left:1px solid #293f6f;
     border-right:1px solid #293f6f;
     border-bottom:2px solid #293f6f;
-    overflow-y:auto;
 }
 #container > div:first-child {
     border-left-width:2px;
@@ -94,25 +92,42 @@ header h1 {
     border-right-width:2px;
 }
 
+#left {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    align-items:stretch;
+    align-content:stretch;
+}
 #search {
     margin:0;
     padding:1em;
     text-align:center;
     border-bottom:1px solid #293f6f;
+    flex:0 0 auto;
 }
 #search > input {
     width:90%;
 }
 
 ol, ul {
-    list-style-type:none;
     margin:0;
+    list-style-type:none;
+    overflow-y:auto;
 }
+
 #courses {
     padding:1em;
+    /*flex:2 0 auto;*/
 }
-#courses > li {
+li {
     margin:1ex;
     padding:1ex;
     border:1px solid black;
+}
+
+#planner {
+    padding:1ex;
+    height:100%;
 }
