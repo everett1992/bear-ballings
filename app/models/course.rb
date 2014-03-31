@@ -5,6 +5,8 @@ class Course
   field :n, as: :number,     type: Integer
   field :t, as: :title,      type: String
 
+  has_and_belongs_to_many :bins
+
   #:: Validations
   validates_presence_of :department, :number, :title
   validates_uniqueness_of :number, scope: :department
