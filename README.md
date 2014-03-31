@@ -37,7 +37,7 @@ the repository.
 | Url                    | Desc |
 | ---------------------- | ------------------------------------------------------------------------------- |
 | get `/api/departments` | List of all departments with courses in the database                            |
-| get `/api/courses`     | List of all courses, accepts `limit`, `offest`, and `department` parmas         |
+| get `/api/courses`     | List of all courses, accepts `limit`, `offset`, and `department` params         |
 | post `/api/login`      | Logs in the first user with username `user_name` NOTE: we'll add passwords later |
 | post `/api/logout`     | Destroys the user session                                                       |
 
