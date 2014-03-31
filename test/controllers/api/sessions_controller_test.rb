@@ -17,7 +17,7 @@ class Api::SessionsControllerTest < ActionController::TestCase
   test "Renders the user/show template" do
     post :create, {format: :json, user_name: User.first.name}
     assert_response :success
-    assert_template 'users/show'
+    assert_template 'api/user/show'
     assert_not_nil flash[:notice]
   end
 
