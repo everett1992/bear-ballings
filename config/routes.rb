@@ -1,9 +1,13 @@
 BearBallings::Application.routes.draw do
+  root 'main#index'
+  get 'login' => 'main#login'
+
   namespace :api, defaults: {format: :json} do
-    get 'departments'         => 'departments#index'
-    get 'courses'             => 'courses#index'
     post 'login'              => 'sessions#create', as: :login
     post 'logout'              => 'sessions#destroy', as: :logout
+
+    get 'departments'         => 'departments#index'
+    get 'courses'             => 'courses#index'
     get 'teapot'              => 'teapot#teapot'
     #get 'courses/:department' => 'courses#index'
   end
