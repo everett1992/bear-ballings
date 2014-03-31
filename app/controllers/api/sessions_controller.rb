@@ -3,7 +3,7 @@ class Api::SessionsController < ApplicationController
     @user = User.where(name: params[:user_name]).first
     if @user
       login @user
-      render 'api/user/show'
+      render 'api/users/show'
     else
       render json: {error: 'No user matches the supplied information'}, status: :unauthorized
     end

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Api::User::UserControllerTest < ActionController::TestCase
+class Api::Users::CoursesControllerTest < ActionController::TestCase
   test "Requires login redirects to login" do
     logout
     get :index, {format: :json}
@@ -10,7 +10,6 @@ class Api::User::UserControllerTest < ActionController::TestCase
   test "Requires login redirects to user show" do
     login User.first
     get :index, {format: :json}
-    assert_template 'api/user/show'
+    assert_template :index
   end
 end
-

@@ -6,7 +6,7 @@ BearBallings::Application.routes.draw do
     post 'login'               => 'sessions#create',  as: :login
     post 'logout'              => 'sessions#destroy', as: :logout
 
-    namespace :user, defaults: {format: :json} do
+    namespace :users, as: 'user' do
       root 'user#index'
       get 'courses' => 'courses#index'
     end
