@@ -16,4 +16,11 @@ end
 
 class ActiveSupport::TestCase
   # Add more helper methods to be used by all tests here...
+  def login user
+    session[:user_id] = user._id
+  end
+
+  def logout
+    session[:user_id] = nil
+  end
 end

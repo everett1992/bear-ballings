@@ -14,11 +14,17 @@ class Api::SessionsControllerTest < ActionController::TestCase
     assert_nil assigns(:user)
   end
 
-  test "Logs in user when username exists" do
-    post :create, {format: :json, user_name: 'palacee1'}
+  test "Renders the user/show template" do
+    post :create, {format: :json, user_name: User.first.name}
     assert_response :success
     assert_template 'users/show'
+    assert_not_nil flash[:notice]
+  end
+
+  test "Logs in user when username exists" do
     user = User.where(name: 'palacee1').first
+
+    post :create, {format: :json, user_name: user.name}
     assert_equal user, assigns(:user)
     assert_equal user._id, session[:user_id]
   end
@@ -27,6 +33,7 @@ class Api::SessionsControllerTest < ActionController::TestCase
     post :destroy
     assert_response 200
     assert_nil session[:user_id]
+    assert_not_nil flash[:notice]
   end
 
   test "Should route api/login to api/sessions#destroy" do

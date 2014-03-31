@@ -1,6 +1,6 @@
 BearBallings::Application.routes.draw do
   root 'main#index'
-  get 'login' => 'main#login'
+  get 'login' => 'main#login', as: :login_form
 
   namespace :api, defaults: {format: :json} do
     post 'login'              => 'sessions#create', as: :login
