@@ -1,4 +1,5 @@
 #NOTES: needs testing, should run multiple times and then evaluate on how well it did
+import random
 
 #right now, one iteration
 MAXCLASSES = 4
@@ -12,6 +13,10 @@ MAXCREDITS = 16
 def classsort(bucketlist, userclasslist, usercreditlist, classlist):
     if complete(userclasslist, usercreditlist) == True:
         return userclasslist
+
+    print "Working..."
+    #print userclasslist
+    #print bucketlist
 
     #---------------------------------------
     #try to place a student
@@ -38,7 +43,9 @@ def classsort(bucketlist, userclasslist, usercreditlist, classlist):
     user = -1
     while user == -1:
         ru = random.randint(0,(len(userclasslist)-1))
-        if ((len(userclasslist[q]) == minilen) and usercreditlist[q] == maxprio):
+        #print ru, minilen, maxprio
+        #print (len(userclasslist[ru])), usercreditlist[ru]
+        if ((len(userclasslist[ru]) == minilen) and usercreditlist[ru] == maxprio):
             user = ru
 
     #account for classes the user need not take, if they have less than four classes this time around, by adding blank entries    
@@ -64,15 +71,38 @@ def classsort(bucketlist, userclasslist, usercreditlist, classlist):
                     for gc in classlist:
                         if (getcourseid(gc) == cid):
                             globallist.append(gc)
-                    if length(globallist) > 0: #if there is a course, add user if the course has spots open
-                        for gc in globalist:
+                    if len(globallist) > 0: #if there is a course, add user if the course has spots open
+                        for gc in globallist:
                             if getseats(gc) > 0 and added == False:
                                 added = True
-                                newclasslist[(getcourseid(gc))] = [gc[0], gc[1]-1, gc[2]]
-                                newuserclasslist[user].append(newclasslist[(getcourseid(gc))])
-                                for b in newbucketlist[user]: #remove list from new list, as it has been found
-                                    if b == bucket:
-                                        b = []
+                                newclasslist[(getglobalid(gc))] = [gc[0], gc[1]-1, gc[2]]
+                                newuserclasslist[user].append(newclasslist[(getglobalid(gc))])
+
+                                donecyc = False
+                                for b in bucketlist[user]: #remove list from new list, as it has been found
+                                    if len(b) == len(bucket) and donecyc == False:
+                                        thesame = True
+                                        for elenum in range(len(b)):
+                                            if b[elenum] != bucket[elenum]:
+                                                thesame = False
+                                        if thesame == True:
+                                            newbucketlist = list()
+                                            for buckind in range(len(bucketlist)):
+                                                if buckind != user:
+                                                    newbucketlist.append(bucketlist[buckind])
+                                                else:
+                                                    internalbucket = list()
+                                                    popped = False
+                                                    for buckind2 in range(len(bucketlist[buckind])):
+                                                        if cid in (bucketlist[buckind])[buckind2] and popped == False:
+                                                            internalbucket.append([])
+                                                            popped = True
+                                                        else:
+                                                            internalbucket.append((bucketlist[buckind])[buckind2])
+                                                    newbucketlist.append(internalbucket)
+               
+                                            print "Bucket Removed. New: ", newbucketlist
+                                            donecyc = True    
                                 
 
     if added == False:
@@ -88,11 +118,34 @@ def classsort(bucketlist, userclasslist, usercreditlist, classlist):
                     
                 if cid not in currentids: #user isn't already signed up for a course with this id, else invalid, try new course
                     added = True
-                    newclasslist[(getcourseid(gc))] = [gc[0], gc[1]-1, gc[2]]
-                    newuserclasslist[user].append(newclasslist[(getcourseid(gc))])
-                    for b in newbucketlist[user]: #remove list from new list, as it has been found
-                        if b == bucket:
-                            b = []                    
+                    newclasslist[(getglobalid(gc))] = [gc[0], gc[1]-1, gc[2]]
+                    newuserclasslist[user].append(newclasslist[(getglobalid(gc))])
+
+                    donecyc = False
+                    for b in bucketlist[user]: #remove list from new list, as it has been found
+                        if len(b) == len(bucket) and donecyc == False:
+                            thesame = True
+                            for elenum in range(len(b)):
+                                if b[elenum] != bucket[elenum]:
+                                    thesame = False
+                            if thesame == True:
+                                newbucketlist = list()
+                                for buckind in range(len(bucketlist)):
+                                    if buckind != user:
+                                        newbucketlist.append(bucketlist[buckind])
+                                    else:
+                                        internalbucket = list()
+                                        popped = False
+                                        for buckind2 in range(len(bucketlist[buckind])):
+                                            if cid in (bucketlist[buckind])[buckind2] and popped == False:
+                                                internalbucket.append([])
+                                                popped = True
+                                            else:
+                                                internalbucket.append((bucketlist[buckind])[buckind2])
+                                        newbucketlist.append(internalbucket)
+   
+                                print "Bucket Removed. New: ", newbucketlist
+                                donecyc = True              
 
     return classsort(newbucketlist, newuserclasslist, usercreditlist, newclasslist)
     
@@ -101,9 +154,19 @@ def getcourseid(entry): #input userclasslist, get back id
 
 def getseats(entry): #input classlist entry, get back seats
     return entry[1]
+
+def getglobalid(entry): #input classlist entry, get back seats
+    return entry[2]
     
 def complete(userclasslist, usercreditlist): #check for completion
     for q in range(len(userclasslist)):
         if ((len(userclasslist[q]) < MAXCLASSES) and (len(userclasslist[q]) + usercreditlist[q] < MAXCREDITS)): #see if user is not fulfilled
             return False
     return True
+
+buckets = [ [[1,2],[3,4],[5,6],[7,8]] , [[1,4,6],[2,5],[7,9],[4,3]] , [[3,4],[5,6],[1,10],[7,8,9]] ]
+ubl = [[],[],[]]
+ucl = [12,3,5]
+ci = [[1,20,0],[2,10,1],[3,10,2],[4,15,3],[5,15,4],[6,20,5],[7,20,6],[8,10,7],[9,5,8],[10,100,9]]
+u = classsort(buckets, ubl, ucl, ci)
+print(u)
