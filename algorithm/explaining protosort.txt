@@ -1,0 +1,34 @@
+Inputs:
+bucketlist - a list of list of lists, which contains the user's preference buckets
+For example...
+[[0,1],[0,2]] -> this is one user with 2 buckets containing classes with courseid [0,1], then [0,2]
+Since this is a depth-3 list, the below is valid, at 2 people with the same preferences.
+[[[0,1],[0,2]], [[0,1],[0,2]]]
+
+userclasslist is the output, built recursively. It is a list of list of lists, once again, each element containing a course, mapped by course id (corresponds with buckets), number of students left at the time, then the global id, which notes the number of all classes (since there can be seperate classes of the same course)
+Each internal list (2nd level), has 4 courses for a user (may be [] if the user has enough credits to take less)
+[[0,19,0],[],[],[]]
+This is a user that only needs 1 course.
+A list of these can make output.
+
+usercreditlist is the list of credits each user has, just a list of ints. Its length is the same as the above 2.
+
+classlist is a 2d list of class data, containing course id, students left, global class id, and are moved into userclasslist.
+
+When running a recursion of this program, the following will occur:
+First, see if all of the users are done - this will occur if all users have 4 slots filled in userclasslist (they may be [] if needed)
+
+Otherwise:
+Pick the highest priority user - this is the one who has the lowest number of classes given so far, with the highest credit priority remaining (if there are more than one, pick randomly)
+
+This user will get a class. (Starts on line 58)
+In this loop, we carry on until the user has added a class. To do this, we go bucket by bucket.
+For each bucket, we iterate through the classes and see if the user has one scheduled with this id (if the bucket already has a class taken from it, it will be an empty list, and thus, we will move to the next bucket)
+If the user has not taken a class with that id, we then check to see if there is an open section, by iterating through the classlist and taking any class with the mathcing course id
+Then we iterate through that course list of courses with that course id.
+Once one is open, we add it to the userclasslist and block any further class additions from being added. We also decrement the open spots left in the globalcourselist. The first bucket with the courseid is also made to an empty listt (as we want one per bucket)
+
+Once we exit iterating through the buckets, we see if we added something. If so, recurse.
+If not, add a random class from the list to the user's list.
+
+Continue until complete. If stuck there may be issues. You probably want more class spots open than user courses.
