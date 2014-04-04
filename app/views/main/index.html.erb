@@ -1,5 +1,11 @@
 <header>
-  <button id="logout" name="logout" value="Logout" onclick="alert('NOT IMPLEMENTED');"></button>
+  <%= form_tag logout_path do %>
+    <h1>Bear Ballings</h1>
+    <% flash.each do |name, msg| -%>
+      <%= content_tag :div, msg, class: name %>
+    <% end -%>
+    <button id="logout" name="logout" value="Logout"></button>
+  <% end %>
   <h1>Bear Ballings</h1>
 </header>
 <div id="container">
