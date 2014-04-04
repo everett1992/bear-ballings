@@ -115,19 +115,28 @@ ol, ul {
     margin:0;
     list-style-type:none;
     overflow-y:auto;
+    padding:1em;
 }
 
 #courses {
-    padding:1em;
     /*flex:2 0 auto;*/
 }
-li {
+
+#planner {
+    padding:0.5em;
+    height:100%;
+}
+ol.bin {
+    padding:0.5em;
+    border:1px solid black;
+}
+
+li.course {
     margin:1ex;
     padding:1ex;
     border:1px solid black;
 }
-
-#planner {
-    padding:1ex;
-    height:100%;
+li.course h3 {
+    margin:0;
+    padding:0;
 }
