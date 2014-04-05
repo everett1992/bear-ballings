@@ -135,8 +135,12 @@ li.course {
     margin:1ex;
     padding:1ex;
     border:1px solid black;
+    cursor:move;
 }
 li.course h3 {
     margin:0;
     padding:0;
 }
+li.course:nth-child(3n) { background-color:#fee; }
+li.course:nth-child(3n+1) { background-color:#efe; }
+li.course:nth-child(3n+2) { background-color:#eef; }

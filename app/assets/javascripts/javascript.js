@@ -49,6 +49,8 @@ JSON.load = function(url, callback) {
     var v_courses;
     var v_bins;
 
+    var v_active;
+
     function buildElementBin() {
         var elem = document.createElement("ol");
         elem.className = "bin";
@@ -68,8 +70,65 @@ JSON.load = function(url, callback) {
         title.appendChild(document.createTextNode(course.title));
         header.appendChild(title);
         elem.appendChild(header);
+        elem.onmousedown = function(e) {
+            if (e.button != 0)
+                return;
+            //console.log("DOWN");
+            document.onmousemove = function(e) {
+                mousemove(e);
+            };
+            document.onmouseup = function(e) {
+                if (e.button != 0)
+                    return;
+                //console.log("UP");
+                mouseup(e);
+                if (elem.releaseCapture) { elem.releaseCapture(); }
+            };
+            if (elem.setCapture) { elem.setCapture(); }
+            mousedown(e, elem);
+        };
+        /*
+        elem.addEventListener("mousedown", function(e) {
+            if (e.button != 0)
+                return;
+            elem.setCapture(true);
+            mousedown(e, elem);
+        });
+        elem.addEventListener("mousemove", function(e) {
+            mousemove(e);
+        });
+        elem.addEventListener("mouseup", function(e) {
+            if (e.button != 0)
+                return;
+            mouseup(e);
+        });
+         */
         return elem;
     }
+
+    function mousedown(e, elem) {
+        e.preventDefault();
+        v_active = elem;
+        v_active.style.backgroundColor = "yellow";
+    }
+
+    function mousemove(e) {
+        if (!v_active)
+            return;
+        e.preventDefault();
+    }
+
+    function mouseup(e) {
+        if (!v_active)
+            return;
+        e.preventDefault();
+        v_active.style.backgroundColor = "";
+        v_active = undefined;
+    }
+
+    //document.body.addEventListener("mouseup", mouseup);
+
+    //document.body.addEventListener("mousemove", mousemove);
 
     function updateCourses(search) {
         if (!courses)
