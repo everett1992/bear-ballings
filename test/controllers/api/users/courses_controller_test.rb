@@ -24,9 +24,10 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
 
   test "Should fail when no course matches provided _id" do
     login User.first
-    post :create, {format: :json, _id: "THIS WILL NEVER BE A COURSE ID. THAT'S NOT HOW THOSE WORK. THIS SHOULD BE SAFE BY NOW"}
+    id = "THIS WILL NEVER BE A COURSE ID. THAT'S NOT HOW THOSE WORK. THIS SHOULD BE SAFE BY NOW"
+    post :create, {format: :json, _id: id}
     assert_response :not_found
-    assert_equal "No course matching the _id provided was found", JSON.parse(response.body)['error']
+    assert_equal "No course matching id #{id} was found", JSON.parse(response.body)['error']
   end
 
   test "Default case should create new bin and adds course" do
@@ -49,6 +50,18 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     user.add_course(course)
     post :create, {format: :json, _id: new_course._id}
     assert_equal(user.reload.bins.last, assigns(:bin))
+  end
+
+  test "Passing a bin and a couse should place the course in the bin" do
+    user = User.first
+    course = Course.first
+    new_course = Course.last
+    login user
+    user.bins.delete_all
+    bin = user.add_course(course)
+    assert_difference("bin.reload.course_ids.count", 1) do
+      post :create, {format: :json, _id: new_course._id, to_bin: bin._id}
+    end
   end
 
   #--Routing Tests
