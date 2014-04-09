@@ -41,13 +41,15 @@ JSON.load = function(url, callback) {
 
 (function() {
 
+    var state;
+
     var courses;
     var searcher;
     var bins;
 
+    var v_bins;
     var v_searchbox;
     var v_courses;
-    var v_bins;
 
     var v_active;
 
@@ -62,7 +64,9 @@ JSON.load = function(url, callback) {
         var header = document.createElement("h3");
         var id = document.createElement("span");
         id.className = "courseId";
-        id.appendChild(document.createTextNode(course.department + course.number));
+        id.appendChild(document.createTextNode(course.department +
+                                               (course.number < 100 ? '0' : '') + 
+                                               course.number));
         header.appendChild(id);
         header.appendChild(document.createTextNode(" — "));
         var title = document.createElement("span");
@@ -73,82 +77,67 @@ JSON.load = function(url, callback) {
         elem.onmousedown = function(e) {
             if (e.button != 0)
                 return;
-            //console.log("DOWN");
-            document.onmousemove = function(e) {
-                mousemove(e);
-            };
-            document.onmouseup = function(e) {
-                if (e.button != 0)
-                    return;
-                //console.log("UP");
-                mouseup(e);
-                if (elem.releaseCapture) { elem.releaseCapture(); }
-            };
+            v_active = elem;
+            document.onmousemove = mousemove;
+            document.onmouseup = mouseup;
             if (elem.setCapture) { elem.setCapture(); }
-            mousedown(e, elem);
+            mousedown(e);
         };
-        /*
-        elem.addEventListener("mousedown", function(e) {
-            if (e.button != 0)
-                return;
-            elem.setCapture(true);
-            mousedown(e, elem);
-        });
-        elem.addEventListener("mousemove", function(e) {
-            mousemove(e);
-        });
-        elem.addEventListener("mouseup", function(e) {
-            if (e.button != 0)
-                return;
-            mouseup(e);
-        });
-         */
         return elem;
     }
 
-    function mousedown(e, elem) {
+    function mousedown(e) {
         e.preventDefault();
-        v_active = elem;
         v_active.style.backgroundColor = "yellow";
+        //document.body.style.cursor = "move";
     }
 
     function mousemove(e) {
         if (!v_active)
             return;
         e.preventDefault();
+        var type = (v_active.className.indexOf("unassigned") < 0 ? "assigned" : "unassigned");
+        if (type !== "unassigned")
+            return;
+        var bins_b = document.getElementById("bins").getBoundingClientRect();
+        if (e.pageX - bins_b.left < 0 || bins_b.right - e.pageX < 0 ||
+            e.pageY - bins_b.top < 0 || bins_b.bottom - e.pageY < 0)
+            return;
+        var bin = _.findWhere(bins, function(b) {
+            return (e.pageX - bins_b.left < 0 || bins_b.right - e.pageX < 0 ||
+                    e.pageY - bins_b.top < 0 || bins_b.bottom - e.pageY < 0);
+        });
+        console.log((e.clientY - bins_b.top), (e.clientX - bins_b.left));
+        console.log((e.pageY - bins_b.top), (e.pageX - bins_b.left));
     }
 
     function mouseup(e) {
+        if (e.button != 0)
+            return;
         if (!v_active)
             return;
         e.preventDefault();
+        document.onmousemove = null;
+        document.onmouseup = null;
         v_active.style.backgroundColor = "";
+        if (v_active.releaseCapture) { v_active.releaseCapture(); }
         v_active = undefined;
+        //document.body.style.cursor = "";
     }
-
-    //document.body.addEventListener("mouseup", mouseup);
-
-    //document.body.addEventListener("mousemove", mousemove);
 
     function updateCourses(search) {
         if (!courses)
             return;
         while (v_courses.firstChild)
             v_courses.removeChild(v_courses.firstChild);
-        /*
-         _.map(_.uniq(searcher.find(search)),
-         function(c) {
-         var elem = document.createElement("li");
-         elem.appendChild(document.createTextNode(c.title));
-         v_courses.appendChild(elem);
-         });
-         */
         for (var i = 0; i < courses.length; i++) {
             var course = courses[i];
             if (course.department.indexOf(search) >= 0 ||
                 course.number.toString().indexOf(search) >= 0 ||
                 course.title.indexOf(search) >= 0) {
-                v_courses.appendChild(buildElementCourse(course));
+                var elem = buildElementCourse(course);
+                elem.className += " unassigned";
+                v_courses.appendChild(elem);
             }
         }
     }
@@ -162,16 +151,19 @@ JSON.load = function(url, callback) {
             bins = _.map(data.bins, function(b) {
                 return { courses: b.bin.courses,
                          v_bin: buildElementBin() };
-            });
+             });
             v_bins = document.getElementById("bins");
             while (v_bins.firstChild)
                 v_bins.removeChild(v_bins.firstChild);
             _.each(bins, function(b) {
                 v_bins.appendChild(b.v_bin);
                 _.each(b.courses, function(c) {
-                    b.v_bin.appendChild(buildElementCourse(c));
+                    var elem = buildElementCourse(c);
+                    elem.className += " assigned";
+                    b.v_bin.appendChild(elem);
                 });
             });
+            callback();
         });
     }
     function loadCourses(callback) {
@@ -183,16 +175,6 @@ JSON.load = function(url, callback) {
                 alert("ERROR LOADING DATA");
                 return;
             }
-            v_searchbox = document.getElementById("searchtext");
-            v_courses = document.getElementById("courses");
-            // event listener for user input change
-            var listenid;
-            v_searchbox.addEventListener("input", function(e) {
-                window.clearTimeout(listenid);
-                listenid = window.setTimeout(function() {
-                    updateCourses(v_searchbox.value);
-                }, 200);
-            });
             courses = data.courses;
             /*
              searcher = new TextTree();
@@ -202,12 +184,34 @@ JSON.load = function(url, callback) {
              searcher.add(courses[i].number.toString(), i);
              }
              */
-            v_searchbox.disabled = false;
-            updateCourses(v_searchbox.value);
+            callback();
         }, 1000);
     }
 
-    loadUser();
-    loadCourses();
+    function loadDocument(callback) {
+        // store handles to the document
+        v_searchbox = document.getElementById("searchtext");
+        v_courses = document.getElementById("courses");
+        // listen on the search box for input
+        v_searchbox.addEventListener("input", _.debounce(function(e) {
+            updateCourses(v_searchbox.value);
+        }, 200));
+        v_searchbox.disabled = false;
+        // update the course list with the default search value
+        updateCourses(v_searchbox.value);
+        if (callback)
+            callback();
+    }
+
+    function load() {
+        state = {};
+        loadUser(function() {
+            loadCourses(function() {
+                loadDocument();
+            });
+        });
+    }
+
+    load();
 
 })();
