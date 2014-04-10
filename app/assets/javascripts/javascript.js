@@ -14,6 +14,15 @@ JSON.load = function(url, callback) {
     request.send();
 };
 
+
+require.config({
+    baseUrl: "/assets"
+});
+
+require(["controller"], function(controller) {
+});
+
+
 /*
  function TextTree(v) {
  var value = v;
@@ -38,20 +47,11 @@ JSON.load = function(url, callback) {
  };
  }
  */
-
+/*
 (function() {
 
-    var state;
-
-    var courses;
-    var searcher;
-    var bins;
-
-    var v_bins;
-    var v_searchbox;
-    var v_courses;
-
-    var v_active;
+    var model;
+    var view;
 
     function buildElementBin() {
         var elem = document.createElement("ol");
@@ -125,21 +125,38 @@ JSON.load = function(url, callback) {
         //document.body.style.cursor = "";
     }
 
-    function updateCourses(search) {
-        if (!courses)
+    function updateUserBins(bins) {
+        if (!bins)
             return;
-        while (v_courses.firstChild)
-            v_courses.removeChild(v_courses.firstChild);
-        for (var i = 0; i < courses.length; i++) {
-            var course = courses[i];
-            if (course.department.indexOf(search) >= 0 ||
-                course.number.toString().indexOf(search) >= 0 ||
-                course.title.indexOf(search) >= 0) {
-                var elem = buildElementCourse(course);
-                elem.className += " unassigned";
-                v_courses.appendChild(elem);
-            }
-        }
+        while (view.bins.firstChild)
+            view.bins.removeChild(view.bins.firstChild);
+        _.each(bins, function(b) {
+            var binview = buildElementBin();
+            view.bins.appendChild(binview);
+            _.each(b.courses, function(c) {
+                var elem = buildElementCourse(c);
+                elem.className += " assigned";
+                binview.appendChild(elem);
+            });
+        });
+    }
+
+    function updateCourses(courses, search) {
+        if (!courses || typeof search !== "string")
+            return;
+        while (view.courses.firstChild)
+            view.courses.removeChild(view.courses.firstChild);
+        var cs = _.filter(courses, function(c) {
+            return (c.department.indexOf(search) >= 0 ||
+                    c.number.toString().indexOf(search) >= 0 ||
+                    (c.department+c.number.toString()).indexOf(search) >= 0 ||
+                    c.title.indexOf(search) >= 0);
+        });
+        _.each(cs, function(c) {
+            var elem = buildElementCourse(c);
+            elem.className += " unassigned";
+            view.courses.appendChild(elem);
+        });
     }
 
     function loadUser(callback) {
@@ -148,22 +165,13 @@ JSON.load = function(url, callback) {
                 alert("ERROR LOADING DATA");
                 return;
             }
-            bins = _.map(data.bins, function(b) {
-                return { courses: b.bin.courses,
-                         v_bin: buildElementBin() };
-             });
-            v_bins = document.getElementById("bins");
-            while (v_bins.firstChild)
-                v_bins.removeChild(v_bins.firstChild);
-            _.each(bins, function(b) {
-                v_bins.appendChild(b.v_bin);
-                _.each(b.courses, function(c) {
-                    var elem = buildElementCourse(c);
-                    elem.className += " assigned";
-                    b.v_bin.appendChild(elem);
-                });
+            model.user = {};
+            model.user.bins = _.map(data.bins, function(b) {
+                return { courses: b.bin.courses };
             });
-            callback();
+            updateUserBins(model.user.bins);
+            if (callback)
+                callback();
         });
     }
     function loadCourses(callback) {
@@ -175,39 +183,35 @@ JSON.load = function(url, callback) {
                 alert("ERROR LOADING DATA");
                 return;
             }
-            courses = data.courses;
-            /*
-             searcher = new TextTree();
-             for (var i = 0; i < courses.length; i++) {
-             searcher.add(courses[i].department, i);
-             searcher.add(courses[i].title, i);
-             searcher.add(courses[i].number.toString(), i);
-             }
-             */
-            callback();
+            model.courses = data.courses;
+            if (callback)
+                callback();
         }, 1000);
     }
 
-    function loadDocument(callback) {
-        // store handles to the document
-        v_searchbox = document.getElementById("searchtext");
-        v_courses = document.getElementById("courses");
-        // listen on the search box for input
-        v_searchbox.addEventListener("input", _.debounce(function(e) {
-            updateCourses(v_searchbox.value);
-        }, 200));
-        v_searchbox.disabled = false;
-        // update the course list with the default search value
-        updateCourses(v_searchbox.value);
+    function loadView(callback) {
+        view.searchbox = document.getElementById("searchtext");
+        view.courses = document.getElementById("courses");
+        view.bins = document.getElementById("bins");
+        view.selected = null;
         if (callback)
             callback();
     }
 
     function load() {
-        state = {};
-        loadUser(function() {
-            loadCourses(function() {
-                loadDocument();
+        model = {};
+        view = {};
+        loadView(function () {
+            loadUser(function() {
+                loadCourses(function() {
+                    // listen on the search box for input
+                    view.searchbox.addEventListener("input", _.debounce(function(e) {
+                        updateCourses(model.courses, view.searchbox.value);
+                    }, 200));
+                    view.searchbox.disabled = false;
+                    // update the course list with the default search value
+                    updateCourses(model.courses, view.searchbox.value);
+                });
             });
         });
     }
@@ -215,3 +219,4 @@ JSON.load = function(url, callback) {
     load();
 
 })();
+*/
