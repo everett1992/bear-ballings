@@ -9,6 +9,7 @@ gem 'bson_ext'
 # JavaScript Runtime
 gem 'therubyracer'
 
+gem 'requirejs-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
