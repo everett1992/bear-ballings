@@ -1,5 +1,7 @@
-define(['view/searchbox'], function(searchbox) {
+define(['view/searchbox', 'view/courses', 'view/bins'], function(searchbox, courses, bins) {
     return {
-        searchbox: searchbox
+        searchbox: searchbox,
+        courses: courses,
+        bins: bins
     };
 });

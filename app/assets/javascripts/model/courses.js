@@ -11,6 +11,9 @@ define(function() {
                 return;
             }
             model.courses = data.courses;
+            _.each(model.courses, function(c) {
+                c.id = c.department + (c.number < 100 ? '0' : '') + c.number;
+            });
             if (callback)
                 callback();
         });

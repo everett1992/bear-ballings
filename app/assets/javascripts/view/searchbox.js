@@ -7,7 +7,8 @@ define(function() {
     var listeners = [];
 
     elem_filter.addEventListener("input", _.debounce(function(e) {
-        _.each(listeners, function(f) { f({filter: elem_filter.value}); });
+        view.filter.value = elem_filter.value;
+        _.each(listeners, function(f) { f({filter: view.filter.value}); });
     }, 200));
 
 
