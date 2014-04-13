@@ -1,11 +1,11 @@
 class Bin
   include Mongoid::Document
-  belongs_to :user
+  embedded_in :user
   has_and_belongs_to_many :courses
-  
+
   # Validates each course is unique.
   # Validates that there is atleast one course.
-  
+
   def add_course(course)
     courses << course
     save

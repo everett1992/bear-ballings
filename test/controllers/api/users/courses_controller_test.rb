@@ -35,7 +35,7 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     course = Course.first
     login user
     user.bins.delete_all
-    assert_difference('user.bins.count', 1) do
+    assert_difference('user.reload.bins.count', 1) do
       post :create, {format: :json, _id: course._id}
       assert assigns(:bin).courses.include? course
     end
@@ -62,6 +62,26 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     assert_difference("bin.reload.course_ids.count", 1) do
       post :create, {format: :json, _id: new_course._id, to_bin: bin._id}
     end
+  end
+
+  test "Passing a course, and a before_bin id should create a new bin before before_bin" do
+    user = User.first
+    new_course = Course.first
+
+    login user
+    user.bins.delete_all
+    bin = user.add_course(Course.last)
+
+    assert_difference("user.reload.bins.count", 1) do
+      post :create, {format: :json, _id: new_course._id, before_bin: bin._id}
+    end
+
+    new_bin_index = user.bins.index { |b| b.courses.include? new_course }
+    other_bin_index = user.bins.index(bin)
+
+    # If `other_bin`'s index is 0 the new bin cannot be before it.
+    assert_not_equal 0, other_bin_index, "Other bin is the first bin"
+    assert_equal other_bin_index - 1, new_bin_index
   end
 
   #--Routing Tests

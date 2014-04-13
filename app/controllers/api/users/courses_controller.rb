@@ -13,6 +13,8 @@ class Api::Users::CoursesController < Api::Users::UserController
       @bin = @user.add_course(course)
     elsif params[:before_bin].blank?
       addTo(course, params[:to_bin])
+    elsif params[:before_bin]
+      addBefore(course, params[:before_bin])
     end
     render json: :success
   end
@@ -36,6 +38,18 @@ class Api::Users::CoursesController < Api::Users::UserController
     if @bin
       #add the course to that bin
       @user.add_course(course, @bin)
+    else
+      render json: {error: 'No bin matching the provided id was found for this user'}, status: :not_found
+    end
+  end
+
+  def addBefore(course, bin_id)
+    before_bin = @user.bins.find(bin_id)
+    if before_bin
+      @bin = Bin.new
+      @user.bins.push @bin, position: 0
+      @user.add_course(course, @bin)
+
     else
       render json: {error: 'No bin matching the provided id was found for this user'}, status: :not_found
     end

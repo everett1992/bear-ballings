@@ -4,8 +4,7 @@ class Course
   field :d, as: :department, type: String
   field :n, as: :number,     type: Integer
   field :t, as: :title,      type: String
-
-  has_and_belongs_to_many :bins
+  #has_and_belongs_to_many :bins
 
   #:: Validations
   validates_presence_of :department, :number, :title
