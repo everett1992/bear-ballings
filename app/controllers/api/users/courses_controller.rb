@@ -4,23 +4,26 @@ class Api::Users::CoursesController < Api::Users::UserController
   end
   
   def create
-    course = findCourse(params[:_id])
+    course = find_course(params[:_id])
     if course.nil?
       return
     end
     if params[:to_bin].blank? && params[:before_bin].blank?
       #add the course to a new bin if no bin is provided
       @bin = @user.add_course(course)
-    elsif params[:before_bin].blank?
-      addTo(course, params[:to_bin])
-    elsif params[:before_bin]
-      addBefore(course, params[:before_bin])
+    elsif params[:to_bin] && params[:before_bin].blank?
+      add_to(course, params[:to_bin])
+    elsif params[:before_bin] && params[:to_bin].blank?
+      add_before(course, params[:before_bin])
+    else
+      render json: {error: 'Cannot add both to and before a bin.'}, status: :unprocessable_entity
     end
     render json: :success
   end
 
   private
-  def findCourse(_id)
+
+  def find_course(_id)
     if _id.blank?
       render json: {error: 'Course _id cannot be nil'}, status: :unprocessable_entity
       return nil
@@ -33,7 +36,7 @@ class Api::Users::CoursesController < Api::Users::UserController
     return course
   end
 
-  def addTo(course, bin_id)
+  def add_to(course, bin_id)
     @bin = @user.bins.find(bin_id)
     if @bin
       #add the course to that bin
@@ -43,7 +46,7 @@ class Api::Users::CoursesController < Api::Users::UserController
     end
   end
 
-  def addBefore(course, bin_id)
+  def add_before(course, bin_id)
     before_bin = @user.bins.find(bin_id)
     if before_bin
       @bin = @user.create_bin_before(course, before_bin)
