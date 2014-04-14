@@ -46,10 +46,7 @@ class Api::Users::CoursesController < Api::Users::UserController
   def addBefore(course, bin_id)
     before_bin = @user.bins.find(bin_id)
     if before_bin
-      @bin = Bin.new
-      @user.bins.push @bin, position: 0
-      @user.add_course(course, @bin)
-
+      @bin = @user.create_bin_before(course, before_bin)
     else
       render json: {error: 'No bin matching the provided id was found for this user'}, status: :not_found
     end

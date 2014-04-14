@@ -32,6 +32,22 @@ class User
     return bin.remove_course(course)
   end
 
+  def create_bin_before(course, bin)
+    index = bins.index(bin)
+
+    if index.nil?
+      raise SomeoneElsesBin.new("bin not owned by this user.")
+    end
+
+    new_bin = bins.build(courses: [course])
+    User.where(_id: self.id).update_all("$push" => {
+      bins: { "$each" => [new_bin.serializable_hash],
+              "$position" => index }})
+
+    bin = bins.find(new_bin._id)
+    return bin
+  end
+
   def move_course(course, bin)
     remove_course(course)
 

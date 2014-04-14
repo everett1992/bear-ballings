@@ -94,4 +94,46 @@ class UserTest < ActiveSupport::TestCase
       @user.move_course course
     end
   end
+
+  #:: Create bin before
+
+  test "Should error if the passed bin belongs to another user" do
+    course = Course.first
+    bin = User.last.bins.first
+
+    assert_raise SomeoneElsesBin do
+      @user.create_bin_before(course, bin)
+    end
+  end
+
+  test "Should accept a bin belonging to itself" do
+    course = Course.first
+    bin = @user.add_course course
+
+    assert_nothing_raised do
+      @user.create_bin_before(course, bin)
+    end
+  end
+
+  test "Should create a new bin before passed bin." do
+    course = Course.first
+    bin = @user.add_course Course.last
+
+    new_bin = nil
+    assert_difference('@user.reload.bins.count', 1) do
+      new_bin = @user.create_bin_before(course, bin)
+    end
+    new_index = @user.bins.index(new_bin)
+    index = @user.bins.index(bin)
+
+    # Both indexes should have been found.
+    assert_not_equal nil, index
+    assert_not_equal nil, new_index
+
+    assert_equal index - 1, new_index
+  end
+
+  test "Should create a new bin before the passed bin" do
+  end
+
 end

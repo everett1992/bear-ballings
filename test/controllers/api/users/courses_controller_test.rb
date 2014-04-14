@@ -59,19 +59,36 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     login user
     user.bins.delete_all
     bin = user.add_course(course)
-    assert_difference("bin.reload.course_ids.count", 1) do
-      post :create, {format: :json, _id: new_course._id, to_bin: bin._id}
+    assert_no_difference("user.reload.bins.count", 1) do
+      assert_difference("bin.reload.course_ids.count", 1) do
+        post :create, {format: :json, _id: new_course._id, to_bin: bin._id}
+      end
     end
   end
 
   test "Passing a course, and a before_bin id should create a new bin before before_bin" do
     user = User.first
-    new_course = Course.first
 
     login user
     user.bins.delete_all
-    bin = user.add_course(Course.last)
 
+    courses = Course.limit(10).to_a
+
+    # Add some courses
+    courses.shift(4).each do |course|
+      user.add_course(course)
+    end
+
+    # Add this course, and remember it because we will add a course before it.
+    bin = user.add_course(courses.shift())
+
+    # ADd more courses
+    courses.each do |course|
+      user.add_course(course)
+    end
+
+    # Add a course before the one we remembed.
+    new_course = Course.last
     assert_difference("user.reload.bins.count", 1) do
       post :create, {format: :json, _id: new_course._id, before_bin: bin._id}
     end
@@ -79,8 +96,9 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     new_bin_index = user.bins.index { |b| b.courses.include? new_course }
     other_bin_index = user.bins.index(bin)
 
-    # If `other_bin`'s index is 0 the new bin cannot be before it.
-    assert_not_equal 0, other_bin_index, "Other bin is the first bin"
+    # Make sure both bins exist
+    assert_not_equal nil, other_bin_index, "Before bin index was nil"
+    assert_not_equal nil, new_bin_index, "New bin index was nil"
     assert_equal other_bin_index - 1, new_bin_index
   end
 
