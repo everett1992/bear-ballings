@@ -34,12 +34,26 @@ the repository.
 
 ## Api Endpoints
 
-| Url                    | Desc |
-| ---------------------- | ------------------------------------------------------------------------------- |
-| get `/api/departments` | List of all departments with courses in the database                            |
-| get `/api/courses`     | List of all courses, accepts `limit`, `offset`, and `department` params         |
-| post `/api/login`      | Logs in the first user with username `user_name` NOTE: we'll add passwords later |
-| post `/api/logout`     | Destroys the user session                                                       |
+| Url                      | Desc                                                                                        |
+| ------------------------ | ------------------------------------------------------------------------------------------- |
+| GET `/api/departments`   | List of all departments with courses in the database                                        |
+| GET `/api/courses`       | List of all courses, accepts `limit`, `offset`, and `department` params                     |
+| POST `/api/login`        | Logs in the first user with username `user_name` NOTE: we'll add passwords later            |
+| POST `/api/logout`       | Destroys the user session                                                                   |
+| GET `/api/user/courses`  | List of a users current bins and courses.                                                   |
+| POST `/api/user/courses` | Add courses and bins to the current user. Accepts `_id`, `to_bin`, and `before_bin` params. |
+
+
+### POST `/api/user/courses`
+
+* `_id`        - The id of the course to add.
+* `to_bin`     - The id of the bin to add the course to.
+* `before_bin` - Creates a new bin before the bin with this `_id`, and adds the course to it.
+
+Calling this with just an `_id` will create a new bin at the end of the bins list.
+With the `to_bin` parameter the course is added to the provided bin.
+With the `before_bin` parameter a new bin is created before the bin found with the passed id,
+and the course is added to the new bin. Cannot be called with both `to_bin` and `before_bin`.
 
 ## Rake
 
