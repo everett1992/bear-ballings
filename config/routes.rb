@@ -10,6 +10,7 @@ BearBallings::Application.routes.draw do
     namespace :users, path: 'user' do
       root 'user#index'
       get 'courses' => 'courses#index'
+      post 'courses' => 'courses#create'
     end
 
     get 'departments'         => 'departments#index'
