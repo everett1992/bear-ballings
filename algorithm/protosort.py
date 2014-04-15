@@ -107,6 +107,23 @@ def t_conflict(user_classes, course):
             
         return False
 
+def eval_coursesort(result, buckets, priority): #evaluation function for one user-result combination, needs to sum the results for all of the users for each run
+    score = 0 #overall
+    bucketsleft = buckets
+    matches = 0
+    
+    for c in result: #check to see if each result is in a bucket, try to remove matches first
+        inserted = False
+        for b in range(len(bucketsleft)): #go through buckets to check things out
+            if (c[0] in bucketsleft[b]) and inserted == False:
+                score += priority
+                inserted = True
+                bucketsleft[b] = []
+                matches += 1
+
+    return score
+
+#test data is below
 
 SAMPLE_USERS = [User([["CSC470", "CSC460"], ["CSC310", "CSC320"], ["CSC330", "CSC360"], ["WGS220", "WGS320"]], [], 12),
                 User([["CSC470", "CSC320", "CSC360"], ["CSC460", "CSC330"], ["WGS220", "PHY120"], ["CSC320", "CSC310"]], [], 3),
