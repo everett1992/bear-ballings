@@ -36,6 +36,7 @@ the repository.
 
 | Url                      | Desc                                                                                        |
 | ------------------------ | ------------------------------------------------------------------------------------------- |
+| GET `/api/teapot`        | Is a teapot.                                                                                |
 | GET `/api/departments`   | List of all departments with courses in the database                                        |
 | GET `/api/courses`       | List of all courses, accepts `limit`, `offset`, and `department` params                     |
 | POST `/api/login`        | Logs in the first user with username `user_name` NOTE: we'll add passwords later            |
