@@ -21,6 +21,22 @@ class Api::Users::CoursesController < Api::Users::UserController
     render json: :success
   end
 
+  def destroy
+    course =  find_course(params[:_id])
+    if course
+      if  @user.courses.include? course
+        bin = @user.remove_course(course)
+        if bin.destroyed?
+          render json: {message: "Removed bin #{bin._id}", _id: bin._id.to_s}, status: :ok
+        else
+          render json: nil, status: :no_content
+        end
+      else
+        render json: {error: "User has no course matching id #{course._id}"}, status: :not_found
+      end
+    end
+  end
+
   private
 
   def find_course(_id)

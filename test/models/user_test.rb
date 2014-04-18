@@ -72,7 +72,7 @@ class UserTest < ActiveSupport::TestCase
     @user.add_course(course)
 
     assert_difference('@user.reload.bins.count', -1) do
-      assert_nil @user.remove_course(course)
+      assert @user.remove_course(course).destroyed?
     end
   end
 

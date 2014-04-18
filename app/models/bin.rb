@@ -13,7 +13,8 @@ class Bin
 
   def remove_course(course)
     courses.delete(course)
-    return empty? ? destroy && nil : save && self
+    empty? ? destroy : save 
+    return self
   end
 
   def empty?

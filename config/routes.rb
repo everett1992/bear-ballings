@@ -11,6 +11,7 @@ BearBallings::Application.routes.draw do
       root 'user#index'
       get 'courses' => 'courses#index'
       post 'courses' => 'courses#create'
+      delete 'courses' => 'courses#destroy'
     end
 
     get 'departments'         => 'departments#index'

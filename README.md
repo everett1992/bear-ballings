@@ -43,6 +43,7 @@ the repository.
 | POST `/api/logout`       | Destroys the user session                                                                   |
 | GET `/api/user/courses`  | List of a users current bins and courses.                                                   |
 | POST `/api/user/courses` | Add courses and bins to the current user. Accepts `_id`, `to_bin`, and `before_bin` params. |
+| DELETE `/api/user/courses` | Removes course from user's courses. Will delete a bin if it is the last course. Accepts `_id` params. |
 
 
 ### POST `/api/user/courses`
