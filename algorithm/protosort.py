@@ -1,8 +1,5 @@
 """Algorithm(s) for the CSC470 project."""
 
-# NOTES: needs testing
-#        should run multiple times and then evaluate on how well it did
-
 import collections
 import random
 
@@ -11,13 +8,12 @@ import random
 MAXCLASSES = 4
 MAXCREDITS = 16
 
-
 User = collections.namedtuple("User", ["buckets", "classes", "credits"])
 
 Class = collections.namedtuple("Class", ["id", "course_id", "seats", "day", "start_time", "end_time"])
 
 
-def classsort(users, classes):
+def classsort(users, classes, buckets_taken):
     """Place users into classes in-place.
 
     Returns the users list, which will be modified for enrollment.
@@ -38,14 +34,21 @@ def classsort(users, classes):
 
     # schedule a user that meets the previous criteria
     # and has not reached the credit limit
-    user = random.choice([u for u in users
-                          if u.credits == max_credits
-                          and len(u.classes) == min_classes_len
-                          and len(u.classes) + u.credits < MAXCREDITS])
+    user_num = random.choice([u for u in range(len(users))
+                          if users[u].credits == max_credits
+                          and len(users[u].classes) == min_classes_len
+                          and len(users[u].classes) + users[u].credits < MAXCREDITS])
+
+    user = users[user_num]
 
     open_class = None
-    while user.buckets:
-        bucket = user.buckets.pop()
+    ind = 0
+    
+    while ind < len(user.buckets):
+        bucket = user.buckets[ind]
+        if buckets_taken[user_num][ind] == True: #user has a class in this bucket
+            ind += 1
+            continue
         for course_id in bucket:
             # check if this class has been enrolled already for this user
             if course_id in [x[0] for x in user.classes]:
@@ -58,32 +61,42 @@ def classsort(users, classes):
             open_class = open_classes[0]
             
             # enroll the user in the class (store course_id and class_id)
+            buckets_taken[user_num][ind] = True
             user.classes.append((course_id, open_class.id, open_class.day, open_class.start_time, open_class.end_time))
             break
         else:
             # this bucket had no open course classes; move to the next bucket
+            ind += 1
             continue
         break
     else:
         # all requested course classes were full
         # pick a random class and enroll
         open_classes = [c for c in classes if c.seats > 0 and (t_conflict(user.classes, c) == False)]
-        if not open_classes:
-            print("BAD NEWS: OUT OF CLASSES!")
-            assert False
+        if not open_classes: #recurses back so you can try again, 0 is a signa for repeating an iteration of the loop, assuming classes will not be left if a pick is made
+            #print("BAD NEWS: OUT OF CLASSES!")
+            #assert False
+            return 0
+        
         open_class = random.choice(open_classes)
         user.classes.append((open_class.course_id, open_class.id, open_class.day, open_class.start_time, open_class.end_time))
     # ensure SOME class was picked
     assert open_class is not None
     # recurse with the new state of the user being enrolled in a new class
-    return classsort(users, [c if c != open_class else
+    final_result = classsort(users, [c if c != open_class else
                              Class(open_class.id,
                                    open_class.course_id,
                                    open_class.seats - 1,
                                    open_class.day,
                                    open_class.start_time,
                                    open_class.end_time)
-                             for c in classes])
+                             for c in classes], buckets_taken)
+
+    if final_result != 0:
+        return final_result
+    else:
+        return classsort(users, classes, buckets_taken) #try again if a move would lead to no other options.
+        
 
 
 def is_complete(users):
@@ -107,36 +120,33 @@ def t_conflict(user_classes, course):
             
         return False
 
-def eval_coursesort(result, buckets, priority): #evaluation function for one user-result combination, needs to sum the results for all of the users for each run
-    score = 0 #overall
-    bucketsleft = buckets
-    matches = 0
+def eval_cs(result, buckets, prios):
+
+    r_classes = [r.classes for r in result] #get class list
+
+    #generate map of whether a bucket was used
+    buckets_used = gen_test_map(r_classes)
     
-    for c in result: #check to see if each result is in a bucket, try to remove matches first
-        inserted = False
-        for b in range(len(bucketsleft)): #go through buckets to check things out
-            if (c[0] in bucketsleft[b]) and inserted == False:
-                score += priority
-                inserted = True
-                bucketsleft[b] = []
-                matches += 1
+    score = 0
+    for u in range(len(r_classes)): #test per user
+        bucketsleft = buckets[u]
+        prio = prios[u]
+        
+        for c in r_classes[u]: #check to see if each result is in a bucket, try to remove matches first
+            inserted = False
+            for b in range(len(bucketsleft)): #go through buckets to check things out
+                if (c[0] in bucketsleft[b]) and inserted == False and buckets_used[u][b] == False:
+                    score += prio
+                    inserted = True
+                    buckets_used[u][b] = True
 
     return score
 
-#test data is below
-
-SAMPLE_USERS = [User([["CSC470", "CSC460"], ["CSC310", "CSC320"], ["CSC330", "CSC360"], ["WGS220", "WGS320"]], [], 12),
-                User([["CSC470", "CSC320", "CSC360"], ["CSC460", "CSC330"], ["WGS220", "PHY120"], ["CSC320", "CSC310"]], [], 3),
-                User([["CSC310", "CSC320"], ["CSC330", "CSC360"], ["CSC470", "PHY220"], ["WGS220", "WGS320", "PHY120"]], [], 5)]
-SAMPLE_CLASSES = [Class(0, "CSC470", 20, 1, 1000, 1120),
-                  Class(1, "CSC460", 10, 1, 1000, 1130),
-                  Class(2, "CSC310", 10, 1, 900, 1500),
-                  Class(3, "CSC320", 15, 2, 900, 1030),
-                  Class(4, "CSC330", 15, 2, 1030, 1200),
-                  Class(5, "CSC360", 20, 3, 1100, 1230),
-                  Class(6, "WGS220", 20, 3, 2000, 2100),
-                  Class(7, "WGS320", 10, 3, 1400, 1530),
-                  Class(8, "PHY120", 5, 4, 1200, 1330),
-                  Class(9, "PHY220", 100, 5, 830, 1000)]
-RESULT = classsort(SAMPLE_USERS, SAMPLE_CLASSES)
-print([r.classes for r in RESULT])
+def gen_test_map(users): #makes a list of all buckets for each user, starts at false - means: "nothing taken from here yet"
+    result = list()
+    for u in users:
+        bt = list()
+        for b in u:
+            bt.append(False)
+        result.append(bt)
+    return result
