@@ -1,0 +1,1339 @@
+{
+  "users": [
+    {
+      "id": "535676ec72696e6246000000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS170",
+            "AAH450",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS311",
+            "AAH252",
+            "AAS281",
+            "AAS282"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS496",
+            "AAS346",
+            "AAS280",
+            "AAS312"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS365",
+            "AAS208",
+            "AAS207"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH232"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246010000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS310",
+            "AAH316"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS399",
+            "AAE302",
+            "AAS205"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH348",
+            "AAH391",
+            "AAS240"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH317",
+            "AAS225"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAH343",
+            "AAV215"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "AAS353"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246020000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS393",
+            "AAS392",
+            "AAS370",
+            "AAS378"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS399",
+            "AAH347",
+            "AAS207",
+            "AAH344"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV113"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH317"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246030000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH280",
+            "AAE302",
+            "AAS376"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS312",
+            "AAV130",
+            "AAS347"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH393",
+            "AAS225",
+            "AAH370",
+            "AAS495"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS210",
+            "AAS243",
+            "AAS377",
+            "AAS280"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH320"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246040000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH499",
+            "AAV113",
+            "AAV111",
+            "AAS399"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH393",
+            "AAS225",
+            "AAS496",
+            "AAS378"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246050000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH215",
+            "AAS470",
+            "AAV102",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH415"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS371",
+            "AAS310"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH316",
+            "AAH232",
+            "AAH404",
+            "AAS243"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAS251"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAS235"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAS282",
+            "AAS496"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246060000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS376"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH252",
+            "AAH404",
+            "AAS249",
+            "AAS251"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS210",
+            "AAE302",
+            "AAH215",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS496"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246070000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH280"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV102",
+            "AAV140",
+            "AAE273",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS252",
+            "AAE373",
+            "AAH399"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH242",
+            "AAS281",
+            "AAH450"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAS205"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246080000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS206"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH347"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH404"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS282"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAS477",
+            "AAS312"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAS365",
+            "AAS348",
+            "AAS201",
+            "AAS205"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAH216",
+            "AAH498"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246090000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH248",
+            "AAS208"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS311",
+            "AAS206"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS365",
+            "AAH106"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH217",
+            "AAE273",
+            "AAS391"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH316",
+            "AAH344",
+            "AAE391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62460a0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS310",
+            "AAH370",
+            "AAH232"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS495",
+            "AAS470"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH316",
+            "AAS371",
+            "AAS252",
+            "AAV102"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS370",
+            "AAV112"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAS377"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62460b0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350",
+            "AAH215"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS211",
+            "AAH415",
+            "AAH316"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH242",
+            "AAS281",
+            "AAS223",
+            "AAH450"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE373"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62460c0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS225",
+            "AAS208"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS243",
+            "AAH242"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV112"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS282",
+            "AAE492",
+            "AAV214"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV130",
+            "AAH399",
+            "AAS312"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAS211",
+            "AAE370",
+            "AAS348"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAH106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62460d0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH499",
+            "AAS251",
+            "AAS377"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH370",
+            "AAS312"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH232",
+            "AAH106"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE375",
+            "AAH450",
+            "AAV213",
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH404",
+            "AAH343"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62460e0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE491",
+            "AAS470"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS223",
+            "AAS365",
+            "AAH262",
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH353",
+            "AAS208"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH202",
+            "AAH349",
+            "AAE375",
+            "AAV214"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV215"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62460f0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH105",
+            "AAH415",
+            "AAS348"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS205",
+            "AAH399"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV113",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS470"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAS201",
+            "AAE373",
+            "AAV140",
+            "AAS477"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE350"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246100000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS346",
+            "AAS243",
+            "AAS376",
+            "AAS312"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV113"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH317"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS223",
+            "AAS251",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH252",
+            "AAH215"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH370",
+            "AAE350",
+            "AAS210",
+            "AAV216"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246110000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE492",
+            "AAH252",
+            "AAE302",
+            "AAH232"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE373",
+            "AAH399"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH415",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH217"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246120000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS282",
+            "AAS280"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS348",
+            "AAH232"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH280"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS365"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH216",
+            "AAS235"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAS252",
+            "AAH353"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246130000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH317"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS346",
+            "AAS371",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV216"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH353",
+            "AAV113",
+            "AAS393",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAS390",
+            "AAH217"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAS280"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "AAV211"
+          ]
+        },
+        {
+          "priority": 8,
+          "courses": [
+            "AAS311",
+            "AAE373"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246140000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH344",
+            "AAS375"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS348",
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV215",
+            "AAH242",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH252",
+            "AAE490"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246150000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS377",
+            "AAE492",
+            "AAH317",
+            "AAV112"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV130",
+            "AAV101"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH450",
+            "AAS210",
+            "AAS251",
+            "AAS348"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV215"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH415",
+            "AAS477",
+            "AAS225",
+            "AAH349"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246160000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH216",
+            "AAS375",
+            "AAE491",
+            "AAS312"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS223"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH252",
+            "AAS470"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH391",
+            "AAH316"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH270",
+            "AAV102",
+            "AAH201"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAS170",
+            "AAS249"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246170000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS376",
+            "AAS252"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH248",
+            "AAH201",
+            "AAS347",
+            "AAH262"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAS353",
+            "AAH317",
+            "AAH370"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAS365",
+            "AAH232"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246180000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS321",
+            "AAV214"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH242",
+            "AAH353"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS496",
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV213"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE490",
+            "AAS353"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE350",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAS371",
+            "AAS376",
+            "AAH344"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e6246190000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS223"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS346"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV101",
+            "AAV215"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV213",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAS378",
+            "AAE273",
+            "AAH348"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAS207",
+            "AAS205",
+            "AAS392"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62461a0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS495",
+            "AAS365",
+            "AAE491"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH450",
+            "AAS346"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV216",
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62461b0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS252",
+            "AAS225",
+            "AAS346"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS311",
+            "AAH353",
+            "AAH391"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV101",
+            "AAS282",
+            "AAS251"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH105",
+            "AAV111",
+            "AAH280"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH399"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62461c0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH450"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS378",
+            "AAS252",
+            "AAS225",
+            "AAS281"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV111",
+            "AAS251",
+            "AAV214"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH347"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH316"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535676ec72696e62461d0000",
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS201",
+            "AAS495"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH370",
+            "AAS311",
+            "AAH404",
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS249",
+            "AAH252",
+            "AAH349"
+          ]
+        }
+      ]
+    }
+  ]
+}
