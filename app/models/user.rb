@@ -1,6 +1,7 @@
 class User
   include Mongoid::Document
   field :n, as: :name, type: String
+  field :c, as: :credits, type: Integer
   embeds_many :bins
 
   # Validates that no bin has duplicate courses.

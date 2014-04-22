@@ -10,11 +10,18 @@ namespace :sample do
     end
   end
 
-  def to_json(users)
+  def to_json(users, courses)
     # Format output as json.
     jbuilder = Jbuilder.encode do |json|
+
+      json.courses courses do |course|
+        json.id "#{course.department}#{course.number}"
+        json.title course.title
+      end
+
       json.users users do |user|
         json.id user.id.to_s
+        json.credits user.credits
         json.bins user.bins do |bin|
           json.priority user.bins.index(bin)
           json.courses bin.courses do |course|
@@ -32,11 +39,15 @@ namespace :sample do
     num_courses       = 100
     user_course_range = 8..16
     bin_range         = 1..4
+    credit_range      = 0..24
+
     # Select 100 courses.
     courses = Course.limit(num_courses).to_a
 
     # Create 30 users.
-    users = num_users.times.map { |x| User.create(name: "user_#{x}") }
+    users = num_users.times.map do |x|
+      User.create(name: "user_#{x}", credits: rand(credit_range))
+    end
 
     # Add 8 to 16 courses in bins of 1 to 4 to each user.
     users.each do |user|
@@ -44,7 +55,7 @@ namespace :sample do
     end
 
     # Generate json.
-    output = to_json(users)
+    output = to_json(users, courses)
 
     bins = users.map(&:bins).flatten
     user_courses = users.map(&:bins).flatten.map(&:courses).flatten
