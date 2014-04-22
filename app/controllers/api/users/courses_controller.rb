@@ -2,12 +2,13 @@ class Api::Users::CoursesController < Api::Users::UserController
   def index
     @bins = @user.bins
   end
-  
+
   def create
     course = find_course(params[:_id])
     if course.nil?
       return
     end
+
     if params[:to_bin].blank? && params[:before_bin].blank?
       #add the course to a new bin if no bin is provided
       @bin = @user.add_course(course)
@@ -18,7 +19,8 @@ class Api::Users::CoursesController < Api::Users::UserController
     else
       render json: {error: 'Cannot add both to and before a bin.'}, status: :unprocessable_entity
     end
-    render json: :success
+
+    render :show
   end
 
   def destroy
