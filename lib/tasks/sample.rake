@@ -36,10 +36,10 @@ namespace :sample do
   desc "Output list of fake data to a file"
   task :selections => :environment do
     num_users         = 30
-    num_courses       = 100
+    num_courses       = 10
     user_course_range = 8..16
     bin_range         = 1..4
-    credit_range      = 0..24
+    credit_range      = 0..15
 
     # Select 100 courses.
     courses = Course.limit(num_courses).to_a
