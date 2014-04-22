@@ -166,7 +166,7 @@ def eval_cs(result, buckets, prios):
             inserted = False
             for b in range(len(bucketsleft)): #go through buckets to check things out
                 if (c[0] in bucketsleft[b]) and inserted == False and buckets_used[u][b] == False:
-                    score += prio
+                    score += (prio+1)
                     inserted = True
                     buckets_used[u][b] = True
 
