@@ -2,18 +2,19 @@ namespace :sample do
   # Returns a fiber that gives the next avaliable course time.
   def time_slot_fiber
     # The combinatinos of day groupings
+    # HACK: When both days are the same the class meets once per week.
     day_groups = [ [:monday, :thursday],
                    [:monday, :monday],
                    [:tuesday, :friday],
                    [:tuesday, :tuesday],
                    [:monday, :wednesday],
                    [:wednesday, :wednesday],
-                   [:tuesday, :thursday],
-                   [:thursday, :thursday] ]
+                   [:thursday, :thursday],
+                   [:friday, :friday] ]
 
     # The set of times that classes meet on any day.
     times_avaliable = [ ['1000', '1120'],
-                        ['1200', '1320'],
+                        ['1230', '1350'],
                         ['1400', '1520'],
                         ['1700', '1820'] ]
 
@@ -29,7 +30,6 @@ namespace :sample do
         days = day_groups[rand(day_groups.length)]
         starttime, endtime = times_avaliable[rand(times_avaliable.length)]
         Fiber.yield(days.map  do |day|
-
           Meeting.new({ day: day_nums[day], starttime: starttime, endtime: endtime })
         end)
       end
@@ -60,12 +60,12 @@ namespace :sample do
       # Course has 1..4 lectures
       rand(course_lectures).times do
         m1, m2 = ts_fiber.resume
-        p m1.day
         lecture = Lecture.new(seats: rand(lecture_seats), meeting1: m1, meeting2: m2)
         course.lectures << lecture
       end
     end
   end
+
 
   def to_json(users, courses)
     # Format output as json.
