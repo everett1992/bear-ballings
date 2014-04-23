@@ -1,1731 +1,1388 @@
 {
   "courses": [
     {
-      "id": "AAE273",
-      "title": "SOPH PROFESSIONAL EXPERIENCE"
-    },
-    {
-      "id": "AAE302",
-      "title": "PRINTMAKING FOR ART EDUCATION"
-    },
-    {
-      "id": "AAE350",
-      "title": "ORIENTATION TO ART THERAPY"
-    },
-    {
-      "id": "AAE355",
-      "title": "METHODS IN ART THERAPY"
-    },
-    {
-      "id": "AAE370",
-      "title": "TOPICS IN ART EDUCATION"
-    },
-    {
-      "id": "AAE373",
-      "title": "ART TECHNIQUES IN THE ELEM SCH"
-    },
-    {
-      "id": "AAE374",
-      "title": "ART TECHNIQUES IN THE SECOND SCH"
-    },
-    {
-      "id": "AAE375",
-      "title": "PRINC, PRACT & MATER IN ART ED"
-    },
-    {
-      "id": "AAE391",
-      "title": "INDEPENDENT STUDY IN ART ED"
-    },
-    {
-      "id": "AAE490",
-      "title": "STUDENT TEACHING IN ART"
-    },
-    {
-      "id": "AAE491",
-      "title": "GLOBAL STUDENT TEACHING ART"
-    },
-    {
-      "id": "AAE492",
-      "title": "ART ED STUDENT TEACH SEMINAR"
-    },
-    {
-      "id": "AAH105",
-      "title": "ART HIST I: CAVES TO CATHEDRALS"
-    },
-    {
-      "id": "AAH106",
-      "title": "ART HIST II:RENAISSANCE TO REVOL"
-    },
-    {
-      "id": "AAH201",
-      "title": "ART OF GREECE"
-    },
-    {
-      "id": "AAH202",
-      "title": "ART OF ROME"
-    },
-    {
-      "id": "AAH215",
-      "title": "ARTS OF SOUTH ASIA"
-    },
-    {
-      "id": "AAH216",
-      "title": "ARTS OF EAST ASIA"
-    },
-    {
-      "id": "AAH217",
-      "title": "ARTS OF THE ISLAMIC WORLD"
-    },
-    {
-      "id": "AAH232",
-      "title": "ARTS OF MEDIEVAL EUROPE"
-    },
-    {
-      "id": "AAH242",
-      "title": "ARTS OF RENAISSANCE EUROPE"
-    },
-    {
-      "id": "AAH248",
-      "title": "AMERICAN ART"
-    },
-    {
-      "id": "AAH252",
-      "title": "20TH CENTURY ART"
-    },
-    {
-      "id": "AAH262",
-      "title": "LANDMARKS: EXPLORATIONS IN ART AND CULTURE"
-    },
-    {
-      "id": "AAH270",
-      "title": "TOPICS IN ART HISTORY"
-    },
-    {
-      "id": "AAH280",
-      "title": "HISTORIES OF PHOTOGRAPHY"
-    },
-    {
-      "id": "AAH316",
-      "title": "EARLY MODERN ASIAN ART"
-    },
-    {
-      "id": "AAH317",
-      "title": "ARTS OF IRAN"
-    },
-    {
-      "id": "AAH320",
-      "title": "WOMEN, ART & SOCIETY"
-    },
-    {
-      "id": "AAH343",
-      "title": "LOOKING AT WOMEN:REP, FEM & FILM"
-    },
-    {
-      "id": "AAH344",
-      "title": "ART OF THE ITALIAN RENAISSANCE"
-    },
-    {
-      "id": "AAH347",
-      "title": "NINETEENTH CENTURY ART"
-    },
-    {
-      "id": "AAH348",
-      "title": "BAROQUE AND ROCOCO ART"
-    },
-    {
-      "id": "AAH349",
-      "title": "CITIES & SANCTUARIES OF ANCIENT GREECE"
-    },
-    {
-      "id": "AAH353",
-      "title": "ROME OF THE CAESARS & ROME OF THE POPES"
-    },
-    {
-      "id": "AAH370",
-      "title": "TOPICS IN ART HISTORY"
-    },
-    {
-      "id": "AAH391",
-      "title": "INDEPENDENT STUDY IN ART HISTORY"
-    },
-    {
-      "id": "AAH393",
-      "title": "ART HISTORY-STUDENT/FAC RESEARCH"
-    },
-    {
-      "id": "AAH399",
-      "title": "INTERNSHIP IN ART HISTORY"
-    },
-    {
-      "id": "AAH404",
-      "title": "WOMEN IN CLASSICAL ART"
-    },
-    {
-      "id": "AAH415",
-      "title": "PHOTOGRAPHY IN INDIA"
-    },
-    {
-      "id": "AAH450",
-      "title": "ART IN THE CLASSICAL TRADITION"
-    },
-    {
-      "id": "AAH498",
-      "title": "JUNIOR RESEARCH SEMINAR"
-    },
-    {
-      "id": "AAH499",
-      "title": "ART HISTORY SENIOR SEMINAR CAPSTONE** available as of 08/01/2014"
-    },
-    {
-      "id": "AAS170",
-      "title": "TOPICS IN AFRICAN AMERICAN STUDIES"
-    },
-    {
-      "id": "AAS201",
-      "title": "AFRICAN & DIASPORA RELIGIOUS TRADITIONS"
-    },
-    {
-      "id": "AAS205",
-      "title": "AFRICAN AMERICANS TO 1865"
-    },
-    {
-      "id": "AAS206",
-      "title": "AFRICAN AMERICANS 1865 - PRESENT"
-    },
-    {
-      "id": "AAS207",
-      "title": "ANCIENT AND MEDIEVAL AFRICA"
-    },
-    {
-      "id": "AAS208",
-      "title": "COLONIAL AND MODERN AFRICA"
-    },
-    {
-      "id": "AAS210",
-      "title": "RACE, ETHNICITY, CLASS AND GENDER IN THE ENGLISH-SPEAKING CARIBBEAN"
-    },
-    {
-      "id": "AAS211",
-      "title": "THE CARIBBEAN: A SOCIO-HISTORICAL OVERVIEW"
-    },
-    {
-      "id": "AAS223",
-      "title": "EARLY AFRICAN AMERICAN POETRY"
-    },
-    {
-      "id": "AAS225",
-      "title": "CONTEMPORARY AFRICAN AM POETRY"
-    },
-    {
-      "id": "AAS235",
-      "title": "AFRICAN AMERICAN FILM"
-    },
-    {
-      "id": "AAS240",
-      "title": "HISTORY OF JAZZ"
-    },
-    {
-      "id": "AAS243",
-      "title": "HISTORY OF AFRICAN AM THEATER"
-    },
-    {
-      "id": "AAS249",
-      "title": "AFRICAN AMERICAN FOLKLORE"
-    },
-    {
-      "id": "AAS251",
-      "title": "HARLEM RENAISSANCE WHEN IN VOGUE"
-    },
-    {
-      "id": "AAS252",
-      "title": "HARLEM RENAISSANCE BLACK PARIS"
-    },
-    {
-      "id": "AAS280",
-      "title": "WOMEN OF AFRICAN DESCENT IN GLOBAL PERSPECTIVE"
-    },
-    {
-      "id": "AAS281",
-      "title": "SOCIOLOGY OF RACE IN THE U.S."
-    },
-    {
-      "id": "AAS282",
-      "title": "HISTORY OF RACE RELATIONS IN THE U.S."
-    },
-    {
-      "id": "AAS310",
-      "title": "GREAT LIVES AFRICAN-AMERICAN HISTORY I"
-    },
-    {
-      "id": "AAS311",
-      "title": "GREAT LIVES IN CARIBBEAN HISTORY"
-    },
-    {
-      "id": "AAS312",
-      "title": "GREAT LIVES IN AFRICAN HISTORY"
-    },
-    {
-      "id": "AAS321",
-      "title": "RACE, GENDER, AND THE NEWS"
-    },
-    {
-      "id": "AAS335",
-      "title": "CARIBBEAN WOMEN WRITERS"
-    },
-    {
-      "id": "AAS346",
-      "title": "AFRICAN ART HISTORY"
-    },
-    {
-      "id": "AAS347",
-      "title": "AFRICAN AMERICAN ART HISTORY"
-    },
-    {
-      "id": "AAS348",
-      "title": "AFRICAN AMERICAN MUSIC"
-    },
-    {
-      "id": "AAS353",
-      "title": "ADVANCED CRIMINOLOGY: RACE & CRIME"
-    },
-    {
-      "id": "AAS365",
-      "title": "AFRICAN CINEMA: FRANCOPHONE AFRICAN EXPERIENCE THROUGH FILM"
-    },
-    {
-      "id": "AAS370",
-      "title": "SPECIAL TOPICS IN AFRICANA STUDIES"
-    },
-    {
-      "id": "AAS371",
-      "title": "TOPICS IN AFRICAN AMERICAN LITERATURE"
-    },
-    {
-      "id": "AAS375",
-      "title": "WOMANIST THOUGHT"
-    },
-    {
-      "id": "AAS376",
-      "title": "AFRICAN AMERICAN WOMEN'S HISTORY"
-    },
-    {
-      "id": "AAS377",
-      "title": "AFRICAN-AMERICAN LITERATURE TO 1920"
-    },
-    {
-      "id": "AAS378",
-      "title": "AFRICAN-AMERICAN LIT, 1920 TO 1980"
-    },
-    {
-      "id": "AAS390",
-      "title": "ADVANCED RESEARCH AFRICANS STUDIES"
-    },
-    {
-      "id": "AAS391",
-      "title": "INDEPENDENT STUDY"
-    },
-    {
-      "id": "AAS392",
-      "title": "GUIDED STUDY IN AFRICANA STUDIES"
-    },
-    {
-      "id": "AAS393",
-      "title": "INDEPENDENT RESEARCH"
-    },
-    {
-      "id": "AAS399",
-      "title": "AFRICANA STUDIES INTERNSHIP"
-    },
-    {
-      "id": "AAS470",
-      "title": "ADV SPEC TOPICS AFRICANA STUDIES"
-    },
-    {
-      "id": "AAS477",
-      "title": "HONORS IN AFRICANA STUDIES"
-    },
-    {
-      "id": "AAS495",
-      "title": "SENIOR THESIS"
-    },
-    {
-      "id": "AAS496",
-      "title": "SENIOR THESIS/ PROJECTS II"
-    },
-    {
-      "id": "AAV101",
-      "title": "EXPERIENCING ART"
-    },
-    {
-      "id": "AAV102",
-      "title": "VISUAL THINKING"
-    },
-    {
-      "id": "AAV111",
-      "title": "DRAWING"
-    },
-    {
-      "id": "AAV112",
-      "title": "2-D"
-    },
-    {
-      "id": "AAV113",
-      "title": "3-D"
-    },
-    {
-      "id": "AAV130",
-      "title": "PHOTOGRAPHY I"
-    },
-    {
-      "id": "AAV140",
-      "title": "4-D"
-    },
-    {
-      "id": "AAV211",
-      "title": "DRAWING II"
-    },
-    {
-      "id": "AAV213",
-      "title": "SCULPTURE I"
-    },
-    {
-      "id": "AAV214",
-      "title": "PRINTMAKING I"
-    },
-    {
-      "id": "AAV215",
-      "title": "PAINTING 1"
-    },
-    {
-      "id": "AAV216",
-      "title": "FIBER ART"
+      "id": "AAV275",
+      "title": "ANIMATION I",
+      "classes": [
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV311",
+      "title": "DRAWING III",
+      "classes": [
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV338",
+      "title": "THEORY & PRACTICE IN LENS-BASED ART",
+      "classes": [
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 25,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV342",
+      "title": "INSTALLATION, PERFORMANCE & MEDIA",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1200",
+            "endtime": "1320"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1200",
+            "endtime": "1320"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV352",
+      "title": "ADVANCED TYPOGRAPHY",
+      "classes": [
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV353",
+      "title": "3D GRAPHIC DESIGN",
+      "classes": [
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV354",
+      "title": "IDENTITY",
+      "classes": [
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1200",
+            "endtime": "1320"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1200",
+            "endtime": "1320"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV355",
+      "title": "WEB 2",
+      "classes": [
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1200",
+            "endtime": "1320"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1200",
+            "endtime": "1320"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV370",
+      "title": "TOPICS IN VISUAL ARTS",
+      "classes": [
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAV385",
+      "title": "ELECTRONIC MUSIC SKILLS & LITERATURE",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
     }
   ],
   "users": [
     {
-      "id": "5356a08a72696e66ae000000",
-      "credits": 11,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAH415",
-            "AAH201",
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV211"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS208",
-            "AAS347",
-            "AAV214"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV213"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae010000",
-      "credits": 10,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS312",
-            "AAS321",
-            "AAS210",
-            "AAS370"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS376"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV211",
-            "AAH201",
-            "AAV213"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH252",
-            "AAV112",
-            "AAS477"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE370"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae020000",
-      "credits": 11,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV113",
-            "AAE302",
-            "AAS208",
-            "AAS170"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS470"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH201",
-            "AAH353"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH217",
-            "AAH404",
-            "AAS310",
-            "AAS377"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS371",
-            "AAS365",
-            "AAH262"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAS312"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae030000",
-      "credits": 21,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS392"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAH252",
-            "AAV102"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS311",
-            "AAS495",
-            "AAH320",
-            "AAE375"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE302"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae040000",
-      "credits": 1,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS282"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS391",
-            "AAS210",
-            "AAV211",
-            "AAH343"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV112"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH348",
-            "AAS378",
-            "AAS208",
-            "AAH498"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV111"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAH202",
-            "AAE302",
-            "AAH349"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae050000",
-      "credits": 16,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS282",
-            "AAH404",
-            "AAH498",
-            "AAS346"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS252"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH201",
-            "AAS335"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS280",
-            "AAS240"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS393",
-            "AAS399",
-            "AAH399",
-            "AAH280"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAV140"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "AAS321"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae060000",
-      "credits": 8,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAH217",
-            "AAH316"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV213",
-            "AAS392"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH252",
-            "AAH270",
-            "AAH348"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS243"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAH201"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae070000",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS281",
-            "AAS310",
-            "AAS365"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAH498",
-            "AAS392",
-            "AAV215"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH262",
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH316",
-            "AAH349"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS170",
-            "AAS205",
-            "AAS251",
-            "AAH201"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAS347"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "AAV216"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae080000",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS393",
-            "AAH343"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS321"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH499",
-            "AAS243"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE374",
-            "AAV215",
-            "AAS225"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAH399",
-            "AAV216"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae090000",
-      "credits": 9,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS346"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAH217"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS243"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE375",
-            "AAV216",
-            "AAS377",
-            "AAH242"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAH344"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAV215",
-            "AAS495"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae0a0000",
-      "credits": 24,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS470",
-            "AAH217",
-            "AAS377",
-            "AAS376"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV102"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH280",
-            "AAE492"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE374",
-            "AAH242"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAE273",
-            "AAH393",
-            "AAS281"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "AAS321"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae0b0000",
-      "credits": 13,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE370",
-            "AAS376"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS377",
-            "AAH450",
-            "AAS310",
-            "AAV113"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS353",
-            "AAE374",
-            "AAH201",
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH106"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS280",
-            "AAE302",
-            "AAS391"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae0c0000",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV213",
-            "AAH252",
-            "AAH216",
-            "AAH316"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS211",
-            "AAH202",
-            "AAS280",
-            "AAS170"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH370"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV214",
-            "AAS240"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae0d0000",
-      "credits": 16,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE391",
-            "AAH252",
-            "AAS207",
-            "AAH399"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAH242",
-            "AAS371"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS170",
-            "AAV101"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH404",
-            "AAS470",
-            "AAS243",
-            "AAH262"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAH248",
-            "AAS377",
-            "AAS223"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae0e0000",
-      "credits": 11,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV215",
-            "AAS399",
-            "AAS335"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS377"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS243",
-            "AAV113",
-            "AAV140",
-            "AAS392"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH349",
-            "AAH252"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS210"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAS365"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "AAH216"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae0f0000",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV102",
-            "AAH320",
-            "AAS371"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH415",
-            "AAS281",
-            "AAS249"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH215"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV111",
-            "AAV213",
-            "AAE490",
-            "AAH232"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae100000",
-      "credits": 18,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS281",
-            "AAH316",
-            "AAS223"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAH248",
-            "AAH404",
-            "AAH270",
-            "AAV112"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH242"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae110000",
+      "id": "535706d072616707ab2d0000",
       "credits": 5,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAS208",
-            "AAS392",
-            "AAV213",
-            "AAV130"
+            "AAV311",
+            "AAV342"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAH399"
+            "AAV355",
+            "AAV370",
+            "AAV352"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAS496",
-            "AAV102"
+            "AAV275",
+            "AAV354",
+            "AAV353"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAH217"
+            "AAV385"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "AAH202"
+            "AAV338"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab2e0000",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV370",
+            "AAV342"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV352",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV275"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV338",
+            "AAV385"
           ]
         },
         {
           "priority": 5,
           "courses": [
-            "AAH105"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "AAH232",
-            "AAS235"
-          ]
-        },
-        {
-          "priority": 7,
-          "courses": [
-            "AAS378"
+            "AAV311",
+            "AAV354"
           ]
         }
       ]
     },
     {
-      "id": "5356a08a72696e66ae120000",
-      "credits": 20,
+      "id": "535706d072616707ab2f0000",
+      "credits": 8,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAS399",
-            "AAS252",
-            "AAS378",
-            "AAE355"
+            "AAV311",
+            "AAV275",
+            "AAV353",
+            "AAV385"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAV130"
+            "AAV352",
+            "AAV354",
+            "AAV355"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAH248",
-            "AAS312"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE373",
-            "AAS225",
-            "AAH348",
-            "AAS377"
+            "AAV370"
           ]
         }
       ]
     },
     {
-      "id": "5356a08a72696e66ae130000",
-      "credits": 4,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAH317",
-            "AAS390",
-            "AAH216",
-            "AAS470"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS321",
-            "AAS392"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS243",
-            "AAS347",
-            "AAH399"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH343",
-            "AAH391",
-            "AAV214"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae140000",
-      "credits": 1,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAH232",
-            "AAS371"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV211",
-            "AAS378",
-            "AAS376"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS353",
-            "AAH270",
-            "AAS170"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE374"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae150000",
-      "credits": 22,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS477",
-            "AAE492",
-            "AAS282",
-            "AAS252"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS376",
-            "AAE391",
-            "AAE370",
-            "AAS321"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV102"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS225",
-            "AAH105",
-            "AAS249"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae160000",
-      "credits": 10,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS280",
-            "AAH348"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS375"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS348",
-            "AAE391",
-            "AAS353",
-            "AAS496"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS252"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS207",
-            "AAS311"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAS391",
-            "AAV216"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "AAS206",
-            "AAH202"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae170000",
-      "credits": 9,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAH349",
-            "AAS392",
-            "AAS225",
-            "AAE355"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS311",
-            "AAS321"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH353"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH242",
-            "AAH415"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS399",
-            "AAH399"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAS223",
-            "AAH202",
-            "AAS235",
-            "AAS312"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "AAH106"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae180000",
-      "credits": 22,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS240"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS249",
-            "AAE355",
-            "AAV214",
-            "AAS377"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH399",
-            "AAS365",
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAH262"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae190000",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV101",
-            "AAS399",
-            "AAS225"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV102",
-            "AAH320",
-            "AAE355",
-            "AAH498"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS496",
-            "AAH317"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae1a0000",
+      "id": "535706d072616707ab300000",
       "credits": 6,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAV140"
+            "AAV370",
+            "AAV275",
+            "AAV311",
+            "AAV352"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAS251",
-            "AAS206",
-            "AAS399",
-            "AAH344"
+            "AAV353"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAS347",
-            "AAS243",
-            "AAS201",
-            "AAE375"
+            "AAV354",
+            "AAV338"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAV101"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5356a08a72696e66ae1b0000",
-      "credits": 0,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS477",
-            "AAS496"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAH280",
-            "AAV214",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS365",
-            "AAS390"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS376",
-            "AAH202",
-            "AAH316"
+            "AAV355"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "AAS393",
-            "AAH317",
-            "AAS377"
+            "AAV342",
+            "AAV385"
           ]
         }
       ]
     },
     {
-      "id": "5356a08a72696e66ae1c0000",
-      "credits": 21,
+      "id": "535706d072616707ab310000",
+      "credits": 15,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAS282"
+            "AAV342",
+            "AAV352",
+            "AAV370",
+            "AAV354"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAS371",
-            "AAH316",
-            "AAS249"
+            "AAV338",
+            "AAV385",
+            "AAV311",
+            "AAV275"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAH201",
-            "AAH415"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS225",
-            "AAH499",
-            "AAV214",
-            "AAS391"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS399",
-            "AAH217",
-            "AAS321"
+            "AAV355",
+            "AAV353"
           ]
         }
       ]
     },
     {
-      "id": "5356a08a72696e66ae1d0000",
-      "credits": 0,
+      "id": "535706d072616707ab320000",
+      "credits": 15,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAS393",
-            "AAH498",
-            "AAS392"
+            "AAV353",
+            "AAV352",
+            "AAV355",
+            "AAV385"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAS399"
+            "AAV311"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAS210"
+            "AAV275",
+            "AAV370"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAE370"
+            "AAV338",
+            "AAV342",
+            "AAV354"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab330000",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV385",
+            "AAV352",
+            "AAV355",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV311",
+            "AAV370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV338",
+            "AAV342",
+            "AAV354",
+            "AAV275"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab340000",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV338",
+            "AAV354",
+            "AAV352",
+            "AAV355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV385"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV370",
+            "AAV275",
+            "AAV342",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV311"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab350000",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV370",
+            "AAV354",
+            "AAV352"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV338",
+            "AAV355"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV275",
+            "AAV353",
+            "AAV385",
+            "AAV342"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab360000",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV385",
+            "AAV353",
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV354"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV275",
+            "AAV370",
+            "AAV352",
+            "AAV342"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV355"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "AAV111",
-            "AAS321",
-            "AAE302",
-            "AAS235"
+            "AAV338"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab370000",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV338",
+            "AAV353",
+            "AAV385"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV352",
+            "AAV275",
+            "AAV342",
+            "AAV354"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV311",
+            "AAV355",
+            "AAV370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab380000",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV354",
+            "AAV338"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV355",
+            "AAV352",
+            "AAV275",
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV353",
+            "AAV385"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab390000",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV385",
+            "AAV342",
+            "AAV275",
+            "AAV338"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV355",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV354",
+            "AAV352",
+            "AAV370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab3a0000",
+      "credits": 12,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV370",
+            "AAV275",
+            "AAV338"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV385",
+            "AAV355",
+            "AAV352",
+            "AAV354"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV342"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV311"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab3b0000",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV311",
+            "AAV338",
+            "AAV354",
+            "AAV352"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV275",
+            "AAV385"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV355",
+            "AAV342"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab3c0000",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV355",
+            "AAV370",
+            "AAV338",
+            "AAV275"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV385",
+            "AAV354",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV311"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab3d0000",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV311",
+            "AAV342",
+            "AAV385",
+            "AAV354"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV355",
+            "AAV275",
+            "AAV352"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV353",
+            "AAV338"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab3e0000",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV275",
+            "AAV352",
+            "AAV355",
+            "AAV354"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV342",
+            "AAV338"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV385"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAV311"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab3f0000",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV352",
+            "AAV355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV370",
+            "AAV311",
+            "AAV342",
+            "AAV385"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV353",
+            "AAV338",
+            "AAV275"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab400000",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV353",
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV354",
+            "AAV385",
+            "AAV355",
+            "AAV342"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV370",
+            "AAV338"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab410000",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV338",
+            "AAV352",
+            "AAV342",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV385",
+            "AAV355",
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV370",
+            "AAV354",
+            "AAV275"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab420000",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV275",
+            "AAV354",
+            "AAV338"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV352"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV353",
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV342",
+            "AAV355"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab430000",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV370",
+            "AAV355"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV352",
+            "AAV275"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV354",
+            "AAV385",
+            "AAV338",
+            "AAV342"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV353"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab440000",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV352"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV275",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV354",
+            "AAV355",
+            "AAV385",
+            "AAV342"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAV338"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab450000",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV352",
+            "AAV342",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV275"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV370",
+            "AAV354"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV385",
+            "AAV338"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV311",
+            "AAV355"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab460000",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV342",
+            "AAV354"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV355",
+            "AAV385",
+            "AAV311",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV338",
+            "AAV352"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV275"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab470000",
+      "credits": 8,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV275",
+            "AAV342",
+            "AAV353",
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV354",
+            "AAV370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV385",
+            "AAV355",
+            "AAV338"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV352"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab480000",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV342"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV311",
+            "AAV370",
+            "AAV338"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV385",
+            "AAV355",
+            "AAV275"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV354",
+            "AAV352"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab490000",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV354",
+            "AAV355",
+            "AAV385"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV352"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV342",
+            "AAV311"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV370",
+            "AAV275",
+            "AAV353"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAV338"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535706d072616707ab4a0000",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAV355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAV370",
+            "AAV385",
+            "AAV353",
+            "AAV275"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAV311",
+            "AAV354",
+            "AAV342",
+            "AAV352"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAV338"
           ]
         }
       ]
