@@ -1,37 +1,11 @@
 {
   "courses": [
     {
-      "id": "AAV275",
-      "title": "ANIMATION I",
+      "id": "ACC201",
+      "title": "FINANCIAL ACCOUNTING & REPORTING",
       "classes": [
         {
-          "seats": 16,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 2,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 23,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 19,
+          "seats": 24,
           "meeting1": {
             "day": 2,
             "starttime": "1000",
@@ -42,35 +16,42 @@
             "starttime": "1000",
             "endtime": "1120"
           }
-        }
-      ]
-    },
-    {
-      "id": "AAV311",
-      "title": "DRAWING III",
-      "classes": [
+        },
         {
-          "seats": 22,
+          "seats": 25,
           "meeting1": {
-            "day": 2,
+            "day": 5,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 2,
+            "day": 5,
             "starttime": "1000",
             "endtime": "1120"
           }
         },
         {
-          "seats": 18,
+          "seats": 23,
           "meeting1": {
-            "day": 2,
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 4,
             "starttime": "1700",
             "endtime": "1820"
           },
           "meeting2": {
-            "day": 2,
+            "day": 4,
             "starttime": "1700",
             "endtime": "1820"
           }
@@ -78,11 +59,24 @@
       ]
     },
     {
-      "id": "AAV338",
-      "title": "THEORY & PRACTICE IN LENS-BASED ART",
+      "id": "ACC202",
+      "title": "MANAGERIAL ACCOUNTING",
       "classes": [
         {
-          "seats": 15,
+          "seats": 23,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 19,
           "meeting1": {
             "day": 3,
             "starttime": "1000",
@@ -97,7 +91,58 @@
         {
           "seats": 25,
           "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
             "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ACC211",
+      "title": "FUNDAMENTALS IN ACCOUNTING",
+      "classes": [
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ACC271",
+      "title": "Forensic Investigations",
+      "classes": [
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 1,
             "starttime": "1000",
             "endtime": "1120"
           },
@@ -108,7 +153,52 @@
           }
         },
         {
-          "seats": 23,
+          "seats": 15,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ACC291",
+      "title": "SOPHOMORE CAREER PLANNING/SHADOW",
+      "classes": [
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 17,
           "meeting1": {
             "day": 1,
             "starttime": "1700",
@@ -123,75 +213,18 @@
       ]
     },
     {
-      "id": "AAV342",
-      "title": "INSTALLATION, PERFORMANCE & MEDIA",
+      "id": "ACC301",
+      "title": "INTERMED FINANCIAL ACCOUNTING I",
       "classes": [
         {
-          "seats": 24,
+          "seats": 21,
           "meeting1": {
-            "day": 2,
-            "starttime": "1200",
-            "endtime": "1320"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1200",
-            "endtime": "1320"
-          }
-        }
-      ]
-    },
-    {
-      "id": "AAV352",
-      "title": "ADVANCED TYPOGRAPHY",
-      "classes": [
-        {
-          "seats": 17,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        }
-      ]
-    },
-    {
-      "id": "AAV353",
-      "title": "3D GRAPHIC DESIGN",
-      "classes": [
-        {
-          "seats": 18,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        }
-      ]
-    },
-    {
-      "id": "AAV354",
-      "title": "IDENTITY",
-      "classes": [
-        {
-          "seats": 17,
-          "meeting1": {
-            "day": 2,
+            "day": 1,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 2,
+            "day": 1,
             "starttime": "1400",
             "endtime": "1520"
           }
@@ -199,84 +232,181 @@
         {
           "seats": 19,
           "meeting1": {
-            "day": 3,
-            "starttime": "1200",
-            "endtime": "1320"
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
-            "day": 3,
-            "starttime": "1200",
-            "endtime": "1320"
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
           }
-        }
-      ]
-    },
-    {
-      "id": "AAV355",
-      "title": "WEB 2",
-      "classes": [
-        {
-          "seats": 15,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1200",
-            "endtime": "1320"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1200",
-            "endtime": "1320"
-          }
-        }
-      ]
-    },
-    {
-      "id": "AAV370",
-      "title": "TOPICS IN VISUAL ARTS",
-      "classes": [
+        },
         {
           "seats": 23,
           "meeting1": {
             "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        }
-      ]
-    },
-    {
-      "id": "AAV385",
-      "title": "ELECTRONIC MUSIC SKILLS & LITERATURE",
-      "classes": [
-        {
-          "seats": 24,
-          "meeting1": {
-            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 2,
+            "day": 4,
             "starttime": "1400",
             "endtime": "1520"
           }
         },
         {
-          "seats": 15,
+          "seats": 25,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ACC302",
+      "title": "INTERMED FINANCIAL ACCOUNTING II",
+      "classes": [
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 22,
           "meeting1": {
             "day": 1,
             "starttime": "1700",
             "endtime": "1820"
           },
           "meeting2": {
-            "day": 4,
+            "day": 3,
             "starttime": "1700",
             "endtime": "1820"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ACC311",
+      "title": "COST ACCOUNTING",
+      "classes": [
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ACC321",
+      "title": "ACCOUNTING INFORMATION SYSTEMS",
+      "classes": [
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ACC370",
+      "title": "TOPICS IN ACCOUNTING",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
           }
         }
       ]
@@ -284,1105 +414,1150 @@
   ],
   "users": [
     {
-      "id": "535706d072616707ab2d0000",
+      "id": "535713387261672425510000",
       "credits": 5,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAV311",
-            "AAV342"
+            "ACC311"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAV355",
-            "AAV370",
-            "AAV352"
+            "ACC201",
+            "ACC211"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAV275",
-            "AAV354",
-            "AAV353"
+            "ACC301",
+            "ACC302",
+            "ACC202"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAV385"
+            "ACC291",
+            "ACC370",
+            "ACC271"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "AAV338"
+            "ACC321"
           ]
         }
       ]
     },
     {
-      "id": "535706d072616707ab2e0000",
-      "credits": 7,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV355"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV370",
-            "AAV342"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV352",
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV275"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV338",
-            "AAV385"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAV311",
-            "AAV354"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab2f0000",
-      "credits": 8,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV311",
-            "AAV275",
-            "AAV353",
-            "AAV385"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV352",
-            "AAV354",
-            "AAV355"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV370"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab300000",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV370",
-            "AAV275",
-            "AAV311",
-            "AAV352"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV354",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV355"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV342",
-            "AAV385"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab310000",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV342",
-            "AAV352",
-            "AAV370",
-            "AAV354"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV338",
-            "AAV385",
-            "AAV311",
-            "AAV275"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV355",
-            "AAV353"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab320000",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV353",
-            "AAV352",
-            "AAV355",
-            "AAV385"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV311"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV275",
-            "AAV370"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV338",
-            "AAV342",
-            "AAV354"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab330000",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV385",
-            "AAV352",
-            "AAV355",
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV311",
-            "AAV370"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV338",
-            "AAV342",
-            "AAV354",
-            "AAV275"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab340000",
-      "credits": 2,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV338",
-            "AAV354",
-            "AAV352",
-            "AAV355"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV385"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV370",
-            "AAV275",
-            "AAV342",
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV311"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab350000",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV370",
-            "AAV354",
-            "AAV352"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV311"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV338",
-            "AAV355"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV275",
-            "AAV353",
-            "AAV385",
-            "AAV342"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab360000",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV385",
-            "AAV353",
-            "AAV311"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV354"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV275",
-            "AAV370",
-            "AAV352",
-            "AAV342"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV355"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV338"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab370000",
-      "credits": 10,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV338",
-            "AAV353",
-            "AAV385"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV352",
-            "AAV275",
-            "AAV342",
-            "AAV354"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV311",
-            "AAV355",
-            "AAV370"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab380000",
-      "credits": 11,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV354",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV355",
-            "AAV352",
-            "AAV275",
-            "AAV311"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV353",
-            "AAV385"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab390000",
-      "credits": 5,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV385",
-            "AAV342",
-            "AAV275",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV355",
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV311"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV354",
-            "AAV352",
-            "AAV370"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab3a0000",
-      "credits": 12,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV370",
-            "AAV275",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV385",
-            "AAV355",
-            "AAV352",
-            "AAV354"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV342"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV311"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab3b0000",
-      "credits": 9,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV370"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV311",
-            "AAV338",
-            "AAV354",
-            "AAV352"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV275",
-            "AAV385"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV355",
-            "AAV342"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab3c0000",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV355",
-            "AAV370",
-            "AAV338",
-            "AAV275"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV385",
-            "AAV354",
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV311"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab3d0000",
-      "credits": 1,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV370"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV311",
-            "AAV342",
-            "AAV385",
-            "AAV354"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV355",
-            "AAV275",
-            "AAV352"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV353",
-            "AAV338"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab3e0000",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV275",
-            "AAV352",
-            "AAV355",
-            "AAV354"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV370"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV342",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV385"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAV311"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab3f0000",
-      "credits": 4,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV352",
-            "AAV355"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV370",
-            "AAV311",
-            "AAV342",
-            "AAV385"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV353",
-            "AAV338",
-            "AAV275"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab400000",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV353",
-            "AAV311"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV354",
-            "AAV385",
-            "AAV355",
-            "AAV342"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV370",
-            "AAV338"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab410000",
+      "id": "535713387261672425520000",
       "credits": 14,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAV338",
-            "AAV352",
-            "AAV342",
-            "AAV353"
+            "ACC211",
+            "ACC370"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAV385",
-            "AAV355",
-            "AAV311"
+            "ACC291"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAV370",
-            "AAV354",
-            "AAV275"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab420000",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV275",
-            "AAV354",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV352"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV353",
-            "AAV311"
+            "ACC201",
+            "ACC202"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAV342",
-            "AAV355"
+            "ACC311",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC302",
+            "ACC301",
+            "ACC271"
           ]
         }
       ]
     },
     {
-      "id": "535706d072616707ab430000",
+      "id": "535713387261672425530000",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC302"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC291"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC311",
+            "ACC321",
+            "ACC301",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC211",
+            "ACC370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC202",
+            "ACC201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425540000",
+      "credits": 13,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC202",
+            "ACC302",
+            "ACC301"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC370",
+            "ACC291"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC321",
+            "ACC311",
+            "ACC211",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425550000",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC321",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC201",
+            "ACC301",
+            "ACC202",
+            "ACC211"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC302",
+            "ACC370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC291"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425560000",
       "credits": 11,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAV311"
+            "ACC311",
+            "ACC302",
+            "ACC301"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAV370",
-            "AAV355"
+            "ACC370"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAV352",
-            "AAV275"
+            "ACC202",
+            "ACC211",
+            "ACC321"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAV354",
-            "AAV385",
-            "AAV338",
-            "AAV342"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV353"
+            "ACC201",
+            "ACC271"
           ]
         }
       ]
     },
     {
-      "id": "535706d072616707ab440000",
-      "credits": 4,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV311"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV352"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV275",
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV370"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV354",
-            "AAV355",
-            "AAV385",
-            "AAV342"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAV338"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab450000",
-      "credits": 10,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV352",
-            "AAV342",
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV275"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV370",
-            "AAV354"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV385",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV311",
-            "AAV355"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab460000",
-      "credits": 10,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV342",
-            "AAV354"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV355",
-            "AAV385",
-            "AAV311",
-            "AAV353"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV338",
-            "AAV352"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV275"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV370"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab470000",
-      "credits": 8,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAV275",
-            "AAV342",
-            "AAV353",
-            "AAV311"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAV354",
-            "AAV370"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAV385",
-            "AAV355",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV352"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535706d072616707ab480000",
+      "id": "535713387261672425570000",
       "credits": 7,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAV353"
+            "ACC311",
+            "ACC302"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAV342"
+            "ACC211",
+            "ACC291",
+            "ACC321",
+            "ACC201"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAV311",
-            "AAV370",
-            "AAV338"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAV385",
-            "AAV355",
-            "AAV275"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAV354",
-            "AAV352"
+            "ACC202",
+            "ACC370",
+            "ACC271",
+            "ACC301"
           ]
         }
       ]
     },
     {
-      "id": "535706d072616707ab490000",
+      "id": "535713387261672425580000",
       "credits": 6,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAV354",
-            "AAV355",
-            "AAV385"
+            "ACC211",
+            "ACC311",
+            "ACC291",
+            "ACC271"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAV352"
+            "ACC302"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAV342",
-            "AAV311"
+            "ACC202",
+            "ACC301"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAV370",
-            "AAV275",
-            "AAV353"
+            "ACC370"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "AAV338"
+            "ACC321",
+            "ACC201"
           ]
         }
       ]
     },
     {
-      "id": "535706d072616707ab4a0000",
-      "credits": 4,
+      "id": "535713387261672425590000",
+      "credits": 0,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAV355"
+            "ACC291",
+            "ACC302",
+            "ACC211",
+            "ACC370"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAV370",
-            "AAV385",
-            "AAV353",
-            "AAV275"
+            "ACC271"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAV311",
-            "AAV354",
-            "AAV342",
-            "AAV352"
+            "ACC202",
+            "ACC311",
+            "ACC301"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAV338"
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724255a0000",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC211"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC291",
+            "ACC301",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC202",
+            "ACC311",
+            "ACC302"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "ACC201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724255b0000",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC202",
+            "ACC321",
+            "ACC302"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC271",
+            "ACC301",
+            "ACC291",
+            "ACC370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC211"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724255c0000",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC291",
+            "ACC301",
+            "ACC211",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC321",
+            "ACC311",
+            "ACC370",
+            "ACC302"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC202",
+            "ACC201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724255d0000",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC302",
+            "ACC202",
+            "ACC211"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC291",
+            "ACC201",
+            "ACC370",
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC321",
+            "ACC301"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724255e0000",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC271",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC202",
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC311",
+            "ACC301",
+            "ACC291",
+            "ACC370"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC211",
+            "ACC302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724255f0000",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC211"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC271",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC302",
+            "ACC202",
+            "ACC311",
+            "ACC301"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC201",
+            "ACC291"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425600000",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC311",
+            "ACC211",
+            "ACC370",
+            "ACC202"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC301",
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC321",
+            "ACC291",
+            "ACC302"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC271"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425610000",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC302",
+            "ACC321",
+            "ACC370",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC211",
+            "ACC291",
+            "ACC202"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC301"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425620000",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC370",
+            "ACC301",
+            "ACC302"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC202"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC201",
+            "ACC271",
+            "ACC211",
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC291",
+            "ACC321"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425630000",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC291",
+            "ACC202"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC370",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC302",
+            "ACC271",
+            "ACC311",
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC211"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC301"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425640000",
+      "credits": 13,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC211",
+            "ACC291",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC301",
+            "ACC201",
+            "ACC202",
+            "ACC370"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC321",
+            "ACC302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425650000",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC370",
+            "ACC271",
+            "ACC301",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC202",
+            "ACC311",
+            "ACC291"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC211",
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425660000",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC201",
+            "ACC302",
+            "ACC311",
+            "ACC211"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC291",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC370",
+            "ACC301",
+            "ACC202"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425670000",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC311",
+            "ACC201",
+            "ACC271",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC211",
+            "ACC202",
+            "ACC370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC302",
+            "ACC301"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC291"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425680000",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC311",
+            "ACC302",
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC202"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC301",
+            "ACC370",
+            "ACC291",
+            "ACC211"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC271",
+            "ACC321"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535713387261672425690000",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC301",
+            "ACC201",
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC302"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC321",
+            "ACC211",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC202",
+            "ACC291"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724256a0000",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC202",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC301"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC291"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC302",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "ACC370",
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "ACC211"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724256b0000",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC321",
+            "ACC201",
+            "ACC370",
+            "ACC302"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC202"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC291",
+            "ACC311"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ACC211",
+            "ACC301"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724256c0000",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC311",
+            "ACC271",
+            "ACC291",
+            "ACC211"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC202",
+            "ACC301",
+            "ACC321"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC302",
+            "ACC370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724256d0000",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC311",
+            "ACC301",
+            "ACC271"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC291"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC201",
+            "ACC370",
+            "ACC202"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ACC321",
+            "ACC211",
+            "ACC302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5357133872616724256e0000",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ACC291",
+            "ACC301",
+            "ACC202"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ACC321",
+            "ACC271",
+            "ACC311",
+            "ACC201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ACC370",
+            "ACC302",
+            "ACC211"
           ]
         }
       ]
