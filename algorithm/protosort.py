@@ -92,7 +92,7 @@ def classsort(users, classes, buckets_taken):
                 return 0
             
             open_class = random.choice(open_classes)
-            user.classes.append((course_id, open_class.id, open_class.day, open_class.start_time, open_class.end_time, open_class.day2, open_class.start_time2, open_class.end_time2))
+            user.classes.append((open_class.course_id, open_class.id, open_class.day, open_class.start_time, open_class.end_time, open_class.day2, open_class.start_time2, open_class.end_time2))
 
     #-------------------------------------------
     #endgame
@@ -145,6 +145,7 @@ def t_conflict(user_classes, course):
         for con in range(len(c_starts)):
             if ((course.start_time >= c_starts[con] and course.start_time <= c_ends[con]) or (course.end_time >= c_starts[con] and course.end_time <= c_ends[con]) or (course.start_time <= c_starts[con] and course.end_time >= c_ends[con])):
                 return True
+        for con in range(len(c_starts2)):    
             if ((course.start_time2 >= c_starts2[con] and course.start_time2 <= c_ends2[con]) or (course.end_time2 >= c_starts2[con] and course.end_time2 <= c_ends2[con]) or (course.start_time2 <= c_starts2[con] and course.end_time2 >= c_ends2[con])):
                 return True
             
@@ -165,8 +166,9 @@ def eval_cs(result, buckets, prios):
         for c in r_classes[u]: #check to see if each result is in a bucket, try to remove matches first
             inserted = False
             for b in range(len(bucketsleft)): #go through buckets to check things out
+                #print len(c), u, b, buckets_used[u][b], bucketsleft
                 if (c[0] in bucketsleft[b]) and inserted == False and buckets_used[u][b] == False:
-                    score += (prio+1)
+                    score += prio
                     inserted = True
                     buckets_used[u][b] = True
 
@@ -176,7 +178,7 @@ def gen_test_map(users): #makes a list of all buckets for each user, starts at f
     result = list()
     for u in users:
         bt = list()
-        for b in u:
+        for b in u[0]:
             bt.append(False)
         result.append(bt)
     return result

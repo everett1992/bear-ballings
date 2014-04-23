@@ -2,6 +2,7 @@ import protosort
 
 import collections
 import random
+import json
 
 # right now, one iteration
 MAXCLASSES = 4
@@ -15,6 +16,44 @@ Empty_Class = Class(-1, "EMPTY", 0, 0, 0, 0, 0, 0, 0)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+global_users = []
+global_classes = []
+
+json_data=open('sample.txt')
+data = json.load(json_data)
+
+c_g_id = 0
+for c in data["courses"]:
+    courseid = str(c["id"])
+    for classes in c["classes"]:
+        m1 = classes["meeting1"]
+        m2 = classes["meeting2"]
+        global_classes.append(Class(c_g_id, courseid, int(classes["seats"]), int(m1["day"]), int(m1["starttime"]), int(m1["endtime"]), int(m2["day"]), int(m2["starttime"]), int(m2["endtime"])))
+        c_g_id += 1
+
+for user in data["users"]:
+    thisid = str(user["id"])
+    thisuserbin = []
+    thiscred = int(user["credits"])
+    #make the initial list
+    
+    for bi in user["bins"]:
+
+        thisbin = []
+        #make a new list
+        
+        for c in bi["courses"]:
+            thisbin.append(str(c))
+            
+        #append to initial list
+        thisuserbin.insert(0,thisbin)
+
+    #make the user here, need credits
+    global_users.append(User(thisuserbin, [], thiscred, thisid))
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'''
 SAMPLE_USERS = [
                 User([["CSC470", "CSC460"], ["CSC310", "CSC320"], ["CSC330", "CSC360"], ["WGS220", "WGS320"]], [], 13, "Bob"),
                 User([["CSC470", "CSC320", "CSC360"], ["CSC460", "CSC330"], ["WGS220", "PHY120"], ["CSC320", "CSC310"]], [], 3, "Joe"),
@@ -33,7 +72,7 @@ SAMPLE_CLASSES = [
                     Class(9, "PHY220", 100, 5, 600, 800, 5, 600, 800),
                   ]
                 #global id, name, max capacity, day, start time, end time
-
+'''
 '''
 SAMPLE_USERS = [
                 User([["CSC470", "CSC460"], ["CSC310", "CSC320"], ["CSC330", "CSC360"], ["WGS220", "WGS320"]], [], 13, "Bob"),
@@ -66,7 +105,7 @@ SAMPLE_CLASSES = [
 buckets = list() #save a seperate list of all buckets
 prios = list() #save a list of all credits
 buckets_taken = list() #create list of buckets taken to check against as to not pop buckets in class sort
-for u in SAMPLE_USERS:
+for u in global_users:
     buckets.append(u.buckets)
     prios.append(u.credits)
     bt = list()
@@ -79,7 +118,7 @@ for i in range(TRIALS):
     r = 0
     #while r == 0:
     '''not needed anymore'''
-    r = protosort.classsort(SAMPLE_USERS, SAMPLE_CLASSES, protosort.gen_test_map(buckets_taken))
+    r = protosort.classsort(global_users, global_classes, protosort.gen_test_map(global_users))
     results.append(r)
 
 scores = list()
@@ -100,7 +139,7 @@ student_n = 0
 classlist = [r.classes for r in results[bestindex]]
 for p in classlist:
     #start dumping
-    outfile.write(str(SAMPLE_USERS[student_n].id))
+    outfile.write(str(global_users[student_n].id))
     outfile.write('\n')
     for c in p:
         outfile.write(str(c))
