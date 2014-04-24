@@ -1,40 +1,59 @@
+#call from command line proper syntax:
+#python27 tester.py filepath
+
 import protosort
 
 import collections
 import random
 import json
+import sys
 
 # right now, one iteration
 MAXCLASSES = 4
 MAXCREDITS = 16
 TRIALS = 1000
 
+args = sys.argv
+filename = args[min(1,len(args)-1)] #get filename as either first parameter, or return calling function
+
+#definition of a user
 User = collections.namedtuple("User", ["buckets", "classes", "credits", "id"])
 
+#definition of a class
 Class = collections.namedtuple("Class", ["id", "course_id", "seats", "day", "start_time", "end_time", "day2", "start_time2", "end_time2"])
-Empty_Class = Class(-1, "EMPTY", 0, 0, 0, 0, 0, 0, 0)
+Empty_Class = Class(-1, "EMPTY", 0, 0, 0, 0, 0, 0, 0) #used when a user does not need an additional class
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#list of all users
 global_users = []
+#list of all classes
 global_classes = []
 
-json_data=open('sample.txt')
+#collect data from file
+json_data = []
+if len(args) < 2:
+    json_data=open("../lib/assets/sample.txt")
+else:
+    json_data=open(filename)
+
 data = json.load(json_data)
 
+#generate class sessions from database dump
 c_g_id = 0
-for c in data["courses"]:
-    courseid = str(c["id"])
+for c in data["courses"]: #for each course
+    courseid = str(c["id"]) #get global course id, distinguishes sections of a course
     for classes in c["classes"]:
-        m1 = classes["meeting1"]
-        m2 = classes["meeting2"]
+        m1 = classes["meeting1"] #get first meeting of class
+        m2 = classes["meeting2"] #get second meeting
         global_classes.append(Class(c_g_id, courseid, int(classes["seats"]), int(m1["day"]), int(m1["starttime"]), int(m1["endtime"]), int(m2["day"]), int(m2["starttime"]), int(m2["endtime"])))
-        c_g_id += 1
+        c_g_id += 1 #each class must have a unique class id, will the the order they are fed in (starting at 0)
 
+#generate users from database dump
 for user in data["users"]:
-    thisid = str(user["id"])
-    thisuserbin = []
-    thiscred = int(user["credits"])
+    thisid = str(user["id"]) #get user id
+    thisuserbin = [] #buckets fro the user
+    thiscred = int(user["credits"]) #credits/priority level
     #make the initial list
     
     for bi in user["bins"]:
@@ -53,6 +72,7 @@ for user in data["users"]:
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Sample data, commented in case one wants to test it
 '''
 SAMPLE_USERS = [
                 User([["CSC470", "CSC460"], ["CSC310", "CSC320"], ["CSC330", "CSC360"], ["WGS220", "WGS320"]], [], 13, "Bob"),
@@ -102,48 +122,46 @@ SAMPLE_CLASSES = [
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#functionality starts here
+
 buckets = list() #save a seperate list of all buckets
 prios = list() #save a list of all credits
+#both are sent to eval function
+
 buckets_taken = list() #create list of buckets taken to check against as to not pop buckets in class sort
 for u in global_users:
-    buckets.append(u.buckets)
-    prios.append(u.credits)
+    buckets.append(u.buckets) #get buckets for user
+    prios.append(u.credits) #get credits for user
     bt = list()
-    for b in u.buckets:
+    for b in u.buckets: #get each inner bucket in a user's preferences
         bt.append(False)
     buckets_taken.append(bt)
 
 results = list()
 for i in range(TRIALS):
-    r = 0
-    #while r == 0:
-    '''not needed anymore'''
+    #run the algorithm a number of times to get different possibilities
     r = protosort.classsort(global_users, global_classes, protosort.gen_test_map(global_users))
     results.append(r)
 
+#corresponds to the results
 scores = list()
-bestindex = 0
+bestindex = 0 #index of highest scoring result
 for q in range(TRIALS):
-    #print(results[q])
+    #evaluate a result
     scores.append(protosort.eval_cs(results[q], buckets, prios))
-    #print(scores[q])
-    if scores[q] > scores[bestindex]:
+    if scores[q] > scores[bestindex]: #if this result is better than the old best, make it the new best
         bestindex = q
 
-print scores[bestindex]
-print [r.classes for r in results[bestindex]]
+#print scores[bestindex]
+#print [r.classes for r in results[bestindex]]
 
-#output to file
+#output to file, to this directory
 outfile = open('outfile.txt', 'w')
-student_n = 0
-classlist = [r.classes for r in results[bestindex]]
+classlist = [r.classes for r in results[bestindex]] #get the classes for each person in the optimal result
 for p in classlist:
     #start dumping
-    outfile.write(str(global_users[student_n].id))
+    outfile.write(str(global_users[student_n].id)) #write index of student, same as in input file, same order
     outfile.write('\n')
     for c in p:
-        outfile.write(str(c))
+        outfile.write(str(c)) #write each class the user takes
         outfile.write('\n')
-    student_n += 1
-    
-    
