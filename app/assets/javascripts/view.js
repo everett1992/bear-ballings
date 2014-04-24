@@ -1,11 +1,19 @@
 define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course, bin) {
 
+    const HR = document.createElement("hr");
+
     var active = undefined;
-    var position = undefined;
+    var undo = undefined;
+    var action = undefined;
 
     var elem_courses = document.getElementById("courses");
 
     var elem_bins = document.getElementById("bins");
+
+    var binlistener = undefined;
+    function setBinListener(callback) {
+        binlistener = callback;
+    }
 
     var courses = {};
     courses.setCourses = function(courses) {
@@ -68,51 +76,95 @@ define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course
         active.style.backgroundColor = "yellow";
     }
 
-    function nobodywillreadthis(es, x,y) {
+    function narrowdown(es, x,y) {
+        if (!es.length)
+            return {type: "BELOW"};
         var bounds = _.map(es, function(b) { return { e:b, s:b.getBoundingClientRect() }; });
         if (_.first(bounds).s.top >= y)
-            return "ABOVE";
+            return {type: "ABOVE"};
         if (_.last(bounds).s.bottom <= y)
-            return "BELOW";
+            return {type: "BELOW"};
         var hoverbin = _.findWhere(bounds, function(b) { return (y >= b.s.top && y <= b.s.bottom); });
         if (hoverbin)
-            return hoverbin;
+            return {type: "ON", value: hoverbin};
         var middle = _.findWhere(_.zip(_.initial(bounds), _.rest(bounds)), function(tb) {
             return (y - tb[0].s.bottom || tb[1].s.top - y < 0);
         });
         if (middle)
-            return middle;
+            return {type: "MIDDLE",
+                    top: middle[0],
+                    bot: middle[1]};
         return undefined;
     }
 
     function mousemove(x,y) {
-        var type = (active.className.indexOf("unassigned") < 0 ? "assigned" : "unassigned");
+        var type,
+            bins_bound,
+            position_bin,
+            position_c,
+            cbin;
+        if (undo)
+            undo();
+        undo = undefined;
+        type = (active.className.indexOf("unassigned") < 0 ? "assigned" : "unassigned");
         if (type !== "unassigned")
             return;
-        var bins_b = elem_bins.getBoundingClientRect();
-        if (x < bins_b.left || bins_b.right < x || y < bins_b.top || bins_b.bottom < y)
+        bins_bound = elem_bins.getBoundingClientRect();
+        if (x < bins_bound.left || bins_bound.right < x || y < bins_bound.top || bins_bound.bottom < y)
             return;
-        position = nobodywillreadthis(elem_bins.children, x,y);
-        if (position.length == 2) {
-            position = "MIDDLE";
+        position_bin = narrowdown(elem_bins.getElementsByClassName("bin"), x,y);
+        if (position_bin.type == "ON") {
+            action = {bin:_.indexOf(elem_bins.children, position_bin.value.e), type:"course", action:"insert"};
+            cbin = position_bin.value.e;
+            position_c = narrowdown(cbin.getElementsByClassName("course"), x,y);
+            if (position_c.type == "ON") {
+            }
+            else if (position_c.type == "MIDDLE") {
+                action.course = _.indexOf(cbin.children, position_c.bottom.e);
+                undo = function() { cbin.removeChild(HR); };
+                cbin.insertBefore(HR, position_c.bottom.e);
+            }
+            else if (position_c.type == "ABOVE") {
+                action.course = 0;
+                undo = function() { cbin.removeChild(HR); };
+                cbin.insertBefore(HR, cbin.children[0]);
+            }
+            else if (position_c.type == "BELOW") {
+                action.course = cbin.children.length;
+                undo = function() { cbin.removeChild(HR); };
+                cbin.appendChild(HR);
+            }
         }
-        if (position.length)
-            return;
-        position = nobodywillreadthis(position.e.children, x,y);
-        if (position.length == 2) {
-            position = "MIDDLE";
+        else if (position_bin.type == "MIDDLE") {
+            action = {bin:_.indexOf(elem_bins, position_bin.bottom.e.children), type:"bin", action:"insert"};
+            undo = function() { elem_bins.removeChild(HR); };
+            elem_bins.insertBefore(HR, position_bin.bottom.e);
         }
-        position = "INNER " + position;
+        else if (position_bin.type == "ABOVE") {
+            action = {bin:0, type:"bin", action:"insert"};
+            undo = function() { elem_bins.removeChild(HR); };
+            elem_bins.insertBefore(HR, elem_bins.children[0]);
+        }
+        else if (position_bin.type == "BELOW") {
+            action = {bin:elem_bins.children.length, type:"bin", action:"insert"};
+            undo = function() { elem_bins.removeChild(HR); };
+            elem_bins.appendChild(HR);
+        }
     }
 
     function mouseup() {
+        if (undo)
+            undo();
+        undo = undefined;
         active.style.backgroundColor = "";
-        console.log(position);
+        if (action && binlistener)
+            binlistener({course:active.id.substr(7), action:action});
     }
 
     return {
         searchbox: searchbox,
         courses: courses,
-        bins: bins
+        bins: bins,
+        setBinListener: setBinListener
     };
 });

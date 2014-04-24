@@ -14,5 +14,10 @@ define(['model', 'view'], function(model, view) {
         view.courses.setCourses(model.courses.courses);
     });
 
+    view.setBinListener(function(data) {
+        console.log(data.course);
+        console.log(data.action);
+    });
+
     return {};
 });
