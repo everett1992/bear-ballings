@@ -1,4 +1,11 @@
-#call from command line proper syntax:
+"""
+Bear-Ballings:  Patrick D'Errico, Glen Oakley, Caleb Everett, Eric Palace
+
+Holds the results and calls testing, input, and output functions
+for the algorithmic porition of the system.
+"""
+
+#Note: call from command line proper syntax:
 #python27 tester.py filepath
 
 import protosort
@@ -72,7 +79,7 @@ for user in data["users"]:
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#Sample data, commented in case one wants to test it
+#Sample data, left commented in case one wants to test it
 '''
 SAMPLE_USERS = [
                 User([["CSC470", "CSC460"], ["CSC310", "CSC320"], ["CSC330", "CSC360"], ["WGS220", "WGS320"]], [], 13, "Bob"),

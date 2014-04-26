@@ -1,4 +1,11 @@
-"""Algorithm(s) for the CSC470 project."""
+"""
+Bear-Ballings:  Patrick D'Errico, Glen Oakley, Caleb Everett, Eric Palace
+
+Algorithm(s) for the CSC470 project. Provides the ability to recursively
+select classes for users based on buckets that indicate their priorities.
+Also includes functions to evaluate the fit of a selection of classes to a user
+group, as well as checking for time contradictions.
+"""
 
 import collections
 import random
@@ -13,8 +20,11 @@ Class = collections.namedtuple("Class", ["id", "course_id", "seats", "day", "sta
 Empty_Class = Class(-1, "EMPTY", 0, 0, 0, 0, 0, 0, 0)
 
 #main functions
+
 def classsort(users, classes, buckets_taken):
     """Place users into classes in-place.
+    This is done recursively - an student is selected randomly who is of highest priority to have a new class,
+    and their buckets are iterated through to find an appropriate class, picking randomly if not findable.
     Returns the users list, which will be modified for enrollment.
     """
 
@@ -57,8 +67,9 @@ def classsort(users, classes, buckets_taken):
     open_class = None #an availible section of a course a user could take
     ind = 0 #index of the user's bucket being tested  
 
+    #Functions as the main loop for class finding, iterates through buckets to find a class the user wants to take, if possible
     if empty_class == False: #if we need to add a class, try to do so
-        while ind < len(user.buckets): #iterate through each of the user's buckets, containing 1 or more classes
+        while ind < len(user.buckets): #iterate through each of the user's buckets, containing 1 or more classes, to find one they want to take
             bucket = user.buckets[ind] #get the bucket
             if buckets_taken[user_num][ind] == True: #user has a class in this bucket
                 ind += 1
@@ -97,6 +108,8 @@ def classsort(users, classes, buckets_taken):
 
     #-------------------------------------------
     #endgame, after a class (or empty slot) has been given for the user
+    #Assure that a class has been added or an empty slot of the user needs no more, carry on recurring
+    #back up if there is an issue        
     #-------------------------------------------
 
     if empty_class == True: #give user this shell on no class needed, is handled by backend
@@ -155,7 +168,7 @@ def t_conflict(user_classes, course):
         return False #no conflicts
 
 def eval_cs(result, buckets, prios):
-
+    '''Give a selection a score based on how well it fulfilled the users' needs'''
     r_classes = [r.classes for r in result] #get class list
 
     #generate map of whether a bucket was used
@@ -176,7 +189,8 @@ def eval_cs(result, buckets, prios):
 
     return score
 
-def gen_test_map(users): #makes a list of all buckets for each user, starts at false - means: "nothing taken from here yet"
+def gen_test_map(users):
+    '''makes a list of all buckets for each user, starts at false - means: "nothing taken from here yet"'''
     result = list()
     for u in users: #for each bucket, add a false entry (not taken yet) into the list, one list per user
         bt = list()
