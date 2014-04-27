@@ -12,6 +12,7 @@ define(['model', 'view'], function(model, view) {
             }));
         });
         view.courses.setCourses(model.courses.courses);
+        view.searchbox.enable();
     });
 
     view.setBinListener(function(data) {
@@ -26,8 +27,15 @@ define(['model', 'view'], function(model, view) {
             message.to_bin = data.action.bin;
         console.log(message);
         JSON.send("/api/user/courses", message, function(response) {
-            if (response === undefined)
-                alert("CONNECTION FAILURE; REFRESH PAGE!");
+            console.log("RERERERE");
+            console.log(response);
+            if (response === undefined || typeof response === "number") {
+                if (response === 422 || response === 500) {
+                }
+                else
+                    alert("CONNECTION FAILURE; REFRESH PAGE!");
+                return;
+            }
             var course = _.findWhere(model.courses.courses, {id: data.course});
             if (data.action.type == "bin") {
                 model.user.bins.splice(data.action.bin, 0, {courses: [course]});
