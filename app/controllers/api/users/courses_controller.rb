@@ -9,18 +9,21 @@ class Api::Users::CoursesController < Api::Users::UserController
       return
     end
 
-    if params[:to_bin].blank? && params[:before_bin].blank?
-      #add the course to a new bin if no bin is provided
-      @bin = @user.add_course(course)
-    elsif params[:to_bin] && params[:before_bin].blank?
-      add_to(course, params[:to_bin])
-    elsif params[:before_bin] && params[:to_bin].blank?
-      add_before(course, params[:before_bin])
-    else
-      render json: {error: 'Cannot add both to and before a bin.'}, status: :unprocessable_entity
+    begin
+      if params[:to_bin].blank? && params[:before_bin].blank?
+        #add the course to a new bin if no bin is provided
+        @bin = @user.add_course(course)
+      elsif params[:to_bin] && params[:before_bin].blank?
+        add_to(course, params[:to_bin])
+      elsif params[:before_bin] && params[:to_bin].blank?
+        add_before(course, params[:before_bin])
+      else
+        render json: {error: 'Cannot add both to and before a bin.'}, status: :unprocessable_entity
+      end
+      render :show
+    rescue DuplicateCourse => ex
+      render json: { error: ex.message }, status: :unprocessable_entity
     end
-
-    render :show
   end
 
   def destroy

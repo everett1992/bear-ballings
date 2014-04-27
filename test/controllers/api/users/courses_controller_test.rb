@@ -52,6 +52,16 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     assert_equal(user.reload.bins.last, assigns(:bin))
   end
 
+  test "Adding a course that is already in a bin should error" do
+    user = User.first
+    course = Course.first
+    login user
+    user.bins.delete_all
+    user.add_course(course)
+    post :create, {format: :json, _id: course._id}
+    assert_response :unprocessable_entity
+  end
+
   test "Passing a bin and a couse should place the course in the bin" do
     user = User.first
     course = Course.first
