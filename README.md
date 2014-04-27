@@ -49,8 +49,8 @@ the repository.
 ### POST `/api/user/courses`
 
 * `_id`        - The id of the course to add.
-* `to_bin`     - The id of the bin to add the course to.
-* `before_bin` - Creates a new bin before the bin with this `_id`, and adds the course to it.
+* `to_bin`     - The index of the bin to add the course to.
+* `before_bin` - Creates a new bin before the bin with this index, and adds the course to it.
 
 Calling this with just an `_id` will create a new bin at the end of the bins list.
 With the `to_bin` parameter the course is added to the provided bin.

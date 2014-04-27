@@ -54,22 +54,22 @@ class Api::Users::CoursesController < Api::Users::UserController
     return course
   end
 
-  def add_to(course, bin_id)
-    @bin = @user.bins.find(bin_id)
-    if @bin
-      #add the course to that bin
+  def add_to(course, bin_idx)
+    if (0..@user.bins.count).include? bin_idx
+      # Add the course to the bin with the passed index.
+      @bin = @user.bins[bin_idx]
       @user.add_course(course, @bin)
     else
-      render json: {error: 'No bin matching the provided id was found for this user'}, status: :not_found
+      render json: {error: "Index out of range, must be between 0 and #{@user.bins.count}"}, status: :not_found
     end
   end
 
-  def add_before(course, bin_id)
-    before_bin = @user.bins.find(bin_id)
-    if before_bin
+  def add_before(course, bin_idx)
+    if (0..@user.bins.count).include? bin_idx
+      before_bin = @user.bins[bin_idx]
       @bin = @user.create_bin_before(course, before_bin)
     else
-      render json: {error: 'No bin matching the provided id was found for this user'}, status: :not_found
+      render json: {error: "Index out of range, must be between 0 and #{@user.bins.count}"}, status: :not_found
     end
   end
 end

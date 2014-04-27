@@ -59,9 +59,10 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     login user
     user.bins.delete_all
     bin = user.add_course(course)
+    index = user.bins.index(bin)
     assert_no_difference("user.reload.bins.count", 1) do
       assert_difference("bin.reload.course_ids.count", 1) do
-        post :create, {format: :json, _id: new_course._id, to_bin: bin._id}
+        post :create, {format: :json, _id: new_course._id, to_bin: index}
       end
     end
   end
@@ -81,6 +82,7 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
 
     # Add this course, and remember it because we will add a course before it.
     bin = user.add_course(courses.shift())
+    index = user.bins.index(bin)
 
     # ADd more courses
     courses.each do |course|
@@ -90,7 +92,7 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     # Add a course before the one we remembed.
     new_course = Course.last
     assert_difference("user.reload.bins.count", 1) do
-      post :create, {format: :json, _id: new_course._id, before_bin: bin._id}
+      post :create, {format: :json, _id: new_course._id, before_bin: index}
     end
 
     new_bin_index = user.bins.index { |b| b.courses.include? new_course }
