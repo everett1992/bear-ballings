@@ -19,7 +19,8 @@ define(['model', 'view'], function(model, view) {
         console.log(data.action);
         var message = { _id: data.course };
         if (data.action.type == "bin")
-            message.before_bin = data.action.bin;
+            if (data.action.bin !== model.user.bins.length)
+                message.before_bin = data.action.bin;
         else
             message.to_bin = data.action.bin;
         console.log(message);
