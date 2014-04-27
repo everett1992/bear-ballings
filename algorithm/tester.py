@@ -165,6 +165,7 @@ for q in range(TRIALS):
 #output to file, to this directory
 outfile = open('outfile.txt', 'w')
 classlist = [r.classes for r in results[bestindex]] #get the classes for each person in the optimal result
+student_n = 0
 for p in classlist:
     #start dumping
     outfile.write(str(global_users[student_n].id)) #write index of student, same as in input file, same order
@@ -172,3 +173,4 @@ for p in classlist:
     for c in p:
         outfile.write(str(c)) #write each class the user takes
         outfile.write('\n')
+    student_n += 1
