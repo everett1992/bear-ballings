@@ -32,6 +32,11 @@ the repository.
  - References many courses
    (Presented ordered, but order is ignored by the scheduler.)
 
+## Running the scheduler
+
+run `rake sample:schedule` to schedule all users in the database. Results
+are output to `output.txt`
+
 ## Api Endpoints
 
 | Url                      | Desc                                                                                        |
