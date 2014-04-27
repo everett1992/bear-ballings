@@ -139,7 +139,7 @@ define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course
             }
         }
         else if (position_bin.type == "MIDDLE") {
-            action = {bin:_.indexOf(elem_bins, position_bin.bot.e.children), type:"bin", action:"insert"};
+            action = {bin:_.indexOf(elem_bins.children, position_bin.bot.e), type:"bin", action:"insert"};
             undo = function() { elem_bins.removeChild(HR); };
             elem_bins.insertBefore(HR, position_bin.bot.e);
         }

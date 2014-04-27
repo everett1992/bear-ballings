@@ -17,6 +17,7 @@ define(function() {
     view.addListener = function(listener) {
         listeners.push(listener);
     };
+    view.enable = function() { elem_filter.disabled = false; };
 
     return view;
 });

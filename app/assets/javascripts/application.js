@@ -25,7 +25,7 @@ JSON.send = function(url, json, callback) {
                 callback(json);
             else {
                 console.log(request.response);
-                callback(undefined);
+                callback(request.status);
             }
         }
     };
