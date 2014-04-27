@@ -15,4 +15,18 @@ JSON.load = function(url, callback) {
     request.send();
 };
 
-require(['controller'])
+JSON.send = function(url, json, callback) {
+    var request = new XMLHttpRequest();
+    request.open("POST", url, true);
+    request.onreadystatechange = function() {
+        if (request.readyState == 4) {
+            if (request.status == 200)
+                callback(json);
+            else
+                callback(undefined);
+        }
+    };
+    request.send(JSON.stringify(json));
+};
+
+require(['controller']);

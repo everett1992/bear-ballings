@@ -17,6 +17,23 @@ define(['model', 'view'], function(model, view) {
     view.setBinListener(function(data) {
         console.log(data.course);
         console.log(data.action);
+        var message = { _id: data.course };
+        if (data.action.type == "bin")
+            message.before_bin = data.action.bin;
+        else
+            message.to_bin = data.action.bin;
+        console.log(message);
+        JSON.send("/api/user/courses", message, function(response) {
+            if (response === undefined)
+                alert("CONNECTION FAILURE; REFRESH PAGE!");
+            var course = _.findWhere(model.courses.courses, {id: data.course});
+            if (data.action.type == "bin") {
+                model.user.bins.splice(data.action.bin, 0, {courses: [course]});
+            } else {
+                model.user.bins[data.action.bin].courses.push(course);
+            }
+            view.bins.setBins(model.user.bins);
+        });
     });
 
     return {};
