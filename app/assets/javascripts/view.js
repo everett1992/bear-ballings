@@ -1,6 +1,8 @@
 define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course, bin) {
 
-    const HR = document.createElement("hr");
+    //const HR = document.createElement("hr");
+    const HR = bin.create({courses:[]});
+    HR.className += " hover";
 
     var active = undefined;
     var undo = undefined;
@@ -117,6 +119,9 @@ define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course
         position_bin = narrowdown(elem_bins.getElementsByClassName("bin"), x,y);
         if (position_bin.type == "ON") {
             action = {bin:_.indexOf(elem_bins.children, position_bin.value.e), type:"course", action:"insert"};
+            undo = function() { position_bin.value.e.className = position_bin.value.e.className.replace( /(?:^|\s)hover(?!\S)/g , '' ); };
+            position_bin.value.e.className += " hover";
+            /*
             cbin = position_bin.value.e.children[0];
             position_c = narrowdown(cbin.getElementsByClassName("course"), x,y);
             if (position_c.type == "ON") {
@@ -137,6 +142,7 @@ define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course
                 undo = function() { cbin.removeChild(HR); };
                 cbin.appendChild(HR);
             }
+             */
         }
         else if (position_bin.type == "MIDDLE") {
             action = {bin:_.indexOf(elem_bins.children, position_bin.bot.e), type:"bin", action:"insert"};
