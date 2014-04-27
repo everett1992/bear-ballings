@@ -18,9 +18,10 @@ define(['model', 'view'], function(model, view) {
         console.log(data.course);
         console.log(data.action);
         var message = { _id: data.course };
-        if (data.action.type == "bin")
+        if (data.action.type == "bin") {
             if (data.action.bin !== model.user.bins.length)
                 message.before_bin = data.action.bin;
+        }
         else
             message.to_bin = data.action.bin;
         console.log(message);

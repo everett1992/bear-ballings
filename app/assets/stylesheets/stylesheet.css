@@ -122,13 +122,21 @@ ol, ul {
     /*flex:2 0 auto;*/
 }
 
-#planner {
+#bins {
+    margin:0;
     padding:0.5em;
     height:100%;
 }
-ol.bin {
+
+li.bin {
     padding:0.5em;
+    margin:0.5em;
     border:1px solid black;
+}
+
+li.bin > ol {
+    margin:0;
+    padding:0;
 }
 
 li.course {
@@ -137,10 +145,12 @@ li.course {
     border:1px solid black;
     cursor:move;
 }
+
 li.course h3 {
     margin:0;
     padding:0;
 }
+
 li.course:nth-child(3n) { background-color:#fee; }
 li.course:nth-child(3n+1) { background-color:#efe; }
 li.course:nth-child(3n+2) { background-color:#eef; }
