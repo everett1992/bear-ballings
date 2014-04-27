@@ -1,3 +1,6 @@
+##
+# Defines the user model.
+# A user has a set of courses organized into bins.
 class User
   include Mongoid::Document
   field :n, as: :name, type: String
@@ -10,7 +13,7 @@ class User
   # Adds a +course+ to a +bin+.
   #
   # If no +bin+ is passed a new bin is created
-  # The bin is returned
+  # The bin is returned.
   def add_course(course, bin=bins.new)
     if courses.include? course
       raise DuplicateCourse.new("User has already added #{course} to a bin")
@@ -24,6 +27,8 @@ class User
     return bin
   end
 
+  ##
+  # Removes a +course+ from any of this users bins.
   def remove_course(course)
     bin = bins.where(:course_ids => course).first
     if bin.nil?
@@ -33,6 +38,9 @@ class User
     return bin.remove_course(course)
   end
 
+  ##
+  # Creates a new bin and inserts it before +bin+.
+  # The new bin will have +course+.
   def create_bin_before(course, bin)
     index = bins.index(bin)
 
@@ -49,6 +57,8 @@ class User
     return bin
   end
 
+  ##
+  # Removes +course+ from the bin it is in and adds it to +bin+.
   def move_course(course, bin)
     remove_course(course)
 
@@ -58,17 +68,14 @@ class User
     add_course(course, bin)
   end
 
+  ##
+  # Returns a list of all courses in any of this users bins.
   def courses
     bins.map(&:courses).flatten
   end
 end
 
-# Should these be here?
-class DuplicateCourse < ArgumentError
-end
-
-class SomeoneElsesBin < ArgumentError
-end
-
-class NoCourseFound < ArgumentError
-end
+# Should these exceptions be defined here? yes.
+class DuplicateCourse < ArgumentError; end
+class SomeoneElsesBin < ArgumentError; end
+class NoCourseFound < ArgumentError; end

@@ -1,3 +1,6 @@
+# Defines the meeting model.
+# A meeting is a distinct time that a lecture meets each week.
+
 class Meeting
   include Mongoid::Document
   field :d, as: :day, type: Integer

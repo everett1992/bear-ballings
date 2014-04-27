@@ -1,3 +1,7 @@
+##
+# Defines the bin model.
+#
+# A bin is a set of courses.
 class Bin
   include Mongoid::Document
   embedded_in :user

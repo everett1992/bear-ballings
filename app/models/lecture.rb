@@ -1,3 +1,7 @@
+# Defines the lecutre model.
+#
+# A lecture is an instance of of a course, it has one or two meeting times.
+# When a lecture has one meeting its two meetings should be the same value.
 class Lecture
   include Mongoid::Document
   field :s, as: :seats, type: Integer

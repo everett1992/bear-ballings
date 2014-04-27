@@ -1,4 +1,6 @@
+# Defines API endpoints to login or logout.
 class SessionsController < ApplicationController
+  # login
   def create
     @user = User.where(name: params[:user_name]).first
     respond_to do |format|
@@ -13,6 +15,7 @@ class SessionsController < ApplicationController
     end
   end
 
+  # logout
   def destroy
     logout
     respond_to do |format|

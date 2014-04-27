@@ -1,4 +1,6 @@
 namespace :courses do
+
+  # Parses course info from the text file genrated by geln.
   desc "Gets courses from file"
   task :parse => :environment do
     input_file = 'lib/assets/courses.txt'

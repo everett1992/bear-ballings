@@ -1,102 +1,5 @@
 namespace :sample do
-  # Returns a fiber that gives the next avaliable course time.
-  def time_slot_fiber
-    # The combinatinos of day groupings
-    # HACK: When both days are the same the class meets once per week.
-    day_groups = [ [:monday, :thursday],
-                   [:monday, :monday],
-                   [:tuesday, :friday],
-                   [:tuesday, :tuesday],
-                   [:monday, :wednesday],
-                   [:wednesday, :wednesday],
-                   [:thursday, :thursday],
-                   [:friday, :friday] ]
-
-    # The set of times that classes meet on any day.
-    times_avaliable = [ ['1000', '1120'],
-                        ['1230', '1350'],
-                        ['1400', '1520'],
-                        ['1700', '1820'] ]
-
-    # Map day symbols to integer values.
-    day_nums = { monday:    1, tuesday:   2,
-                wednesday: 3, thursday:  4 , friday:    5 }
-
-    # Returns the next set of meeting times
-    return Fiber.new do
-      # Pick a random day and time combination.
-
-      while true # The fiber must flow!
-        days = day_groups[rand(day_groups.length)]
-        starttime, endtime = times_avaliable[rand(times_avaliable.length)]
-        Fiber.yield(days.map  do |day|
-          Meeting.new({ day: day_nums[day], starttime: starttime, endtime: endtime })
-        end)
-      end
-    end
-  end
-
-  def add_random_courses(user, courses, course_range, per_bin_range)
-    #:: Randomly add courses to a users bins
-    user_courses = courses.shuffle.take(rand(course_range))
-    while user_courses.any?
-      bin_courses = user_courses.shift(rand(per_bin_range))
-
-      bin = user.add_course(bin_courses.shift)
-      bin_courses.each { |course| bin = user.add_course(course, bin) }
-    end
-  end
-
-  def set_course_times(courses)
-
-    course_lectures = 1..4
-    lecture_seats   = 15..25
-    ts_fiber = time_slot_fiber
-
-    # For each course add 1 to 4 lectures
-    #   Each lecture should have two meeting times
-    courses.each do |course|
-
-      # Course has 1..4 lectures
-      rand(course_lectures).times do
-        m1, m2 = ts_fiber.resume
-        lecture = Lecture.new(seats: rand(lecture_seats), meeting1: m1, meeting2: m2)
-        course.lectures << lecture
-      end
-    end
-  end
-
-
-  def to_json(users, courses)
-    # Format output as json.
-    jbuilder = Jbuilder.encode do |json|
-
-      json.courses courses do |course|
-        json.id "#{course.department}#{course.number}"
-        json.title course.title
-
-        # A course has many (lectures), here called classes.
-        json.classes course.lectures do |lecture|
-          json.seats lecture.seats
-          json.meeting1 lecture.meeting1, :day, :starttime, :endtime
-          json.meeting2 lecture.meeting2, :day, :starttime, :endtime
-        end
-      end
-
-      json.users users do |user|
-        json.id user.id.to_s
-        json.credits user.credits
-        json.bins user.bins do |bin|
-          json.priority user.bins.index(bin)
-          json.courses bin.courses do |course|
-            json.array! "#{course.department}#{course.number}"
-          end
-        end
-      end
-    end
-    JSON.pretty_generate(JSON.parse(jbuilder))
-  end
-
+  # This task generates user course selections to test the scheduling algo.
   desc "Output list of fake data to a file"
   task :selections => :environment do
     num_users         = 30
@@ -148,4 +51,108 @@ namespace :sample do
       output.lines.each { |line| f.write line }
     end
   end
+
+  # Returns a fiber that gives the next avaliable course time.
+  def time_slot_fiber
+    # The combinatinos of day groupings
+    # HACK: When both days are the same the class meets once per week.
+    day_groups = [ [:monday, :thursday],
+                   [:monday, :monday],
+                   [:tuesday, :friday],
+                   [:tuesday, :tuesday],
+                   [:monday, :wednesday],
+                   [:wednesday, :wednesday],
+                   [:thursday, :thursday],
+                   [:friday, :friday] ]
+
+    # The set of times that classes meet on any day.
+    times_avaliable = [ ['1000', '1120'],
+                        ['1230', '1350'],
+                        ['1400', '1520'],
+                        ['1700', '1820'] ]
+
+    # Map day symbols to integer values.
+    day_nums = { monday:    1, tuesday:   2,
+                wednesday: 3, thursday:  4 , friday:    5 }
+
+    # Returns the next set of meeting times
+    return Fiber.new do
+      # Pick a random day and time combination.
+
+      while true # The fiber must flow!
+        days = day_groups[rand(day_groups.length)]
+        starttime, endtime = times_avaliable[rand(times_avaliable.length)]
+        Fiber.yield(days.map  do |day|
+          Meeting.new({ day: day_nums[day], starttime: starttime, endtime: endtime })
+        end)
+      end
+    end
+  end
+
+  # Adds a number of courses from +courses+ within +course_rangge+
+  # to the user in groups of +per_bin_range+.
+  def add_random_courses(user, courses, course_range, per_bin_range)
+    #:: Randomly add courses to a users bins
+    user_courses = courses.shuffle.take(rand(course_range))
+    while user_courses.any?
+      bin_courses = user_courses.shift(rand(per_bin_range))
+
+      bin = user.add_course(bin_courses.shift)
+      bin_courses.each { |course| bin = user.add_course(course, bin) }
+    end
+  end
+
+  # Adds times to the courses in +courses+
+  def set_course_times(courses)
+
+    course_lectures = 1..4
+    lecture_seats   = 15..25
+    ts_fiber = time_slot_fiber
+
+    # For each course add 1 to 4 lectures
+    #   Each lecture should have two meeting times
+    courses.each do |course|
+      course.lectures.destroy_all
+
+      # Course has 1..4 lectures
+      rand(course_lectures).times do
+        m1, m2 = ts_fiber.resume
+        lecture = Lecture.new(seats: rand(lecture_seats), meeting1: m1, meeting2: m2)
+        course.lectures << lecture
+      end
+    end
+  end
+
+
+  # Format the user, and course data as json.
+  def to_json(users, courses)
+    # Format output as json.
+    jbuilder = Jbuilder.encode do |json|
+
+      json.courses courses do |course|
+        json.id "#{course.department}#{course.number}"
+        json.title course.title
+
+        # A course has many (lectures), here called classes.
+        json.classes course.lectures do |lecture|
+          json.seats lecture.seats
+          json.meeting1 lecture.meeting1, :day, :starttime, :endtime
+          json.meeting2 lecture.meeting2, :day, :starttime, :endtime
+        end
+      end
+
+      json.users users do |user|
+        json.id user.id.to_s
+        json.credits user.credits
+        json.bins user.bins do |bin|
+          json.priority user.bins.index(bin)
+          json.courses bin.courses do |course|
+            json.array! "#{course.department}#{course.number}"
+          end
+        end
+      end
+    end
+    JSON.pretty_generate(JSON.parse(jbuilder))
+  end
+
 end

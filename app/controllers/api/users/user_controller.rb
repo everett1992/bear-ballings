@@ -1,3 +1,4 @@
+# shows the user
 class Api::Users::UserController < ApplicationController
   before_action :require_login
 

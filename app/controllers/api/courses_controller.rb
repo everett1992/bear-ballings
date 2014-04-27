@@ -1,4 +1,5 @@
 class Api::CoursesController < ApplicationController
+  # List of all courses
   def index
     @courses = Course
       .where(query_params)
@@ -8,6 +9,7 @@ class Api::CoursesController < ApplicationController
 
   private
 
+  # Limits parameters avaliable to only department
   def query_params
     params.permit(:department)
   end
