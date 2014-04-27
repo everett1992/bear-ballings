@@ -5,48 +5,9 @@
       "title": "SOPH PROFESSIONAL EXPERIENCE",
       "classes": [
         {
-          "seats": 21,
+          "seats": 20,
           "meeting1": {
             "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
-          "seats": 23,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 23,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 24,
-          "meeting1": {
-            "day": 3,
             "starttime": "1000",
             "endtime": "1120"
           },
@@ -63,7 +24,33 @@
       "title": "HEALTH ECONOMICS",
       "classes": [
         {
-          "seats": 21,
+          "seats": 15,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 25,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 23,
           "meeting1": {
             "day": 2,
             "starttime": "1400",
@@ -76,14 +63,14 @@
           }
         },
         {
-          "seats": 21,
+          "seats": 20,
           "meeting1": {
-            "day": 2,
+            "day": 1,
             "starttime": "1700",
             "endtime": "1820"
           },
           "meeting2": {
-            "day": 2,
+            "day": 1,
             "starttime": "1700",
             "endtime": "1820"
           }
@@ -95,42 +82,16 @@
       "title": "ENGINEERING ELECTROMAGNETICS",
       "classes": [
         {
-          "seats": 23,
+          "seats": 18,
           "meeting1": {
             "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
-          "seats": 24,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
+            "starttime": "1700",
+            "endtime": "1820"
           },
           "meeting2": {
             "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 20,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1400",
-            "endtime": "1520"
+            "starttime": "1700",
+            "endtime": "1820"
           }
         }
       ]
@@ -140,27 +101,27 @@
       "title": "EARLY JUDAISM",
       "classes": [
         {
-          "seats": 24,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
           "seats": 19,
           "meeting1": {
             "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 2,
             "starttime": "1230",
             "endtime": "1350"
           },
           "meeting2": {
-            "day": 4,
+            "day": 2,
             "starttime": "1230",
             "endtime": "1350"
           }
@@ -172,64 +133,6 @@
       "title": "TOPICS IN INTERNATIONAL STUDIES",
       "classes": [
         {
-          "seats": 22,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 16,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        }
-      ]
-    },
-    {
-      "id": "HIS161",
-      "title": "HISTORY OF MEXICO",
-      "classes": [
-        {
-          "seats": 20,
-          "meeting1": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 23,
-          "meeting1": {
-            "day": 5,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
           "seats": 24,
           "meeting1": {
             "day": 1,
@@ -245,59 +148,91 @@
       ]
     },
     {
-      "id": "CLS201",
-      "title": "HISTORY OF ANCIENT PHILOSOPHY",
+      "id": "HIS161",
+      "title": "HISTORY OF MEXICO",
       "classes": [
         {
-          "seats": 16,
+          "seats": 19,
           "meeting1": {
-            "day": 2,
+            "day": 4,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 2,
+            "day": 4,
             "starttime": "1000",
             "endtime": "1120"
           }
         },
         {
-          "seats": 22,
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CLS201",
+      "title": "HISTORY OF ANCIENT PHILOSOPHY",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 19,
           "meeting1": {
             "day": 1,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
+            "day": 4,
             "starttime": "1400",
             "endtime": "1520"
           }
         },
         {
-          "seats": 21,
+          "seats": 23,
           "meeting1": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
           },
           "meeting2": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 25,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
           }
         }
       ]
@@ -307,40 +242,40 @@
       "title": "PROJECT MANAGEMENT",
       "classes": [
         {
-          "seats": 17,
+          "seats": 23,
           "meeting1": {
-            "day": 3,
+            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
+            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           }
         },
         {
-          "seats": 20,
+          "seats": 22,
           "meeting1": {
-            "day": 5,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 15,
-          "meeting1": {
-            "day": 3,
+            "day": 2,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 3,
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
             "starttime": "1000",
             "endtime": "1120"
           }
@@ -352,16 +287,55 @@
       "title": "TEACHING ALGEBRA TO MIDDLE SCHOOL STUDENTS",
       "classes": [
         {
-          "seats": 21,
+          "seats": 17,
           "meeting1": {
             "day": 4,
-            "starttime": "1400",
-            "endtime": "1520"
+            "starttime": "1700",
+            "endtime": "1820"
           },
           "meeting2": {
             "day": 4,
-            "starttime": "1400",
-            "endtime": "1520"
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 21,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         }
       ]
@@ -371,14 +345,40 @@
       "title": "COUNSELING GIRLS AND WOMEN",
       "classes": [
         {
-          "seats": 18,
+          "seats": 19,
           "meeting1": {
-            "day": 5,
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 3,
             "starttime": "1700",
             "endtime": "1820"
           },
           "meeting2": {
-            "day": 5,
+            "day": 3,
             "starttime": "1700",
             "endtime": "1820"
           }
@@ -390,16 +390,29 @@
       "title": "MOTIVATION: THE ART AND SCIENCE OF INSPIRING CLASSROOM SUCCESS",
       "classes": [
         {
-          "seats": 25,
+          "seats": 16,
           "meeting1": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
           },
           "meeting2": {
             "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
+            "starttime": "1400",
+            "endtime": "1520"
           }
         }
       ]
@@ -409,29 +422,42 @@
       "title": "INDEPENDENT RESEARCH IN MATHEMATICS EDUCATION II",
       "classes": [
         {
-          "seats": 21,
+          "seats": 17,
           "meeting1": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 15,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
           },
           "meeting2": {
             "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 25,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
           }
         }
       ]
@@ -441,55 +467,16 @@
       "title": "DISCIPLINE SPECIFIC RESEARCH",
       "classes": [
         {
-          "seats": 25,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 22,
+          "seats": 20,
           "meeting1": {
             "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 19,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
             "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 24,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
+            "starttime": "1000",
+            "endtime": "1120"
           }
         }
       ]
@@ -499,55 +486,42 @@
       "title": "PLANTS AND PEOPLE",
       "classes": [
         {
-          "seats": 16,
+          "seats": 21,
           "meeting1": {
-            "day": 3,
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
           }
         },
         {
           "seats": 20,
           "meeting1": {
             "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
+            "starttime": "1400",
+            "endtime": "1520"
           },
           "meeting2": {
             "day": 5,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 18,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 21,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
+            "starttime": "1400",
+            "endtime": "1520"
           }
         }
       ]
@@ -557,42 +531,16 @@
       "title": "COMPUTER ARCHITECTURE",
       "classes": [
         {
-          "seats": 23,
+          "seats": 19,
           "meeting1": {
-            "day": 3,
+            "day": 4,
             "starttime": "1000",
             "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 15,
-          "meeting1": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 15,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
           },
           "meeting2": {
             "day": 4,
-            "starttime": "1400",
-            "endtime": "1520"
+            "starttime": "1000",
+            "endtime": "1120"
           }
         }
       ]
@@ -602,33 +550,7 @@
       "title": "ART ED STUDENT TEACH SEMINAR",
       "classes": [
         {
-          "seats": 25,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 24,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 19,
+          "seats": 22,
           "meeting1": {
             "day": 2,
             "starttime": "1700",
@@ -638,6 +560,19 @@
             "day": 2,
             "starttime": "1700",
             "endtime": "1820"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
           }
         }
       ]
@@ -647,40 +582,14 @@
       "title": "GRAPHIC DESIGN-STU/FAC RESEARCH",
       "classes": [
         {
-          "seats": 18,
+          "seats": 23,
           "meeting1": {
-            "day": 3,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
-          "seats": 16,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 17,
-          "meeting1": {
-            "day": 3,
+            "day": 4,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 3,
+            "day": 4,
             "starttime": "1000",
             "endtime": "1120"
           }
@@ -692,35 +601,48 @@
       "title": "INDEPENDENT RESEARCH",
       "classes": [
         {
-          "seats": 20,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
           "seats": 17,
           "meeting1": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         },
         {
-          "seats": 25,
+          "seats": 18,
           "meeting1": {
-            "day": 5,
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 2,
             "starttime": "1230",
             "endtime": "1350"
           },
@@ -737,33 +659,20 @@
       "title": "SURVEY OF SPANISH PENINSULAR LIT",
       "classes": [
         {
-          "seats": 22,
+          "seats": 15,
           "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
           }
         },
         {
-          "seats": 22,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 17,
+          "seats": 16,
           "meeting1": {
             "day": 2,
             "starttime": "1700",
@@ -782,48 +691,9 @@
       "title": "MULTICULT CHILDRENS LIT FOR ECED",
       "classes": [
         {
-          "seats": 15,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
           "seats": 21,
           "meeting1": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
             "day": 3,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 19,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 15,
-          "meeting1": {
-            "day": 1,
             "starttime": "1000",
             "endtime": "1120"
           },
@@ -840,16 +710,42 @@
       "title": "CARING ADULT/ELDER HEALTH: PRAC",
       "classes": [
         {
-          "seats": 18,
+          "seats": 16,
           "meeting1": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
           },
           "meeting2": {
             "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
           }
         }
       ]
@@ -859,20 +755,7 @@
       "title": "ELELMENTARY PERSIAN III",
       "classes": [
         {
-          "seats": 20,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 17,
+          "seats": 23,
           "meeting1": {
             "day": 1,
             "starttime": "1230",
@@ -885,29 +768,16 @@
           }
         },
         {
-          "seats": 20,
-          "meeting1": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
           "seats": 17,
           "meeting1": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         }
       ]
@@ -917,33 +787,7 @@
       "title": "RESEARCH SEM IN HLTH & EXER SCI",
       "classes": [
         {
-          "seats": 18,
-          "meeting1": {
-            "day": 5,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
-          "seats": 20,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 20,
+          "seats": 15,
           "meeting1": {
             "day": 2,
             "starttime": "1700",
@@ -954,6 +798,19 @@
             "starttime": "1700",
             "endtime": "1820"
           }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
         }
       ]
     },
@@ -962,9 +819,9 @@
       "title": "ARABIC FOR BEGINNERS II",
       "classes": [
         {
-          "seats": 22,
+          "seats": 23,
           "meeting1": {
-            "day": 3,
+            "day": 1,
             "starttime": "1230",
             "endtime": "1350"
           },
@@ -975,16 +832,29 @@
           }
         },
         {
-          "seats": 17,
+          "seats": 15,
           "meeting1": {
-            "day": 1,
+            "day": 4,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 3,
+            "day": 4,
             "starttime": "1000",
             "endtime": "1120"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
           }
         }
       ]
@@ -994,14 +864,53 @@
       "title": "SPECIAL TOPICS IN PHILOSOPHY",
       "classes": [
         {
-          "seats": 18,
+          "seats": 15,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 25,
           "meeting1": {
             "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 4,
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
           }
@@ -1037,401 +946,465 @@
       ]
     },
     {
-      "id": "535d92a872616730e4c60000",
+      "id": "535d94df7261675342b10000",
       "name": "user_0",
       "credits": 7,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "HIS161",
-            "FIN393"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "EDAD556",
-            "ENG452"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "ECE102"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "INT170",
-            "CLS201",
-            "ELC361"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4c70000",
-      "name": "user_1",
-      "credits": 9,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "ECO320",
-            "REL120"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ENG452"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "SPA311",
+            "ENG452",
+            "BIO315",
             "COUN560"
           ]
         },
         {
-          "priority": 3,
+          "priority": 1,
           "courses": [
-            "EDAD556"
+            "SLP390"
           ]
         },
         {
-          "priority": 4,
-          "courses": [
-            "HES497"
-          ]
-        },
-        {
-          "priority": 5,
+          "priority": 2,
           "courses": [
             "PHL370"
           ]
         },
         {
+          "priority": 3,
+          "courses": [
+            "REL120",
+            "SPA311"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AGD393"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "CSC325",
+            "HES497",
+            "PER103",
+            "AAE273"
+          ]
+        },
+        {
           "priority": 6,
           "courses": [
-            "VCPD555",
-            "CSC325",
-            "NUR334",
-            "AAE273"
+            "ELC361"
           ]
         },
         {
           "priority": 7,
           "courses": [
-            "CLS201",
-            "ARA102"
+            "EDAD556",
+            "NUR334"
+          ]
+        },
+        {
+          "priority": 8,
+          "courses": [
+            "VCPD555"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4c80000",
-      "name": "user_2",
-      "credits": 0,
+      "id": "535d94df7261675342b20000",
+      "name": "user_1",
+      "credits": 15,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "HIS161",
-            "AAE492",
-            "ECE102"
+            "REL120",
+            "MTT493",
+            "INT170",
+            "NUR334"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "ARA102"
+            "SLP390"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "MTT493",
-            "EDAD556",
-            "AGD393"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "FIN393"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "INT170",
-            "SLP390",
-            "ECO320",
+            "ELC361",
+            "ENG452",
             "AAE273"
           ]
         },
         {
-          "priority": 5,
-          "courses": [
-            "NUR334"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4c90000",
-      "name": "user_3",
-      "credits": 7,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "MTT493",
-            "AAE273",
-            "CSC325"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ECO320",
-            "AGD393",
-            "ELC361",
-            "HES497"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "BIO315",
-            "REL120",
-            "NUR334"
-          ]
-        },
-        {
           "priority": 3,
-          "courses": [
-            "COUN560",
-            "AAE492",
-            "INT170"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "CLS201"
-          ]
-        },
-        {
-          "priority": 5,
           "courses": [
             "HIS161",
-            "PER103"
+            "VCPD555"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4ca0000",
-      "name": "user_4",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "REL120",
-            "SPA311",
-            "AAE492"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "HES497"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "INT170"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "BIO315",
-            "ECE102"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "VCPD555",
-            "SLP390"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "MTT493",
-            "PER103"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4cb0000",
-      "name": "user_5",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "PHL370",
-            "ECO320"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "REL120",
-            "INT170",
-            "NUR334",
-            "SPA311"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "HES497",
-            "SLP390"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4cc0000",
-      "name": "user_6",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "ELC361",
-            "PHL370"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE273",
-            "AGD393",
-            "HES497",
-            "SPA311"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "REL120",
-            "INT170",
-            "ECE102",
-            "AAE492"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "COUN560",
-            "SLP390"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "ECO320",
-            "PER103",
-            "CLS201"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4cd0000",
-      "name": "user_7",
+      "id": "535d94df7261675342b30000",
+      "name": "user_2",
       "credits": 9,
       "bins": [
         {
           "priority": 0,
           "courses": [
+            "REL120",
+            "CLS201"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "HIS161"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECO320",
+            "BIO315",
+            "SPA311"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "VCPD555",
+            "MTT493"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "SLP390",
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "PER103"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "FIN393"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342b40000",
+      "name": "user_3",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "BIO315",
+            "SLP390",
+            "ECO320",
+            "ELC361"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "HIS161",
+            "AAE492",
+            "REL120"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE273",
+            "SPA311",
+            "ARA102"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHL370",
             "AGD393",
+            "HES497"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "CSC325",
+            "FIN393",
+            "CLS201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342b50000",
+      "name": "user_4",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "COUN560",
+            "ECO320",
+            "ECE102",
+            "VCPD555"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ENG452",
+            "EDAD556",
+            "AGD393"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE273",
+            "ARA102"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "CSC325",
+            "ELC361",
+            "SLP390"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "SPA311",
+            "CLS201"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "INT170"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342b60000",
+      "name": "user_5",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHL370",
+            "COUN560",
+            "ECE102"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "INT170",
+            "ECO320"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ENG452",
+            "HES497"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342b70000",
+      "name": "user_6",
+      "credits": 13,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "BIO315",
+            "PER103",
             "CSC325"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAE492"
+            "SLP390",
+            "ECO320",
+            "ELC361"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "COUN560"
+            "NUR334",
+            "EDAD556"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "EDAD556",
-            "AAE273",
-            "SPA311"
+            "PHL370"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "INT170",
-            "BIO315"
+            "HIS161",
+            "REL120"
           ]
         },
         {
           "priority": 5,
           "courses": [
-            "PER103",
-            "CLS201",
-            "ENG452"
+            "VCPD555",
+            "CLS201"
           ]
         },
         {
           "priority": 6,
           "courses": [
-            "HES497",
-            "ELC361"
+            "ECE102"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4ce0000",
+      "id": "535d94df7261675342b80000",
+      "name": "user_7",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ENG452",
+            "ECE102",
+            "PER103",
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AGD393",
+            "REL120",
+            "EDAD556"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "INT170",
+            "ELC361",
+            "ARA102",
+            "HIS161"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "CLS201",
+            "MTT493",
+            "NUR334",
+            "BIO315"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "COUN560"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342b90000",
       "name": "user_8",
       "credits": 13,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "MTT493",
-            "AAE273"
+            "ENG452",
+            "ELC361"
           ]
         },
         {
           "priority": 1,
           "courses": [
+            "CLS201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ARA102",
+            "NUR334",
             "ECO320",
+            "CSC325"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHL370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MTT493",
+            "AAE492",
+            "BIO315"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342ba0000",
+      "name": "user_9",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PER103",
+            "FIN393",
+            "AAE492",
+            "ECE102"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHL370",
+            "HIS161",
             "COUN560"
           ]
         },
@@ -1439,45 +1412,117 @@
           "priority": 2,
           "courses": [
             "CLS201",
-            "VCPD555",
-            "PER103",
-            "REL120"
+            "ARA102",
+            "ELC361"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAE492"
+            "SPA311",
+            "NUR334"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "HES497",
-            "INT170",
-            "ARA102",
-            "AGD393"
+            "VCPD555",
+            "HES497"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4cf0000",
-      "name": "user_9",
-      "credits": 0,
+      "id": "535d94df7261675342bb0000",
+      "name": "user_10",
+      "credits": 6,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "PER103",
-            "CSC325"
+            "ECO320",
+            "NUR334",
+            "INT170",
+            "AAE273"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "NUR334",
+            "CLS201",
+            "BIO315",
+            "HIS161",
+            "SLP390"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "CSC325"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342bc0000",
+      "name": "user_11",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AGD393",
             "COUN560",
+            "AAE492",
+            "FIN393"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "SPA311",
+            "BIO315",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "INT170",
+            "PER103"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "VCPD555",
+            "ECE102"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ARA102"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342bd0000",
+      "name": "user_12",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "BIO315",
+            "HIS161"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PER103",
             "MTT493",
             "HES497"
           ]
@@ -1485,102 +1530,230 @@
         {
           "priority": 2,
           "courses": [
-            "AGD393",
-            "EDAD556",
-            "HIS161"
+            "CLS201",
+            "COUN560",
+            "ELC361",
+            "SPA311"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAE492",
-            "ECE102",
-            "SPA311"
+            "ARA102",
+            "ECO320"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "SLP390",
-            "ELC361"
+            "AAE273",
+            "ECE102",
+            "CSC325",
+            "AAE492"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4d00000",
-      "name": "user_10",
-      "credits": 13,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "VCPD555"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "HIS161",
-            "ENG452",
-            "ELC361"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "EDAD556",
-            "COUN560",
-            "MTT493"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "REL120",
-            "CSC325"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4d10000",
-      "name": "user_11",
+      "id": "535d94df7261675342be0000",
+      "name": "user_13",
       "credits": 4,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "ECE102",
-            "NUR334",
-            "ELC361",
-            "MTT493"
+            "VCPD555",
+            "SPA311"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAE492",
+            "ECE102",
             "BIO315",
-            "PHL370"
+            "INT170",
+            "MTT493"
           ]
         },
         {
           "priority": 2,
           "courses": [
+            "PER103",
+            "ELC361",
+            "ENG452"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342bf0000",
+      "name": "user_14",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "NUR334"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE273",
+            "ENG452"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "FIN393",
+            "EDAD556",
+            "AGD393",
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "REL120",
+            "ELC361",
+            "ECE102",
+            "CLS201"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PHL370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342c00000",
+      "name": "user_15",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ECE102"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "INT170"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "NUR334",
+            "AAE273",
+            "AAE492",
+            "REL120"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MTT493",
+            "SPA311"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "CSC325",
+            "PER103"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "CLS201",
+            "ENG452"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "PHL370",
+            "EDAD556",
+            "ELC361"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342c10000",
+      "name": "user_16",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE492",
+            "HES497",
             "INT170",
-            "ENG452",
+            "NUR334"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHL370",
+            "MTT493",
+            "ARA102",
+            "HIS161"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECE102",
             "SPA311"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "EDAD556"
+            "VCPD555",
+            "BIO315"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342c20000",
+      "name": "user_17",
+      "credits": 8,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "CLS201",
+            "SPA311",
+            "AAE273"
           ]
         },
         {
-          "priority": 4,
+          "priority": 1,
+          "courses": [
+            "PER103",
+            "CSC325",
+            "ECE102"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 3,
           "courses": [
             "ECO320"
           ]
@@ -1588,268 +1761,63 @@
       ]
     },
     {
-      "id": "535d92a872616730e4d20000",
-      "name": "user_12",
-      "credits": 7,
+      "id": "535d94df7261675342c30000",
+      "name": "user_18",
+      "credits": 9,
       "bins": [
         {
           "priority": 0,
           "courses": [
+            "BIO315",
+            "VCPD555",
             "PHL370",
-            "ENG452"
+            "REL120"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "MTT493",
-            "ELC361",
             "INT170"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "VCPD555",
-            "COUN560"
+            "HES497",
+            "HIS161",
+            "ECO320"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "EDAD556"
+            "NUR334"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342c40000",
+      "name": "user_19",
+      "credits": 3,
+      "bins": [
         {
-          "priority": 4,
+          "priority": 0,
           "courses": [
             "NUR334",
-            "SLP390",
-            "HIS161"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4d30000",
-      "name": "user_13",
-      "credits": 7,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "SPA311",
-            "HIS161"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "COUN560",
-            "CLS201",
-            "ARA102"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE492",
-            "ECE102"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "ENG452"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "PHL370",
-            "BIO315",
-            "EDAD556"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "INT170",
-            "REL120"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4d40000",
-      "name": "user_14",
-      "credits": 2,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "MTT493"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "PER103",
-            "AGD393",
-            "BIO315"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "HES497"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "REL120",
-            "ECE102",
-            "SPA311",
             "FIN393"
           ]
         },
         {
-          "priority": 4,
+          "priority": 1,
           "courses": [
-            "PHL370",
-            "COUN560"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "VCPD555",
             "EDAD556"
           ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4d50000",
-      "name": "user_15",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AGD393",
-            "CSC325"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "HES497",
-            "AAE273",
-            "CLS201"
-          ]
         },
         {
           "priority": 2,
           "courses": [
-            "ELC361",
-            "HIS161"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "MTT493",
-            "ECE102",
-            "PHL370"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "INT170"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "ENG452"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4d60000",
-      "name": "user_16",
-      "credits": 0,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "HES497",
-            "MTT493",
-            "INT170",
-            "SPA311"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "NUR334",
-            "FIN393",
-            "VCPD555"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "ARA102",
-            "BIO315",
-            "COUN560",
-            "ENG452"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "ECO320",
-            "AAE492"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "PER103",
-            "HIS161"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4d70000",
-      "name": "user_17",
-      "credits": 14,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "BIO315"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE492"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "MTT493",
-            "SLP390",
-            "CSC325",
-            "ELC361"
+            "ARA102"
           ]
         },
         {
@@ -1857,111 +1825,137 @@
           "courses": [
             "ECO320",
             "PHL370",
-            "AAE273"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4d80000",
-      "name": "user_18",
-      "credits": 14,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "FIN393",
-            "NUR334"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "HIS161",
-            "CSC325"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "REL120",
-            "EDAD556"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "MTT493",
             "AGD393"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "PHL370",
-            "HES497"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAE273",
-            "COUN560"
+            "CLS201",
+            "AAE492",
+            "ELC361"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4d90000",
-      "name": "user_19",
-      "credits": 2,
+      "id": "535d94df7261675342c50000",
+      "name": "user_20",
+      "credits": 14,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "REL120",
-            "FIN393"
+            "HIS161",
+            "COUN560",
+            "REL120"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "ENG452",
-            "COUN560",
+            "HES497",
+            "ECE102",
             "ECO320",
-            "INT170"
+            "NUR334"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "NUR334",
-            "ELC361"
+            "CLS201",
+            "ARA102"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "EDAD556"
+            "ENG452"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "HIS161",
-            "CLS201"
+            "ELC361"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "PHL370",
+            "VCPD555"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4da0000",
-      "name": "user_20",
-      "credits": 5,
+      "id": "535d94df7261675342c60000",
+      "name": "user_21",
+      "credits": 7,
       "bins": [
         {
           "priority": 0,
           "courses": [
+            "FIN393",
+            "ARA102"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "SLP390",
+            "COUN560",
+            "CSC325",
+            "EDAD556"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ENG452"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "NUR334"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE273",
+            "PER103"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "PHL370",
+            "AGD393",
+            "REL120"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAE492",
+            "ECE102"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342c70000",
+      "name": "user_22",
+      "credits": 12,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "INT170",
+            "VCPD555",
+            "CLS201",
             "COUN560"
           ]
         },
@@ -1969,306 +1963,265 @@
           "priority": 1,
           "courses": [
             "BIO315",
-            "SLP390",
-            "ECO320"
+            "PER103",
+            "AAE492"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "INT170",
-            "PER103",
-            "MTT493",
-            "EDAD556"
+            "PHL370",
+            "HES497"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "HES497"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4db0000",
-      "name": "user_21",
-      "credits": 5,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "ENG452",
-            "CLS201",
-            "BIO315",
-            "SPA311"
+            "AAE273",
+            "REL120"
           ]
         },
         {
-          "priority": 1,
+          "priority": 4,
           "courses": [
             "ECO320",
-            "MTT493"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "FIN393",
             "EDAD556",
-            "ECE102",
-            "AAE492"
+            "ENG452",
+            "SPA311"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4dc0000",
-      "name": "user_22",
+      "id": "535d94df7261675342c80000",
+      "name": "user_23",
       "credits": 14,
       "bins": [
         {
           "priority": 0,
           "courses": [
             "CSC325",
-            "HIS161",
-            "ECE102"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "COUN560",
-            "AAE273",
-            "FIN393"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "ENG452",
-            "HES497"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4dd0000",
-      "name": "user_23",
-      "credits": 12,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "PER103",
-            "AAE492",
-            "VCPD555"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ARA102",
-            "BIO315",
-            "SLP390",
-            "HIS161"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "ELC361"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4de0000",
-      "name": "user_24",
-      "credits": 9,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "HIS161"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "INT170"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE492",
-            "SPA311",
-            "AAE273",
-            "COUN560"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "ENG452",
-            "BIO315"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "VCPD555",
-            "PER103",
-            "NUR334"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "ECE102",
-            "ELC361"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4df0000",
-      "name": "user_25",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "VCPD555"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AGD393",
-            "PER103"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "NUR334",
-            "HES497",
-            "AAE492",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
             "MTT493",
-            "ARA102"
+            "HES497",
+            "CLS201"
           ]
         },
         {
-          "priority": 4,
+          "priority": 1,
           "courses": [
-            "HIS161"
+            "AAE492",
+            "COUN560",
+            "ELC361"
           ]
         },
         {
-          "priority": 5,
-          "courses": [
-            "PHL370",
-            "BIO315"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d92a872616730e4e00000",
-      "name": "user_26",
-      "credits": 13,
-      "bins": [
-        {
-          "priority": 0,
+          "priority": 2,
           "courses": [
             "EDAD556",
-            "MTT493",
-            "AGD393",
-            "CSC325"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "VCPD555",
-            "HES497",
-            "INT170"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE492",
-            "ECO320",
+            "PHL370",
             "REL120"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "CLS201"
+            "VCPD555",
+            "NUR334"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342c90000",
+      "name": "user_24",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AGD393"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "HIS161"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "CSC325",
+            "MTT493"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "FIN393"
           ]
         },
         {
           "priority": 4,
           "courses": [
+            "PER103",
+            "COUN560",
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "CLS201",
+            "ELC361",
+            "NUR334"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "ENG452",
+            "INT170"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "BIO315",
+            "EDAD556"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342ca0000",
+      "name": "user_25",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "NUR334",
+            "HIS161",
+            "ARA102"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE492",
+            "ENG452",
+            "SPA311",
+            "ECE102"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "BIO315"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "SLP390",
+            "COUN560",
+            "FIN393"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PER103",
+            "INT170"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "REL120"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d94df7261675342cb0000",
+      "name": "user_26",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ENG452",
+            "SLP390"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "VCPD555",
+            "INT170",
+            "ELC361",
+            "REL120"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PER103",
+            "CLS201",
             "PHL370",
-            "AAE273",
+            "HES497"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
             "COUN560"
           ]
         },
         {
           "priority": 5,
           "courses": [
-            "ELC361"
+            "AGD393",
+            "EDAD556"
           ]
         }
       ]
     },
     {
-      "id": "535d92a872616730e4e10000",
+      "id": "535d94df7261675342cc0000",
       "name": "user_27",
-      "credits": 1,
+      "credits": 10,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "EDAD556",
-            "ENG452",
-            "ECE102",
-            "AAE273"
+            "CSC325",
+            "REL120"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AGD393",
-            "AAE492",
-            "REL120",
-            "ECO320"
+            "SPA311",
+            "MTT493",
+            "ECO320",
+            "ELC361"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "FIN393",
-            "PHL370",
-            "VCPD555",
-            "ELC361"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "SLP390"
+            "PER103",
+            "CLS201",
+            "ARA102"
           ]
         }
       ]

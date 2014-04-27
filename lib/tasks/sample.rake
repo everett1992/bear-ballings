@@ -84,6 +84,12 @@ namespace :sample do
     File.open(output_filename, 'w') do |f|
       output.lines.each { |l| f.write l }
     end
+
+    puts "Scheduling users"
+
+    tester = File.join Rails.root, 'algorithm', 'tester.py'
+    puts %x{python2.7 #{tester} #{output_filename}}
+    puts "wrote users schedules to output.txt, probably"
   end
 
   # Returns a fiber that gives the next avaliable course time.
