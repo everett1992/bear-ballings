@@ -4,6 +4,8 @@ class Course
   field :d, as: :department, type: String
   field :n, as: :number,     type: Integer
   field :t, as: :title,      type: String
+  field :_id, type: String, default: -> { "#{department}#{number}" }
+
   embeds_many :lectures
   #has_and_belongs_to_many :bins
 
