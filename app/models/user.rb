@@ -5,6 +5,9 @@ class User
   include Mongoid::Document
   field :n, as: :name, type: String
   field :c, as: :credits, type: Integer
+
+  # Used to distinqush real users from generated sample data.
+  field :f, as: :fake, type: Boolean, default: false
   embeds_many :bins
 
   # Validates that no bin has duplicate courses.

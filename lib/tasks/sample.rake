@@ -1,25 +1,25 @@
 namespace :sample do
+  NUM_USERS         = 30
+  NUM_COURSES       = 25
+  USER_COURSE_RANGE = 8..16
+  BIN_RANGE         = 1..4
+  CREDIT_RANGE      = 0..15
   # This task generates user course selections to test the scheduling algo.
   desc "Output list of fake data to a file"
   task :selections => :environment do
-    num_users         = 30
-    num_courses       = 10
-    user_course_range = 8..16
-    bin_range         = 1..4
-    credit_range      = 0..15
 
-    # Select 100 courses.
-    courses = Course.limit(num_courses).to_a
+    # Select NUM_COURSes courses.
+    courses = Course.limit(NUM_COURSES).to_a
     courses = set_course_times(courses)
 
     # Create 30 users.
-    users = num_users.times.map do |x|
-      User.create(name: "user_#{x}", credits: rand(credit_range))
+    users = NUM_USERS.times.map do |x|
+      User.create(name: "user_#{x}", credits: rand(CREDIT_RANGE), fake: true)
     end
 
     # Add 8 to 16 courses in bins of 1 to 4 to each user.
     users.each do |user|
-      add_random_courses(user, courses, user_course_range, bin_range)
+      add_random_courses(user, courses, USER_COURSE_RANGE, BIN_RANGE)
     end
 
     # Generate json.
@@ -49,6 +49,40 @@ namespace :sample do
     output_filename = File.join Rails.root, 'lib', 'assets', 'sample.txt'
     File.open(output_filename, 'w') do |f|
       output.lines.each { |line| f.write line }
+    end
+  end
+
+  desc "Schedules real users padding with fake data"
+  task :schedule => :environment do
+
+    # List of courses in any real users bins.
+    courses = User.each.map { |user| user.courses }.flatten.uniq
+    # Pad the list with random other courses so there are NUM_COURSES
+    courses += (Course.all.to_a - courses).shuffle.take(NUM_COURSES - courses.count)
+    set_course_times(courses)
+
+    # List of test users. NOTE: expand this to include others besides eric and caleb?
+    users = User.where(fake: false)
+
+    pad_users = (NUM_USERS - users.count).times.map do |x|
+      User.create(name: "user_#{x}", credits: rand(CREDIT_RANGE), fake: true)
+    end
+
+    # Add 8 to 16 courses in bins of 1 to 4 to each fake user.
+    pad_users.each do |user|
+      add_random_courses(user, courses, USER_COURSE_RANGE, BIN_RANGE)
+    end
+
+    # Pad users with fake users til there are NUM_USERS.
+    users += pad_users
+
+    # Generate json.
+    output = to_json(users, courses)
+
+    # Write the file to /lib/assets/selections.txt'.
+    output_filename = File.join Rails.root, 'lib', 'assets', 'selections.txt'
+    File.open(output_filename, 'w') do |f|
+      output.lines.each { |l| f.write l }
     end
   end
 
@@ -143,6 +177,7 @@ namespace :sample do
 
       json.users users do |user|
         json.id user.id.to_s
+        json.name user.name.to_s
         json.credits user.credits
         json.bins user.bins do |bin|
           json.priority user.bins.index(bin)

@@ -5,14 +5,40 @@
       "title": "SOPH PROFESSIONAL EXPERIENCE",
       "classes": [
         {
-          "seats": 17,
+          "seats": 23,
           "meeting1": {
-            "day": 4,
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 3,
             "starttime": "1230",
             "endtime": "1350"
           },
           "meeting2": {
-            "day": 4,
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 1,
             "starttime": "1230",
             "endtime": "1350"
           }
@@ -24,7 +50,7 @@
       "title": "PRINTMAKING FOR ART EDUCATION",
       "classes": [
         {
-          "seats": 24,
+          "seats": 15,
           "meeting1": {
             "day": 1,
             "starttime": "1400",
@@ -32,6 +58,45 @@
           },
           "meeting2": {
             "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 4,
             "starttime": "1400",
             "endtime": "1520"
           }
@@ -43,14 +108,53 @@
       "title": "ORIENTATION TO ART THERAPY",
       "classes": [
         {
-          "seats": 21,
+          "seats": 18,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 15,
           "meeting1": {
             "day": 1,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 1,
+            "day": 3,
             "starttime": "1000",
             "endtime": "1120"
           }
@@ -62,29 +166,29 @@
       "title": "METHODS IN ART THERAPY",
       "classes": [
         {
-          "seats": 20,
+          "seats": 22,
           "meeting1": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
           }
         },
         {
-          "seats": 25,
+          "seats": 15,
           "meeting1": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
           },
           "meeting2": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
           }
         }
       ]
@@ -96,31 +200,44 @@
         {
           "seats": 16,
           "meeting1": {
-            "day": 2,
+            "day": 1,
             "starttime": "1230",
             "endtime": "1350"
           },
           "meeting2": {
-            "day": 2,
+            "day": 4,
             "starttime": "1230",
             "endtime": "1350"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         },
         {
           "seats": 20,
           "meeting1": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
-            "day": 5,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         },
         {
-          "seats": 16,
+          "seats": 15,
           "meeting1": {
             "day": 2,
             "starttime": "1700",
@@ -128,19 +245,6 @@
           },
           "meeting2": {
             "day": 5,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 16,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 3,
             "starttime": "1700",
             "endtime": "1820"
           }
@@ -152,7 +256,20 @@
       "title": "ART TECHNIQUES IN THE ELEM SCH",
       "classes": [
         {
-          "seats": 20,
+          "seats": 17,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 25,
           "meeting1": {
             "day": 5,
             "starttime": "1000",
@@ -165,18 +282,95 @@
           }
         },
         {
-          "seats": 18,
+          "seats": 15,
           "meeting1": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
           },
           "meeting2": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
           }
         },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE374",
+      "title": "ART TECHNIQUES IN THE SECOND SCH",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 25,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 21,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE375",
+      "title": "PRINC, PRACT & MATER IN ART ED",
+      "classes": [
         {
           "seats": 21,
           "meeting1": {
@@ -189,36 +383,24 @@
             "starttime": "1700",
             "endtime": "1820"
           }
-        }
-      ]
-    },
-    {
-      "id": "AAE374",
-      "title": "ART TECHNIQUES IN THE SECOND SCH",
-      "classes": [
+        },
         {
-          "seats": 15,
+          "seats": 20,
           "meeting1": {
             "day": 2,
-            "starttime": "1000",
-            "endtime": "1120"
+            "starttime": "1700",
+            "endtime": "1820"
           },
           "meeting2": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        }
-      ]
-    },
-    {
-      "id": "AAE375",
-      "title": "PRINC, PRACT & MATER IN ART ED",
-      "classes": [
-        {
-          "seats": 25,
-          "meeting1": {
             "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 21,
+          "meeting1": {
+            "day": 5,
             "starttime": "1230",
             "endtime": "1350"
           },
@@ -226,45 +408,6 @@
             "day": 5,
             "starttime": "1230",
             "endtime": "1350"
-          }
-        },
-        {
-          "seats": 25,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
-          "seats": 25,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 19,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
           }
         }
       ]
@@ -281,9 +424,35 @@
             "endtime": "1350"
           },
           "meeting2": {
-            "day": 5,
+            "day": 2,
             "starttime": "1230",
             "endtime": "1350"
+          }
+        },
+        {
+          "seats": 21,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         }
       ]
@@ -293,7 +462,97 @@
       "title": "STUDENT TEACHING IN ART",
       "classes": [
         {
-          "seats": 23,
+          "seats": 18,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE491",
+      "title": "GLOBAL STUDENT TEACHING ART",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE492",
+      "title": "ART ED STUDENT TEACH SEMINAR",
+      "classes": [
+        {
+          "seats": 18,
           "meeting1": {
             "day": 3,
             "starttime": "1700",
@@ -306,7 +565,142 @@
           }
         },
         {
+          "seats": 21,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH105",
+      "title": "ART HIST I: CAVES TO CATHEDRALS",
+      "classes": [
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
           "seats": 16,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH106",
+      "title": "ART HIST II:RENAISSANCE TO REVOL",
+      "classes": [
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH201",
+      "title": "ART OF GREECE",
+      "classes": [
+        {
+          "seats": 21,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 18,
           "meeting1": {
             "day": 5,
             "starttime": "1700",
@@ -314,6 +708,352 @@
           },
           "meeting2": {
             "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 25,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH202",
+      "title": "ART OF ROME",
+      "classes": [
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH215",
+      "title": "ARTS OF SOUTH ASIA",
+      "classes": [
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH216",
+      "title": "ARTS OF EAST ASIA",
+      "classes": [
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH217",
+      "title": "ARTS OF THE ISLAMIC WORLD",
+      "classes": [
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH232",
+      "title": "ARTS OF MEDIEVAL EUROPE",
+      "classes": [
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH242",
+      "title": "ARTS OF RENAISSANCE EUROPE",
+      "classes": [
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH248",
+      "title": "AMERICAN ART",
+      "classes": [
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH252",
+      "title": "20TH CENTURY ART",
+      "classes": [
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH262",
+      "title": "LANDMARKS: EXPLORATIONS IN ART AND CULTURE",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH270",
+      "title": "TOPICS IN ART HISTORY",
+      "classes": [
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 1,
             "starttime": "1700",
             "endtime": "1820"
           }
@@ -323,1125 +1063,1407 @@
   ],
   "users": [
     {
-      "id": "535d823c726167551d3c0000",
-      "credits": 9,
+      "id": "535d90387261671101d20000",
+      "name": "user_0",
+      "credits": 15,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE391",
-            "AAE370",
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE375",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE355",
-            "AAE374"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE373",
-            "AAE302"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d3d0000",
-      "credits": 13,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE273",
-            "AAE370",
-            "AAE375",
-            "AAE374"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE350",
-            "AAE355",
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE302"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d3e0000",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE355"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE373"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE490",
+            "AAH262",
             "AAE302",
-            "AAE370"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE375",
-            "AAE391",
-            "AAE374",
-            "AAE350"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d3f0000",
-      "credits": 8,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE370"
+            "AAH201",
+            "AAE491"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAE355"
+            "AAE355",
+            "AAH252",
+            "AAH216"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAE273",
-            "AAE391",
-            "AAE375"
+            "AAE492"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE490",
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAE374"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "AAE373"
+            "AAH105",
+            "AAH217",
+            "AAH270"
           ]
         }
       ]
     },
     {
-      "id": "535d823c726167551d400000",
-      "credits": 11,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE375",
-            "AAE374",
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE490",
-            "AAE355",
-            "AAE273",
-            "AAE370"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE350",
-            "AAE373",
-            "AAE302"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d410000",
-      "credits": 5,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE355",
-            "AAE373",
-            "AAE391",
-            "AAE375"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE374",
-            "AAE302",
-            "AAE490",
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE273",
-            "AAE370"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d420000",
+      "id": "535d90387261671101d30000",
+      "name": "user_1",
       "credits": 10,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAE370",
-            "AAE490",
-            "AAE391"
+            "AAH217"
           ]
         },
         {
           "priority": 1,
-          "courses": [
-            "AAE375",
-            "AAE350",
-            "AAE302",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 2,
           "courses": [
             "AAE374",
-            "AAE355"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d430000",
-      "credits": 13,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE350",
-            "AAE302",
+            "AAE373",
+            "AAH106",
             "AAE391"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE370"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAE375",
             "AAE273",
-            "AAE355"
+            "AAH242",
+            "AAH215"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAE373",
-            "AAE490",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH262"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101d40000",
+      "name": "user_2",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH217",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE391",
+            "AAE492",
+            "AAH215",
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH242",
+            "AAH248"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE350",
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE302",
+            "AAE273"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101d50000",
+      "name": "user_3",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH201",
+            "AAH105",
+            "AAH242"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE491",
+            "AAH217",
+            "AAE492",
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH232"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101d60000",
+      "name": "user_4",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE491",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH215"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH262",
+            "AAE375",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE350",
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE273",
+            "AAE391",
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAH106",
             "AAE374"
           ]
         }
       ]
     },
     {
-      "id": "535d823c726167551d440000",
+      "id": "535d90387261671101d70000",
+      "name": "user_5",
+      "credits": 13,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH217",
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE273",
+            "AAE491",
+            "AAE373",
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE302",
+            "AAH106"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE374",
+            "AAE492",
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAH242",
+            "AAE391",
+            "AAH232"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101d80000",
+      "name": "user_6",
       "credits": 1,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAE355",
+            "AAE491"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH217",
             "AAE375",
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE273",
-            "AAE370",
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE373",
-            "AAE391",
-            "AAE302",
-            "AAE374"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d450000",
-      "credits": 4,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE370"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE302",
-            "AAE374",
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE350",
             "AAE355"
           ]
         },
         {
-          "priority": 3,
-          "courses": [
-            "AAE373"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE490",
-            "AAE273",
-            "AAE375"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d460000",
-      "credits": 11,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE374"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE273",
-            "AAE355",
-            "AAE490",
-            "AAE375"
-          ]
-        },
-        {
           "priority": 2,
           "courses": [
-            "AAE373"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE350",
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE370"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAE391"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d470000",
-      "credits": 7,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE374"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE391",
+            "AAE490",
+            "AAE373",
+            "AAH270",
             "AAE350"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAE302",
-            "AAE355",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE373",
-            "AAE375",
-            "AAE370"
+            "AAH105"
           ]
         }
       ]
     },
     {
-      "id": "535d823c726167551d480000",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE302",
-            "AAE391",
-            "AAE374",
-            "AAE375"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE373",
-            "AAE350",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE370",
-            "AAE355"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d490000",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE373",
-            "AAE375",
-            "AAE302",
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE370",
-            "AAE391",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE374",
-            "AAE355"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d4a0000",
-      "credits": 13,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE374",
-            "AAE490",
-            "AAE375",
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE370",
-            "AAE273",
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE302",
-            "AAE373",
-            "AAE355"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d4b0000",
-      "credits": 9,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE490",
-            "AAE350",
-            "AAE355",
-            "AAE373"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE375",
-            "AAE370"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE391",
-            "AAE374"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d4c0000",
-      "credits": 8,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE350",
-            "AAE373",
-            "AAE375"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE490",
-            "AAE370",
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE374"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE355",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE302"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d4d0000",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE373",
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE302",
-            "AAE375",
-            "AAE370"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE374"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d4e0000",
-      "credits": 7,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE374",
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE391",
-            "AAE375",
-            "AAE350",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE373",
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE355"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE370"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d4f0000",
-      "credits": 12,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE375"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE370",
-            "AAE302",
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE374"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE391",
-            "AAE373",
-            "AAE273",
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE355"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d500000",
-      "credits": 5,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE375"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE355",
-            "AAE374",
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE370",
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAE373",
-            "AAE273"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d510000",
-      "credits": 5,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE373",
-            "AAE355"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE374",
-            "AAE273",
-            "AAE302"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE350",
-            "AAE370",
-            "AAE490",
-            "AAE375"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d520000",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE350"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE374",
-            "AAE373",
-            "AAE375"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE355",
-            "AAE302",
-            "AAE273"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE490",
-            "AAE370",
-            "AAE391"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d530000",
-      "credits": 4,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE302",
-            "AAE273",
-            "AAE370"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE490",
-            "AAE350",
-            "AAE391"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE373",
-            "AAE355"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE375",
-            "AAE374"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d540000",
-      "credits": 8,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE350",
-            "AAE373",
-            "AAE273",
-            "AAE355"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE490",
-            "AAE375"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE391",
-            "AAE374",
-            "AAE370"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE302"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d550000",
+      "id": "535d90387261671101d90000",
+      "name": "user_7",
       "credits": 2,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAE350",
-            "AAE391",
-            "AAE302",
-            "AAE355"
+            "AAE375",
+            "AAE491",
+            "AAE492"
           ]
         },
         {
           "priority": 1,
           "courses": [
+            "AAH232"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH201",
+            "AAE490",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH262",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH106"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH242"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "AAH202",
+            "AAH105"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101da0000",
+      "name": "user_8",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE391",
+            "AAH202",
+            "AAH105",
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH106"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH215",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
             "AAE374",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
             "AAE375",
+            "AAH201",
+            "AAH232"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101db0000",
+      "name": "user_9",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH248"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE273",
+            "AAH262",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH216",
+            "AAH201",
+            "AAH215"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE492",
+            "AAE375",
+            "AAE491",
+            "AAH252"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101dc0000",
+      "name": "user_10",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE273",
+            "AAH252",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH248",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH216",
+            "AAE492",
+            "AAE370",
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE490",
+            "AAH106"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE350",
+            "AAE491",
+            "AAE355"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101dd0000",
+      "name": "user_11",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE373",
+            "AAE350",
+            "AAH262"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH232",
+            "AAH201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH217",
+            "AAE491",
+            "AAH242"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH215",
+            "AAH248",
+            "AAE370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101de0000",
+      "name": "user_12",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE302",
+            "AAH105",
             "AAE273"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAE370"
+            "AAE492",
+            "AAH201"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "AAE373",
-            "AAE490"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535d823c726167551d560000",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAE370",
-            "AAE375",
-            "AAE302",
-            "AAE490"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAE374"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAE273",
-            "AAE391",
-            "AAE355"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAE350"
+            "AAH248",
+            "AAH216",
+            "AAH242"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "AAE373"
+            "AAE355",
+            "AAE370"
           ]
         }
       ]
     },
     {
-      "id": "535d823c726167551d570000",
-      "credits": 8,
+      "id": "535d90387261671101df0000",
+      "name": "user_13",
+      "credits": 10,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAE302",
-            "AAE490",
-            "AAE374",
-            "AAE370"
+            "AAE273",
+            "AAH105",
+            "AAE490"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAE373"
+            "AAH201",
+            "AAE391",
+            "AAE374"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAE391",
-            "AAE375"
+            "AAH270"
           ]
         },
         {
           "priority": 3,
           "courses": [
+            "AAE302",
+            "AAH217"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE492",
+            "AAH106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e00000",
+      "name": "user_14",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH242",
+            "AAH106",
+            "AAH252",
+            "AAH215"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE350",
+            "AAH248",
+            "AAH201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE370",
+            "AAE355",
+            "AAH216",
+            "AAH262"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e10000",
+      "name": "user_15",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH232",
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE355",
+            "AAE370",
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
             "AAE273",
+            "AAH106",
+            "AAH215",
+            "AAH252"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH242"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e20000",
+      "name": "user_16",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE490",
+            "AAH232",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH201",
+            "AAH106"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE302",
+            "AAH262",
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH242"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE492"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e30000",
+      "name": "user_17",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH248",
+            "AAE375",
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE373",
+            "AAE273",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH215",
+            "AAE370",
+            "AAH232",
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH252",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE355",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH105"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e40000",
+      "name": "user_18",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH215",
+            "AAH242",
+            "AAH105",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE350",
+            "AAH201",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE492",
+            "AAE355",
+            "AAE302",
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE490",
+            "AAH106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e50000",
+      "name": "user_19",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH248",
+            "AAH262",
+            "AAH215",
+            "AAH252"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH106",
+            "AAE302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e60000",
+      "name": "user_20",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE490",
+            "AAH106",
+            "AAH217"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE492",
+            "AAH252"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE374",
+            "AAH242",
+            "AAE491"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE350",
+            "AAH248",
+            "AAH216",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
             "AAE355"
           ]
         }
       ]
     },
     {
-      "id": "535d823c726167551d580000",
-      "credits": 15,
+      "id": "535d90387261671101e70000",
+      "name": "user_21",
+      "credits": 9,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAE273",
-            "AAE374",
-            "AAE302"
+            "AAH232",
+            "AAH262",
+            "AAE491"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAE375",
-            "AAE391",
-            "AAE373",
-            "AAE355"
+            "AAH201",
+            "AAH202"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAE370",
+            "AAE492",
             "AAE350",
+            "AAE355",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH216",
+            "AAE490",
+            "AAE370",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH217"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e80000",
+      "name": "user_22",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH215",
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE491",
+            "AAH201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE355",
+            "AAH202"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE374",
+            "AAH105"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE492",
+            "AAH242",
+            "AAE273"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101e90000",
+      "name": "user_23",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH252",
+            "AAH242",
+            "AAH201",
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH232",
+            "AAE375",
+            "AAH248"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH106"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH270",
+            "AAE492",
+            "AAH202"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH217"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
             "AAE490"
           ]
         }
       ]
     },
     {
-      "id": "535d823c726167551d590000",
-      "credits": 15,
+      "id": "535d90387261671101ea0000",
+      "name": "user_24",
+      "credits": 13,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "AAE373",
-            "AAE375"
+            "AAE391",
+            "AAH106",
+            "AAE370"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "AAE350",
-            "AAE273",
-            "AAE355"
+            "AAE490",
+            "AAH252"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "AAE370",
-            "AAE302",
-            "AAE374"
+            "AAH201",
+            "AAE355",
+            "AAH270",
+            "AAE492"
           ]
         },
         {
           "priority": 3,
           "courses": [
+            "AAH242",
+            "AAE273",
+            "AAH202",
+            "AAH248"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE350",
+            "AAH216",
+            "AAH262"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101eb0000",
+      "name": "user_25",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH242"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH217"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH248",
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH270",
+            "AAE373",
+            "AAH105",
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH202",
+            "AAE302",
+            "AAH252"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101ec0000",
+      "name": "user_26",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH217",
+            "AAE374",
+            "AAE375",
+            "AAH201"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH252"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE273",
+            "AAH248"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE302",
+            "AAH216",
+            "AAH202",
+            "AAH215"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE355",
+            "AAH105",
+            "AAE391",
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101ed0000",
+      "name": "user_27",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH232"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH106",
+            "AAH215",
+            "AAE350",
+            "AAE491"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
             "AAE490",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE374",
+            "AAH248",
             "AAE391"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH201"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE370",
+            "AAH216"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAH105",
+            "AAE302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101ee0000",
+      "name": "user_28",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH106",
+            "AAE273",
+            "AAH262"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE490",
+            "AAH216",
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH252",
+            "AAH270"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH105",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAE375",
+            "AAH242"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "AAE350"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535d90387261671101ef0000",
+      "name": "user_29",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH242",
+            "AAE492"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE350",
+            "AAH262"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH216",
+            "AAE374",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE491"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH232"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAE273",
+            "AAH217",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "AAE355"
           ]
         }
       ]
