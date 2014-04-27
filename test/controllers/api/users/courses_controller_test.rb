@@ -26,7 +26,7 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     login User.first
     id = "THIS WILL NEVER BE A COURSE ID. THAT'S NOT HOW THOSE WORK. THIS SHOULD BE SAFE BY NOW"
     post :create, {format: :json, _id: id}
-    assert_response :not_found
+    assert_response :unprocessable_entity
     assert_equal "No course matching id #{id} was found", JSON.parse(response.body)['error']
   end
 
@@ -116,7 +116,7 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     login User.first
     id = "THIS WILL NEVER BE A COURSE ID. THAT'S NOT HOW THOSE WORK. THIS SHOULD BE SAFE BY NOW"
     delete :destroy, {format: :json, _id: id}
-    assert_response :not_found
+    assert_response :unprocessable_entity
     assert_equal "No course matching id #{id} was found", JSON.parse(response.body)['error']
   end
 
@@ -126,7 +126,7 @@ class Api::Users::CoursesControllerTest < ActionController::TestCase
     user.bins.destroy_all
     user.add_course(Course.first)
     delete :destroy, {format: :json, _id: Course.last._id}
-    assert_response :not_found
+    assert_response :unprocessable_entity
     assert_equal "User has no course matching id #{Course.last._id}", JSON.parse(response.body)['error']
   end
    

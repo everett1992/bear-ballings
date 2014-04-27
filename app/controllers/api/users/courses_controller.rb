@@ -34,7 +34,7 @@ class Api::Users::CoursesController < Api::Users::UserController
           render json: nil, status: :no_content
         end
       else
-        render json: {error: "User has no course matching id #{course._id}"}, status: :not_found
+        render json: {error: "User has no course matching id #{course._id}"}, status: :unprocessable_entity
       end
     end
   end
@@ -48,7 +48,7 @@ class Api::Users::CoursesController < Api::Users::UserController
     end
     course = Course.where(_id: _id).first
     if course.nil?
-      render json: {error: "No course matching id #{_id} was found"}, status: :not_found
+      render json: {error: "No course matching id #{_id} was found"}, status: :unprocessable_entity
       return nil
     end
     return course
@@ -60,7 +60,7 @@ class Api::Users::CoursesController < Api::Users::UserController
       @bin = @user.bins[bin_idx]
       @user.add_course(course, @bin)
     else
-      render json: {error: "Index out of range, must be between 0 and #{@user.bins.count}"}, status: :not_found
+      render json: {error: "Index out of range, must be between 0 and #{@user.bins.count}"}, status: :unprocessable_entity
     end
   end
 
@@ -69,7 +69,7 @@ class Api::Users::CoursesController < Api::Users::UserController
       before_bin = @user.bins[bin_idx]
       @bin = @user.create_bin_before(course, before_bin)
     else
-      render json: {error: "Index out of range, must be between 0 and #{@user.bins.count}"}, status: :not_found
+      render json: {error: "Index out of range, must be between 0 and #{@user.bins.count}"}, status: :unprocessable_entity
     end
   end
 end
