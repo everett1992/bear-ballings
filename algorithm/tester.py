@@ -24,7 +24,7 @@ args = sys.argv
 filename = args[min(1,len(args)-1)] #get filename as either first parameter, or return calling function
 
 #definition of a user
-User = collections.namedtuple("User", ["buckets", "classes", "credits", "id"])
+User = collections.namedtuple("User", ["buckets", "classes", "credits", "id", "name"])
 
 #definition of a class
 Class = collections.namedtuple("Class", ["id", "course_id", "seats", "day", "start_time", "end_time", "day2", "start_time2", "end_time2"])
@@ -61,6 +61,7 @@ for user in data["users"]:
     thisid = str(user["id"]) #get user id
     thisuserbin = [] #buckets fro the user
     thiscred = int(user["credits"]) #credits/priority level
+    thisname = str(user["name"])
     #make the initial list
     
     for bi in user["bins"]:
@@ -75,7 +76,7 @@ for user in data["users"]:
         thisuserbin.insert(0,thisbin)
 
     #make the user here, need credits
-    global_users.append(User(thisuserbin, [], thiscred, thisid))
+    global_users.append(User(thisuserbin, [], thiscred, thisid, thisname))
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -168,7 +169,8 @@ classlist = [r.classes for r in results[bestindex]] #get the classes for each pe
 student_n = 0
 for p in classlist:
     #start dumping
-    outfile.write(str(global_users[student_n].id)) #write index of student, same as in input file, same order
+    # Write name and id of student, same as in input file, same order.
+    outfile.write(str(global_users[student_n].name) + " "  + str(global_users[student_n].id))
     outfile.write('\n')
     for c in p:
         outfile.write(str(c)) #write each class the user takes
