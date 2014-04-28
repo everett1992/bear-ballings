@@ -58,23 +58,27 @@ namespace :sample do
     # List of courses in any real users bins.
     courses = User.each.map { |user| user.courses }.flatten.uniq
     # Pad the list with random other courses so there are NUM_COURSES
-    courses += (Course.all.to_a - courses).shuffle.take(NUM_COURSES - courses.count)
+    if courses.count < NUM_COURSES
+      courses += (Course.all.to_a - courses).shuffle.take(NUM_COURSES - courses.count)
+    end
     set_course_times(courses)
 
     # List of test users with courses in their bins.
     users = User.where(fake: false).for_js('this.bins')
 
-    pad_users = (NUM_USERS - users.count).times.map do |x|
-      User.create(name: "user_#{x}", name: "User #{x}", credits: rand(CREDIT_RANGE), fake: true)
-    end
+    if users.count < NUM_USERS
+      pad_users = (NUM_USERS - users.count).times.map do |x|
+        User.create(name: "user_#{x}", name: "User #{x}", credits: rand(CREDIT_RANGE), fake: true)
+      end
 
-    # Add 8 to 16 courses in bins of 1 to 4 to each fake user.
-    pad_users.each do |user|
-      add_random_courses(user, courses, USER_COURSE_RANGE, BIN_RANGE)
-    end
+      # Add 8 to 16 courses in bins of 1 to 4 to each fake user.
+      pad_users.each do |user|
+        add_random_courses(user, courses, USER_COURSE_RANGE, BIN_RANGE)
+      end
 
-    # Pad users with fake users til there are NUM_USERS.
-    users += pad_users
+      # Pad users with fake users til there are NUM_USERS.
+      users += pad_users
+    end
 
     # Generate json.
     output = to_json(users, courses)
