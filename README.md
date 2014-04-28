@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+[Getting Started With Rails](http://guides.rubyonrails.org/index.html)
+
 Run these commands in order to begin development.
 
 | Command           | Desc                                                          |
@@ -34,14 +36,14 @@ the repository.
 
 ## Running the scheduler
 
-run `rake sample:schedule` to schedule all users in the database. Results
-are output to `output.txt`
+run `rake sample:schedule` to schedule all users in the database.
+If there are less than 30 real users the task generates fake users.
+Results are output to `output.txt`.
 
 ## Api Endpoints
 
 | Url                      | Desc                                                                                        |
 | ------------------------ | ------------------------------------------------------------------------------------------- |
-| GET `/api/teapot`        | Is a teapot.                                                                                |
 | GET `/api/departments`   | List of all departments with courses in the database                                        |
 | GET `/api/courses`       | List of all courses, accepts `limit`, `offset`, and `department` params                     |
 | POST `/api/login`        | Logs in the first user with username `user_name` NOTE: we'll add passwords later            |
@@ -49,6 +51,7 @@ are output to `output.txt`
 | GET `/api/user/courses`  | List of a users current bins and courses.                                                   |
 | POST `/api/user/courses` | Add courses and bins to the current user. Accepts `_id`, `to_bin`, and `before_bin` params. |
 | DELETE `/api/user/courses` | Removes course from user's courses. Will delete a bin if it is the last course. Accepts `_id` params. |
+| GET `/api/teapot`        | Is a teapot.                                                                                |
 
 
 ### POST `/api/user/courses`
