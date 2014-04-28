@@ -4,6 +4,7 @@
 class User
   include Mongoid::Document
   field :n, as: :name, type: String
+  field :l, as: :login, type: String
   field :c, as: :credits, type: Integer, default: 8
 
   # Used to distinqush real users from generated sample data.

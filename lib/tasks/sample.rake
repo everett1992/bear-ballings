@@ -14,7 +14,7 @@ namespace :sample do
 
     # Create 30 users.
     users = NUM_USERS.times.map do |x|
-      User.create(name: "user_#{x}", credits: rand(CREDIT_RANGE), fake: true)
+      User.create(login: "user_#{x}", name: "User #{x}", credits: rand(CREDIT_RANGE), fake: true)
     end
 
     # Add 8 to 16 courses in bins of 1 to 4 to each user.
@@ -61,11 +61,11 @@ namespace :sample do
     courses += (Course.all.to_a - courses).shuffle.take(NUM_COURSES - courses.count)
     set_course_times(courses)
 
-    # List of test users. NOTE: expand this to include others besides eric and caleb?
-    users = User.where(fake: false)
+    # List of test users with courses in their bins.
+    users = User.where(fake: false).for_js('this.bins')
 
     pad_users = (NUM_USERS - users.count).times.map do |x|
-      User.create(name: "user_#{x}", credits: rand(CREDIT_RANGE), fake: true)
+      User.create(name: "user_#{x}", name: "User #{x}", credits: rand(CREDIT_RANGE), fake: true)
     end
 
     # Add 8 to 16 courses in bins of 1 to 4 to each fake user.
@@ -183,6 +183,7 @@ namespace :sample do
 
       json.users users do |user|
         json.id user.id.to_s
+        json.login user.login.to_s
         json.name user.name.to_s
         json.credits user.credits
         json.bins user.bins do |bin|

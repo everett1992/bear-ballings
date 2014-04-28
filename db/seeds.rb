@@ -10,9 +10,38 @@
 #
 
 #Creates initial user and course data.
+puts "Adding courses"
 Rake::Task['courses:parse'].invoke
-usernames = ['palacee1', 'everetc1']
-usernames.each do |name|
-  u = User.create(name: name, credits: 4 )
-  u.add_course(Course.first)
+
+puts "Adding users"
+name_file = File.join(Rails.root, 'lib', 'assets', 'names')
+
+unless File.exists? name_file
+  puts "#{name_file} does not exist."
+  exit 1
 end
+
+unless File.readable? name_file
+  puts "#{name_file} could not be read."
+  exit 1
+end
+
+regex = %r{
+  (?<login> .+ ){0}
+
+  (?<name> .+ ){0}
+
+  Login: \g<login>\s*Name: \g<name>
+}x
+
+File.open(name_file, 'r') do |f|
+  f.each_line do |line|
+    rr = regex.match line
+    if rr
+      User.create(login: rr[:login].strip, name: rr[:name].strip)
+    end
+  end
+end
+
+puts "#{Course.count} courses"
+puts "#{User.count} users"

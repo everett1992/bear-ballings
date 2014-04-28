@@ -9,14 +9,14 @@ class SessionsControllerTest < ActionController::TestCase
   end
 
   test "Redirects to login with errors when login fails" do
-    post :create, {user_name: 'Dik Phuk'}
+    post :create, {login: 'Dik Phuk'}
     assert_redirected_to login_path
     assert_nil assigns(:user)
   end
 
   test "Redirects to root when login succeeds" do
     user = User.first
-    post :create, {user_name: user.name}
+    post :create, {login: user.login}
     assert_redirected_to root_path
     assert_equal user, assigns(:user)
   end
@@ -37,22 +37,22 @@ class SessionsControllerTest < ActionController::TestCase
   end
 
   test "Json: Fail when username doesn't exist" do
-    post :create, {format: :json, user_name: 'Dik Phuk'}
+    post :create, {format: :json, login: 'Dik Phuk'}
     assert_response :unauthorized
     assert_nil assigns(:user)
   end
 
   test "Json: Renders the users/show template" do
-    post :create, {format: :json, user_name: User.first.name}
+    post :create, {format: :json, login: User.first.login}
     assert_response :success
     assert_template 'api/users/show'
     assert_not_nil flash[:notice]
   end
 
   test "Json: Logs in user when username exists" do
-    user = User.where(name: 'palacee1').first
+    user = User.where(login: 'palacee1').first
 
-    post :create, {format: :json, user_name: user.name}
+    post :create, {format: :json, login: user.login}
     assert_equal user, assigns(:user)
     assert_equal user._id, session[:user_id]
   end

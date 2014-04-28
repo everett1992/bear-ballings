@@ -2,7 +2,7 @@
 class SessionsController < ApplicationController
   # login
   def create
-    @user = User.find_or_create_by(name: params[:user_name])
+    @user = User.where(login: params[:login]).first
     respond_to do |format|
       if @user
         login @user
