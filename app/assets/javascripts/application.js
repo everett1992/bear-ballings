@@ -6,6 +6,7 @@ JSON.load = function(url, callback) {
     request.responseType = "json";
     request.onreadystatechange = function() {
         if (request.readyState == 4) {
+            console.log(request.status);
             if (request.status == 200)
                 callback(request.response);
             else

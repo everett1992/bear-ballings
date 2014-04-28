@@ -158,3 +158,11 @@ li.course h3 {
 li.course:nth-child(3n) { background-color:#fee; }
 li.course:nth-child(3n+1) { background-color:#efe; }
 li.course:nth-child(3n+2) { background-color:#eef; }
+
+#name {
+    font-size:2ex;
+    padding:0.5ex;
+    position:absolute;
+    top:0;
+    left:0;
+}

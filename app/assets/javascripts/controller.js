@@ -1,5 +1,9 @@
 define(['model', 'view'], function(model, view) {
 
+    JSON.load("/api/user", function(data) {
+        document.getElementById("name").innerHTML = data.name;
+    });
+
     model.load(function() {
         view.bins.setBins(model.user.bins);
         view.searchbox.addListener(function(form) {
@@ -21,7 +25,6 @@ define(['model', 'view'], function(model, view) {
                 if (response === undefined || typeof response === "number") {
                     alert("CONNECTION FAILURE; REFRESH PAGE!");
                 }
-                console.log(data);
                 model.user.bins = _.map(model.user.bins, function(b) {
                     b.courses = _.filter(b.courses, function(c) {
                         return c.id !== data.course;
@@ -29,7 +32,6 @@ define(['model', 'view'], function(model, view) {
                     return b;
                 });
                 model.user.bins = _.filter(model.user.bins, function(b) { return b.courses.length > 0; });
-                console.log(model.user.bins);
                 view.bins.setBins(model.user.bins);
             });
             return;
@@ -42,7 +44,6 @@ define(['model', 'view'], function(model, view) {
         else
             message.to_bin = data.action.bin;
         JSON.send("/api/user/courses", "POST", message, function(response) {
-            console.log(response);
             if (response === undefined || typeof response === "number") {
                 if (response === 422 || response === 500) {
                 }
