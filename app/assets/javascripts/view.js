@@ -35,9 +35,9 @@ define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course
             elem_bins.removeChild(elem_bins.firstChild);
         _.each(bins, function(c) {
             var elem = bin.create(c);
-            elem.onmousedown = onmousedown;
-            //var li = document.createElement("li");
-            //li.appendChild(elem);
+            _.each(elem.children[0].children, function(e) {
+                e.onmousedown = onmousedown;
+            });
             elem_bins.appendChild(elem);
         });
     };
@@ -103,6 +103,7 @@ define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course
     function mousemove(x,y) {
         var type,
             bins_bound,
+            courses_bound,
             position_bin,
             position_c,
             cbin;
@@ -111,8 +112,12 @@ define(['view/searchbox', 'view/course', 'view/bin'], function(searchbox, course
         undo = undefined;
         action = undefined;
         type = (active.className.indexOf("unassigned") < 0 ? "assigned" : "unassigned");
-        if (type !== "unassigned")
+        if (type === "assigned") {
+            courses_bound = elem_courses.getBoundingClientRect();
+            if (!(x < courses_bound.left || courses_bound.right < x || y < courses_bound.top || courses_bound.bottom < y))
+                action = {action:"remove"};
             return;
+        }
         bins_bound = elem_bins.getBoundingClientRect();
         if (x < bins_bound.left || bins_bound.right < x || y < bins_bound.top || bins_bound.bottom < y)
             return;

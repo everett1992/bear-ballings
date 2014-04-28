@@ -16,8 +16,24 @@ define(['model', 'view'], function(model, view) {
     });
 
     view.setBinListener(function(data) {
-        console.log(data.course);
-        console.log(data.action);
+        if (data.action.action == "remove") {
+            JSON.send("/api/user/courses", "DELETE", {_id:data.course}, function(response) {
+                if (response === undefined || typeof response === "number") {
+                    alert("CONNECTION FAILURE; REFRESH PAGE!");
+                }
+                console.log(data);
+                model.user.bins = _.map(model.user.bins, function(b) {
+                    b.courses = _.filter(b.courses, function(c) {
+                        return c.id !== data.course;
+                    });
+                    return b;
+                });
+                model.user.bins = _.filter(model.user.bins, function(b) { return b.courses.length > 0; });
+                console.log(model.user.bins);
+                view.bins.setBins(model.user.bins);
+            });
+            return;
+        }
         var message = { _id: data.course };
         if (data.action.type == "bin") {
             if (data.action.bin !== model.user.bins.length)
@@ -25,9 +41,7 @@ define(['model', 'view'], function(model, view) {
         }
         else
             message.to_bin = data.action.bin;
-        console.log(message);
-        JSON.send("/api/user/courses", message, function(response) {
-            console.log("RERERERE");
+        JSON.send("/api/user/courses", "POST", message, function(response) {
             console.log(response);
             if (response === undefined || typeof response === "number") {
                 if (response === 422 || response === 500) {
