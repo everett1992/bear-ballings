@@ -1,12 +1,12 @@
 <header>
-  <span id="name"></span>
+  <span id="name"><%= @user.name %></span>
   <%= form_tag logout_path do %>
     <!--<% flash.each do |name, msg| -%>
       <%= content_tag :div, msg, class: name %>
     <% end -%>-->
     <button id="logout" name="logout" value="Logout"></button>
   <% end %>
-  <h1>Bear Ballings <small><%= @user.name %></small></h1>
+  <h1>Bear Ballings</h1>
 </header>
 <div id="container">
   <div id="left">
