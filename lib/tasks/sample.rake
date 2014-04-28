@@ -1,5 +1,5 @@
 namespace :sample do
-  NUM_USERS         = 30
+  NUM_USERS         = 100
   NUM_COURSES       = 25
   USER_COURSE_RANGE = 8..16
   BIN_RANGE         = 1..4
@@ -14,7 +14,7 @@ namespace :sample do
 
     # Create 30 users.
     users = NUM_USERS.times.map do |x|
-      User.create(login: "user_#{x}", name: "User #{x}", credits: rand(CREDIT_RANGE), fake: true)
+      User.new(login: "user_#{x}", name: "User #{x}", credits: rand(CREDIT_RANGE), fake: true)
     end
 
     # Add 8 to 16 courses in bins of 1 to 4 to each user.
@@ -68,7 +68,7 @@ namespace :sample do
 
     if users.count < NUM_USERS
       pad_users = (NUM_USERS - users.count).times.map do |x|
-        User.create(name: "user_#{x}", name: "User #{x}", credits: rand(CREDIT_RANGE), fake: true)
+        User.new(name: "user_#{x}", name: "User #{x}", credits: rand(CREDIT_RANGE), fake: true)
       end
 
       # Add 8 to 16 courses in bins of 1 to 4 to each fake user.

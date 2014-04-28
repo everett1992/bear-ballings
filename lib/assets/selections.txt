@@ -5,16 +5,16 @@
       "title": "INDEPENDENT STUDY IN ART HISTORY",
       "classes": [
         {
-          "seats": 16,
+          "seats": 18,
           "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
           },
           "meeting2": {
-            "day": 4,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
           }
         }
       ]
@@ -24,16 +24,42 @@
       "title": "NJ PREQ 24 HR INTRO ECE COURSE",
       "classes": [
         {
-          "seats": 20,
+          "seats": 18,
           "meeting1": {
-            "day": 2,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
           },
           "meeting2": {
-            "day": 2,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 21,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
           }
         }
       ]
@@ -43,42 +69,29 @@
       "title": "ADVANCED ENGINEERING MATHEMATICS II",
       "classes": [
         {
-          "seats": 18,
+          "seats": 21,
           "meeting1": {
-            "day": 4,
+            "day": 1,
             "starttime": "1700",
             "endtime": "1820"
           },
           "meeting2": {
-            "day": 4,
+            "day": 3,
             "starttime": "1700",
             "endtime": "1820"
           }
         },
         {
-          "seats": 16,
+          "seats": 23,
           "meeting1": {
-            "day": 1,
+            "day": 2,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 1,
+            "day": 2,
             "starttime": "1000",
             "endtime": "1120"
-          }
-        },
-        {
-          "seats": 24,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
           }
         }
       ]
@@ -88,16 +101,16 @@
       "title": "ADVANCED PRIVATE OBOE",
       "classes": [
         {
-          "seats": 23,
+          "seats": 25,
           "meeting1": {
             "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
+            "starttime": "1400",
+            "endtime": "1520"
           },
           "meeting2": {
             "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
+            "starttime": "1400",
+            "endtime": "1520"
           }
         }
       ]
@@ -107,53 +120,27 @@
       "title": "ADVANCED PRIVATE GUITAR",
       "classes": [
         {
-          "seats": 22,
+          "seats": 19,
           "meeting1": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
           },
           "meeting2": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 21,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
           }
         },
         {
           "seats": 22,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 20,
           "meeting1": {
             "day": 2,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 5,
+            "day": 2,
             "starttime": "1000",
             "endtime": "1120"
           }
@@ -165,16 +152,42 @@
       "title": "JEFF U COMP ASSESS OF MO/NEONATE",
       "classes": [
         {
-          "seats": 23,
+          "seats": 19,
           "meeting1": {
-            "day": 2,
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 2,
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
           }
         }
       ]
@@ -184,14 +197,27 @@
       "title": "OLD ENGLISH",
       "classes": [
         {
-          "seats": 16,
+          "seats": 17,
           "meeting1": {
-            "day": 3,
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
           }
@@ -205,25 +231,51 @@
         {
           "seats": 23,
           "meeting1": {
-            "day": 2,
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 2,
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
           }
         },
         {
-          "seats": 24,
+          "seats": 22,
           "meeting1": {
-            "day": 3,
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 21,
+          "meeting1": {
+            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
+            "day": 5,
             "starttime": "1400",
             "endtime": "1520"
           }
@@ -235,16 +287,16 @@
       "title": "INT PRIVATE PERCUSSION MAJOR",
       "classes": [
         {
-          "seats": 17,
+          "seats": 15,
           "meeting1": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         }
       ]
@@ -254,14 +306,59 @@
       "title": "ADM SUP PHYS ED",
       "classes": [
         {
-          "seats": 19,
+          "seats": 18,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 25,
           "meeting1": {
             "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PER251",
+      "title": "SECOND-YEAR INTENSIVE PERSIAN I",
+      "classes": [
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           }
@@ -275,38 +372,6 @@
           },
           "meeting2": {
             "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        }
-      ]
-    },
-    {
-      "id": "PER251",
-      "title": "SECOND-YEAR INTENSIVE PERSIAN I",
-      "classes": [
-        {
-          "seats": 16,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 16,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 4,
             "starttime": "1700",
             "endtime": "1820"
           }
@@ -320,27 +385,40 @@
         {
           "seats": 24,
           "meeting1": {
-            "day": 5,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
-            "day": 5,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         },
         {
-          "seats": 20,
+          "seats": 22,
           "meeting1": {
-            "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
           },
           "meeting2": {
-            "day": 3,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 25,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1700",
+            "endtime": "1820"
           }
         }
       ]
@@ -350,71 +428,33 @@
       "title": "DATAMINING & PREDICTIVE MODELING",
       "classes": [
         {
-          "seats": 16,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        }
-      ]
-    },
-    {
-      "id": "MUS497",
-      "title": "SENIOR RECITAL PERFORMANCE",
-      "classes": [
-        {
-          "seats": 16,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 20,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
-          "seats": 19,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        }
-      ]
-    },
-    {
-      "id": "AAH320",
-      "title": "WOMEN, ART & SOCIETY",
-      "classes": [
-        {
           "seats": 17,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 18,
           "meeting1": {
             "day": 4,
             "starttime": "1400",
@@ -429,20 +469,7 @@
         {
           "seats": 22,
           "meeting1": {
-            "day": 4,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 25,
-          "meeting1": {
-            "day": 4,
+            "day": 1,
             "starttime": "1230",
             "endtime": "1350"
           },
@@ -455,13 +482,142 @@
       ]
     },
     {
+      "id": "MUS497",
+      "title": "SENIOR RECITAL PERFORMANCE",
+      "classes": [
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAH320",
+      "title": "WOMEN, ART & SOCIETY",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
       "id": "JPN101",
       "title": "JAPANESE FOR BEGINNERS I",
       "classes": [
         {
           "seats": 23,
           "meeting1": {
-            "day": 2,
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 5,
             "starttime": "1000",
             "endtime": "1120"
           },
@@ -478,20 +634,33 @@
       "title": "WOMANIST THOUGHT",
       "classes": [
         {
-          "seats": 23,
+          "seats": 21,
           "meeting1": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
           },
           "meeting2": {
-            "day": 2,
-            "starttime": "1700",
-            "endtime": "1820"
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
           }
         },
         {
-          "seats": 23,
+          "seats": 18,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 21,
           "meeting1": {
             "day": 5,
             "starttime": "1400",
@@ -501,19 +670,6 @@
             "day": 5,
             "starttime": "1400",
             "endtime": "1520"
-          }
-        },
-        {
-          "seats": 16,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
           }
         }
       ]
@@ -523,20 +679,7 @@
       "title": "JAPANESE FOR BEGINNERS II",
       "classes": [
         {
-          "seats": 21,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
-          "seats": 23,
+          "seats": 20,
           "meeting1": {
             "day": 1,
             "starttime": "1230",
@@ -555,42 +698,55 @@
       "title": "PRESS HISTORY",
       "classes": [
         {
-          "seats": 25,
+          "seats": 23,
           "meeting1": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
             "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
+            "starttime": "1000",
+            "endtime": "1120"
           }
         },
         {
           "seats": 16,
           "meeting1": {
-            "day": 5,
+            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           },
           "meeting2": {
-            "day": 5,
+            "day": 2,
             "starttime": "1400",
             "endtime": "1520"
           }
         },
         {
-          "seats": 22,
+          "seats": 16,
           "meeting1": {
             "day": 2,
-            "starttime": "1230",
-            "endtime": "1350"
+            "starttime": "1700",
+            "endtime": "1820"
           },
           "meeting2": {
-            "day": 5,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
           }
         }
       ]
@@ -600,7 +756,244 @@
       "title": "INDEPENDENT RESEARCH II",
       "classes": [
         {
+          "seats": 19,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAS201",
+      "title": "AFRICAN & DIASPORA RELIGIOUS TRADITIONS",
+      "classes": [
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PHL421",
+      "title": "PHILOSOPHY OF LANGUAGE",
+      "classes": [
+        {
+          "seats": 24,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PHY426",
+      "title": "PARTICLE AND NUCLEAR PHYSICS",
+      "classes": [
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "COM242",
+      "title": "INTERPERSONAL COMMUNICATION",
+      "classes": [
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        }
+      ]
+    },
+    {
+      "id": "COM442",
+      "title": "SENIOR PRACTICUM",
+      "classes": [
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MAT128",
+      "title": "CALCULUS B",
+      "classes": [
+        {
+          "seats": 18,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
           "seats": 21,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MAT229",
+      "title": "MULTIVARIABLE CALCULUS",
+      "classes": [
+        {
+          "seats": 25,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 23,
           "meeting1": {
             "day": 2,
             "starttime": "1400",
@@ -613,40 +1006,66 @@
           }
         },
         {
+          "seats": 21,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE373",
+      "title": "ART TECHNIQUES IN THE ELEM SCH",
+      "classes": [
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
           "seats": 17,
           "meeting1": {
-            "day": 2,
+            "day": 3,
             "starttime": "1000",
             "endtime": "1120"
           },
           "meeting2": {
-            "day": 2,
+            "day": 3,
             "starttime": "1000",
             "endtime": "1120"
           }
         },
         {
-          "seats": 25,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        }
-      ]
-    },
-    {
-      "id": "AAS201",
-      "title": "AFRICAN & DIASPORA RELIGIOUS TRADITIONS",
-      "classes": [
-        {
           "seats": 21,
           "meeting1": {
+            "day": 1,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        },
+        {
+          "seats": 24,
+          "meeting1": {
             "day": 2,
             "starttime": "1400",
             "endtime": "1520"
@@ -660,20 +1079,167 @@
       ]
     },
     {
-      "id": "PHL421",
-      "title": "PHILOSOPHY OF LANGUAGE",
+      "id": "AAE375",
+      "title": "PRINC, PRACT & MATER IN ART ED",
       "classes": [
         {
           "seats": 20,
           "meeting1": {
             "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 23,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        },
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE490",
+      "title": "STUDENT TEACHING IN ART",
+      "classes": [
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 17,
+          "meeting1": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 4,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE273",
+      "title": "SOPH PROFESSIONAL EXPERIENCE",
+      "classes": [
+        {
+          "seats": 20,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          },
+          "meeting2": {
+            "day": 1,
+            "starttime": "1230",
+            "endtime": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE350",
+      "title": "ORIENTATION TO ART THERAPY",
+      "classes": [
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE374",
+      "title": "ART TECHNIQUES IN THE SECOND SCH",
+      "classes": [
+        {
+          "seats": 15,
+          "meeting1": {
+            "day": 5,
             "starttime": "1700",
             "endtime": "1820"
           },
           "meeting2": {
-            "day": 1,
+            "day": 5,
             "starttime": "1700",
             "endtime": "1820"
+          }
+        },
+        {
+          "seats": 16,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AAE355",
+      "title": "METHODS IN ART THERAPY",
+      "classes": [
+        {
+          "seats": 19,
+          "meeting1": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1400",
+            "endtime": "1520"
           }
         },
         {
@@ -690,78 +1256,7 @@
           }
         },
         {
-          "seats": 21,
-          "meeting1": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 3,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        },
-        {
           "seats": 17,
-          "meeting1": {
-            "day": 1,
-            "starttime": "1700",
-            "endtime": "1820"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1700",
-            "endtime": "1820"
-          }
-        }
-      ]
-    },
-    {
-      "id": "PHY426",
-      "title": "PARTICLE AND NUCLEAR PHYSICS",
-      "classes": [
-        {
-          "seats": 25,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1230",
-            "endtime": "1350"
-          }
-        },
-        {
-          "seats": 19,
-          "meeting1": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 19,
-          "meeting1": {
-            "day": 2,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 5,
-            "starttime": "1400",
-            "endtime": "1520"
-          }
-        },
-        {
-          "seats": 25,
           "meeting1": {
             "day": 2,
             "starttime": "1230",
@@ -776,11 +1271,37 @@
       ]
     },
     {
-      "id": "COM242",
-      "title": "INTERPERSONAL COMMUNICATION",
+      "id": "AAE302",
+      "title": "PRINTMAKING FOR ART EDUCATION",
       "classes": [
         {
-          "seats": 17,
+          "seats": 15,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 2,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 25,
           "meeting1": {
             "day": 1,
             "starttime": "1700",
@@ -795,78 +1316,84 @@
         {
           "seats": 24,
           "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1000",
-            "endtime": "1120"
-          }
-        },
-        {
-          "seats": 15,
-          "meeting1": {
             "day": 2,
             "starttime": "1230",
             "endtime": "1350"
           },
           "meeting2": {
-            "day": 2,
+            "day": 5,
             "starttime": "1230",
             "endtime": "1350"
-          }
-        },
-        {
-          "seats": 16,
-          "meeting1": {
-            "day": 4,
-            "starttime": "1400",
-            "endtime": "1520"
-          },
-          "meeting2": {
-            "day": 4,
-            "starttime": "1400",
-            "endtime": "1520"
           }
         }
       ]
     },
     {
-      "id": "COM442",
-      "title": "SENIOR PRACTICUM",
+      "id": "AAE391",
+      "title": "INDEPENDENT STUDY IN ART ED",
       "classes": [
         {
-          "seats": 20,
+          "seats": 16,
           "meeting1": {
-            "day": 1,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
           },
           "meeting2": {
-            "day": 3,
-            "starttime": "1230",
-            "endtime": "1350"
+            "day": 4,
+            "starttime": "1000",
+            "endtime": "1120"
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "AAE370",
+      "title": "TOPICS IN ART EDUCATION",
+      "classes": [
         {
-          "seats": 15,
+          "seats": 24,
           "meeting1": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 2,
+            "starttime": "1230",
+            "endtime": "1350"
           },
           "meeting2": {
-            "day": 1,
-            "starttime": "1000",
-            "endtime": "1120"
+            "day": 5,
+            "starttime": "1230",
+            "endtime": "1350"
           }
         },
         {
           "seats": 21,
           "meeting1": {
+            "day": 2,
+            "starttime": "1700",
+            "endtime": "1820"
+          },
+          "meeting2": {
+            "day": 5,
+            "starttime": "1700",
+            "endtime": "1820"
+          }
+        },
+        {
+          "seats": 20,
+          "meeting1": {
             "day": 1,
+            "starttime": "1000",
+            "endtime": "1120"
+          },
+          "meeting2": {
+            "day": 3,
+            "starttime": "1000",
+            "endtime": "1120"
+          }
+        },
+        {
+          "seats": 22,
+          "meeting1": {
+            "day": 4,
             "starttime": "1400",
             "endtime": "1520"
           },
@@ -881,1304 +1408,649 @@
   ],
   "users": [
     {
-      "id": "535e96c872696e05c1a80000",
-      "login": "",
-      "name": "User 0",
-      "credits": 7,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAH391",
-            "PHL421",
-            "BUS495"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS201",
-            "PHY426",
-            "JPN102",
-            "COM442"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "WGS365",
-            "JPW310"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "COM242",
-            "PHED610"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "HIS372",
-            "JPN101"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAH320",
-            "PER251",
-            "ASL493"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1a90000",
-      "login": "",
-      "name": "User 1",
-      "credits": 5,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "NURS665",
-            "MUS224",
-            "AAS201"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "MUS421",
-            "COM442"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH320",
-            "PHL421",
-            "JPN102",
-            "HIS372"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "MUS406",
-            "PER251"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "CSC307"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1aa0000",
-      "login": "",
-      "name": "User 2",
-      "credits": 15,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "WGS365",
-            "AAH320",
-            "AAS201",
-            "BUS495"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "JPW310",
-            "NURS665"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "MUS224",
-            "ECED501"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "COM442",
-            "PHL421",
-            "CSC307",
-            "PER251"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "JPN101"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1ab0000",
-      "login": "",
-      "name": "User 3",
-      "credits": 12,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "PER251",
-            "CSC307",
-            "HIS372",
-            "PHED610"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "MUS406",
-            "JPN101"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "BUS495",
-            "MUS224"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1ac0000",
-      "login": "",
-      "name": "User 4",
-      "credits": 2,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "MUS421",
-            "CSC307",
-            "ASL493"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ECED501",
-            "ENGL508",
-            "AAS201"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH320",
-            "BUS495",
-            "MUS224",
-            "WGS365"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "MUS497"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "NURS665",
-            "COM442",
-            "COM242"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "PHL421"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "JPN101"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1ad0000",
-      "login": "",
-      "name": "User 5",
-      "credits": 0,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "ASL493"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "WGS365",
-            "NURS665"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "JPW310",
-            "ENG342"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "CSC307",
-            "MUS421"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "MUS406",
-            "ECED501"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "PHY426",
-            "COM242"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1ae0000",
-      "login": "",
-      "name": "User 6",
-      "credits": 7,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "CSC307"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "WGS365",
-            "ENG342",
-            "MUS421",
-            "AAH320"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "JPN102",
-            "PHY426"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "MUS224",
-            "ASL493"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "MUS497",
-            "PER251",
-            "BUS495"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "HIS372"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "PHL421",
-            "NURS665",
-            "MUS406"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1af0000",
-      "login": "",
-      "name": "User 7",
-      "credits": 13,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "WGS365",
-            "AAH320",
-            "CSC307"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "BUS495",
-            "ENGL508",
-            "PHL421",
-            "COM442"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "JPN101",
-            "ASL493",
-            "HIS372"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b00000",
-      "login": "",
-      "name": "User 8",
-      "credits": 11,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "PER251",
-            "WGS365",
-            "ENGL508"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "PHL421",
-            "ASL493",
-            "ENG342",
-            "BUS495"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "COM442"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b10000",
-      "login": "",
-      "name": "User 9",
-      "credits": 10,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS201",
-            "ENGL508",
-            "ECED501",
-            "PER251"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ASL493",
-            "COM242"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "MUS224",
-            "HIS372"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "COM442",
-            "BUS495"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "WGS365",
-            "PHL421",
-            "ENG342"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b20000",
-      "login": "",
-      "name": "User 10",
-      "credits": 2,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "HIS372"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ENG342",
-            "WGS365",
-            "COM242"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "MUS421",
-            "AAS201",
-            "NURS665"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "ENGL508",
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "MUS406",
-            "MUS224"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b30000",
-      "login": "",
-      "name": "User 11",
-      "credits": 4,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS201",
-            "WGS365"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "NURS665",
-            "ENG342",
-            "AAH320"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "PHY426",
-            "MUS421",
-            "ECED501",
-            "COM242"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "CSC307",
-            "BUS495",
-            "MUS406",
-            "HIS372"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "MUS497",
-            "ENGL508"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "COM442"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b40000",
-      "login": "",
-      "name": "User 12",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "PHL421",
-            "JPN102"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "COM442"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "PHY426",
-            "CSC307",
-            "MUS421",
-            "JPW310"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "MUS224",
-            "PER251",
-            "ECED501"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "BUS495",
-            "ASL493"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "ENG342",
-            "HIS372",
-            "WGS365",
-            "PHED610"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b50000",
-      "login": "",
-      "name": "User 13",
-      "credits": 12,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAS201"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "MUS224",
-            "NURS665"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "PHY426",
-            "ECED501",
-            "MUS421",
-            "PHL421"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "CSC307"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "JPN101",
-            "COM442",
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "JPN102",
-            "MUS497"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "COM242",
-            "ENGL508"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b60000",
-      "login": "",
-      "name": "User 14",
-      "credits": 6,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "MUS224",
-            "PHY426"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "MUS421",
-            "ECED501",
-            "WGS365"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "COM242",
-            "ENG342"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "COM442"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "JPN102",
-            "ASL493",
-            "ENGL508"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "CSC307"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b70000",
-      "login": "",
-      "name": "User 15",
-      "credits": 7,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "ENGL508"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ASL493"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "BUS495",
-            "JPN101",
-            "MUS497",
-            "PER251"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "CSC307",
-            "HIS372",
-            "MUS224"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "JPN102",
-            "PHED610"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b80000",
-      "login": "",
-      "name": "User 16",
-      "credits": 3,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "NURS665"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "MUS406"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS201",
-            "PHY426",
-            "JPN102"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "MUS497",
-            "COM242",
-            "BUS495",
-            "ENG342"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1b90000",
-      "login": "",
-      "name": "User 17",
-      "credits": 14,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "MUS497",
-            "ENG342"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "CSC307"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS201",
-            "MUS421",
-            "MUS406"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "PHY426",
-            "ASL493",
-            "COM442",
-            "WGS365"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "COM242",
-            "BUS495"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "ECED501"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1ba0000",
-      "login": "",
-      "name": "User 18",
-      "credits": 2,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "JPN101",
-            "PHL421",
-            "BUS495"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ENGL508",
-            "AAH391",
-            "AAS201",
-            "HIS372"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "PHY426",
-            "WGS365",
-            "COM442"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAH320",
-            "JPN102"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "JPW310",
-            "PHED610",
-            "MUS421"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1bb0000",
-      "login": "",
-      "name": "User 19",
-      "credits": 14,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "AAH320",
-            "MUS497",
-            "PHED610",
-            "JPN101"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "BUS495",
-            "MUS421",
-            "HIS372",
-            "MUS406"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAS201"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "PER251"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "CSC307",
-            "COM242"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "ENG342",
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "NURS665"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1bc0000",
-      "login": "",
-      "name": "User 20",
-      "credits": 2,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "ENG342",
-            "WGS365",
-            "ENGL508"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "AAS201",
-            "CSC307",
-            "JPW310",
-            "COM442"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "PER251"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1bd0000",
-      "login": "",
-      "name": "User 21",
-      "credits": 12,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "COM242"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ENGL508"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "HIS372"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "AAS201",
-            "JPN101",
-            "CSC307",
-            "PER251"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "BUS495",
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "MUS224",
-            "PHL421"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "MUS497"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1be0000",
-      "login": "",
-      "name": "User 22",
-      "credits": 9,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "NURS665"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "ASL493",
-            "COM242",
-            "PHY426",
-            "AAS201"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "AAH391",
-            "JPN101"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "MUS421",
-            "MUS224",
-            "JPN102",
-            "HIS372"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1bf0000",
-      "login": "",
-      "name": "User 23",
-      "credits": 9,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "PHED610",
-            "BUS495",
-            "PER251",
-            "AAH391"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "PHL421"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "WGS365"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "ASL493"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "JPN102",
-            "ECED501"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1c00000",
-      "login": "",
-      "name": "User 24",
-      "credits": 4,
-      "bins": [
-        {
-          "priority": 0,
-          "courses": [
-            "PER251",
-            "PHED610"
-          ]
-        },
-        {
-          "priority": 1,
-          "courses": [
-            "HIS372",
-            "COM442"
-          ]
-        },
-        {
-          "priority": 2,
-          "courses": [
-            "ENGL508",
-            "MUS224",
-            "CSC307"
-          ]
-        },
-        {
-          "priority": 3,
-          "courses": [
-            "PHY426",
-            "MUS421"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "AAS201",
-            "JPN101",
-            "PHL421"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "535e96c872696e05c1c10000",
-      "login": "",
-      "name": "User 25",
+      "id": "535e965372696e6d28e00f00",
+      "login": "everetc1",
+      "name": "Caleb Everett",
       "credits": 8,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "MUS421"
+            "MAT128",
+            "MAT229"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "WGS365",
-            "COM442"
+            "AAE373"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "ENG342",
-            "PER251",
-            "AAH391",
-            "PHY426"
+            "AAE375"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "MUS497",
-            "JPN101"
-          ]
-        },
-        {
-          "priority": 4,
-          "courses": [
-            "MUS224",
-            "COM242",
-            "NURS665"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "CSC307",
-            "JPN102"
+            "AAE490"
           ]
         }
       ]
     },
     {
-      "id": "535e96c872696e05c1c20000",
+      "id": "535e9dff72696e282c110100",
       "login": "",
-      "name": "User 26",
-      "credits": 7,
+      "name": "User 0",
+      "credits": 4,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "MUS421"
+            "AAH320",
+            "COM442",
+            "AAE370",
+            "HIS372"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "CSC307",
-            "AAH320",
-            "PHY426",
-            "BUS495"
+            "ECED501",
+            "AAE375",
+            "AAS201",
+            "AAE273"
           ]
         },
         {
           "priority": 2,
           "courses": [
-            "COM442",
-            "JPN102",
-            "PHL421"
+            "PER251",
+            "MUS421"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9dff72696e282c150100",
+      "login": "",
+      "name": "User 1",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE273",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MUS421"
           ]
         },
         {
           "priority": 3,
           "courses": [
-            "COM242",
-            "HIS372"
+            "AAE391",
+            "ECED501"
           ]
         },
         {
           "priority": 4,
           "courses": [
-            "ASL493",
-            "PER251",
+            "ENGL508",
+            "MUS497",
             "ENG342"
           ]
         }
       ]
     },
     {
-      "id": "535e96c872696e05c1c30000",
+      "id": "535e9dff72696e282c1b0100",
       "login": "",
-      "name": "User 27",
-      "credits": 9,
+      "name": "User 2",
+      "credits": 1,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "JPN102"
+            "MUS421"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "COM442",
-            "PHED610",
-            "AAH391"
+            "AAH391",
+            "JPN102"
           ]
         },
         {
           "priority": 2,
           "courses": [
             "PHL421",
+            "ECED501",
+            "AAE375",
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "BUS495",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE374",
+            "AAE370",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "ASL493",
+            "MAT229",
+            "PHY426"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9dff72696e282c220100",
+      "login": "",
+      "name": "User 3",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PER251"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MAT229",
+            "AAE350",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MUS406",
+            "PHY426",
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE490",
+            "CSC307",
+            "ENG342",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE373",
+            "AAE355",
+            "PHED610",
+            "MUS421"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9dff72696e282c290100",
+      "login": "",
+      "name": "User 4",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "COM442"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE374",
+            "PHED610",
+            "MUS497",
+            "PHY426"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "COM242",
+            "AAH391"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPN101",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE302",
+            "JPW310"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9dff72696e282c2f0100",
+      "login": "",
+      "name": "User 5",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS224",
+            "JPW310",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MAT128",
+            "AAE490",
+            "ENG342",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c330100",
+      "login": "",
+      "name": "User 6",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350",
+            "COM242",
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "WGS365",
+            "MUS406",
+            "AAE391",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MAT128",
+            "AAE273",
+            "HIS372",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH320",
+            "AAE370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c380100",
+      "login": "",
+      "name": "User 7",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "BUS495",
+            "AAE490",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHED610",
+            "ENGL508",
+            "HIS372",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ENG342"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHL421",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PER251",
+            "AAE370",
+            "WGS365",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "ASL493"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c3f0100",
+      "login": "",
+      "name": "User 8",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH391",
+            "COM442",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE373",
+            "CSC307",
+            "AAS201",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PER251"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MUS497",
+            "MAT229",
+            "AAE350"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c450100",
+      "login": "",
+      "name": "User 9",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE490",
+            "ENGL508",
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
             "MUS497",
             "AAH320"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE375",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH391",
+            "AAE370",
+            "COM442",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAE391",
+            "AAE374",
+            "PHL421"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c4d0100",
+      "login": "",
+      "name": "User 10",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "COM442",
+            "PHL421",
+            "ENGL508",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPN101",
+            "MUS421",
+            "AAE391",
+            "HIS372"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c500100",
+      "login": "",
+      "name": "User 11",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS421",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHY426",
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECED501",
+            "AAH391",
+            "MUS224",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE302",
+            "PHED610",
+            "COM442",
+            "NURS665"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c560100",
+      "login": "",
+      "name": "User 12",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM242",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECED501",
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "NURS665"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE355",
+            "ASL493",
+            "AAE374",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAE370",
+            "MUS406"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c5e0100",
+      "login": "",
+      "name": "User 13",
+      "credits": 8,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "CSC307",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE374",
+            "AAE302",
+            "COM442",
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH391",
+            "AAE375",
+            "BUS495"
           ]
         },
         {
@@ -2190,93 +2062,3872 @@
         {
           "priority": 4,
           "courses": [
-            "BUS495",
-            "PER251"
-          ]
-        },
-        {
-          "priority": 5,
-          "courses": [
-            "ENG342",
-            "MUS406"
-          ]
-        },
-        {
-          "priority": 6,
-          "courses": [
-            "JPN101",
-            "COM242"
-          ]
-        },
-        {
-          "priority": 7,
-          "courses": [
-            "WGS365"
+            "MUS497",
+            "ENG342"
           ]
         }
       ]
     },
     {
-      "id": "535e96c872696e05c1c40000",
+      "id": "535e9e0072696e282c640100",
       "login": "",
-      "name": "User 28",
-      "credits": 2,
+      "name": "User 14",
+      "credits": 1,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "JPN102",
-            "MUS497",
-            "ENG342",
-            "AAH391"
+            "AAE273",
+            "PHED610",
+            "JPN102"
           ]
         },
         {
           "priority": 1,
           "courses": [
-            "PHED610",
-            "NURS665",
+            "AAH320",
             "MUS406",
-            "ASL493"
+            "MAT229",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ASL493",
+            "AAE374",
+            "AAH391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c680100",
+      "login": "",
+      "name": "User 15",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE370",
+            "MUS224",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECED501",
+            "ASL493",
+            "NURS665",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MAT229"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c6d0100",
+      "login": "",
+      "name": "User 16",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "COM242",
+            "JPW310",
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ASL493",
+            "AAH391",
+            "PHED610"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "JPN102",
+            "AAE302",
+            "COM442"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MUS224",
+            "ECED501",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MAT229",
+            "BUS495",
+            "PER251"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0072696e282c730100",
+      "login": "",
+      "name": "User 17",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS406",
+            "AAE490",
+            "MUS497",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM242",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH391"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ENG342"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE273",
+            "PHED610"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282c790100",
+      "login": "",
+      "name": "User 18",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE391",
+            "HIS372",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPN101",
+            "ECED501",
+            "AAE350",
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PHY426",
+            "NURS665",
+            "PHED610",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MUS406",
+            "MUS497"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282c7f0100",
+      "login": "",
+      "name": "User 19",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE490",
+            "CSC307",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "BUS495",
+            "PER251",
+            "AAH391",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE350",
+            "JPN101",
+            "AAE374",
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "WGS365",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "JPN102",
+            "AAH320",
+            "AAE391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282c850100",
+      "login": "",
+      "name": "User 20",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MAT128",
+            "ENG342",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE355",
+            "JPN102",
+            "COM442",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE375",
+            "JPN101",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE490",
+            "AAE374",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PER251",
+            "JPW310"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282c8b0100",
+      "login": "",
+      "name": "User 21",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH391",
+            "MAT229",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM442"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE391",
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "NURS665",
+            "COM242",
+            "HIS372",
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE370",
+            "ENG342",
+            "MUS406",
+            "PHED610"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE374",
+            "JPN101"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282c920100",
+      "login": "",
+      "name": "User 22",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PER251",
+            "ECED501",
+            "AAE374",
+            "PHED610"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE302",
+            "CSC307"
           ]
         },
         {
           "priority": 2,
           "courses": [
             "MUS224",
-            "PER251"
+            "AAH320",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "COM442",
+            "PHY426",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "BUS495"
           ]
         }
       ]
     },
     {
-      "id": "535e96c872696e05c1c50000",
+      "id": "535e9e0172696e282c980100",
       "login": "",
-      "name": "User 29",
-      "credits": 10,
+      "name": "User 23",
+      "credits": 14,
       "bins": [
         {
           "priority": 0,
           "courses": [
-            "ASL493",
-            "MUS497",
-            "COM442"
+            "CSC307",
+            "HIS372",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MAT128",
+            "AAS201",
+            "AAE370",
+            "JPN102"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282c9d0100",
+      "login": "",
+      "name": "User 24",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "JPW310",
+            "AAE370",
+            "AAE375",
+            "ASL493"
           ]
         },
         {
           "priority": 1,
           "courses": [
             "JPN102",
-            "AAS201",
+            "WGS365",
+            "MUS224",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MAT128",
+            "PHED610",
+            "COM442"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PER251",
+            "COM242"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282ca20100",
+      "login": "",
+      "name": "User 25",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE375",
+            "AAE273",
+            "AAE350",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM442",
+            "JPW310",
+            "AAH391"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE391",
+            "BUS495",
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ENG342",
+            "MUS497",
+            "PER251"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MUS406",
+            "PHY426"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282ca80100",
+      "login": "",
+      "name": "User 26",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "JPW310",
+            "PHY426",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE273",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PER251",
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "HIS372",
+            "COM442"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282cad0100",
+      "login": "",
+      "name": "User 27",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "COM242",
+            "ASL493",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "JPW310",
+            "PHED610",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "WGS365",
+            "COM442",
+            "AAE302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0172696e282cb30100",
+      "login": "",
+      "name": "User 28",
+      "credits": 8,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ENG342",
+            "MUS421",
+            "AAH320",
+            "PHED610"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS497",
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE350",
+            "PHL421",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPN101",
+            "NURS665",
+            "ENGL508"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282cb80100",
+      "login": "",
+      "name": "User 29",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ECED501",
+            "PER251",
+            "PHED610",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH320",
+            "AAE355",
+            "AAE375",
+            "AAH391"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "COM442",
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "MAT229"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282cbf0100",
+      "login": "",
+      "name": "User 30",
+      "credits": 13,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE391",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "COM242",
+            "AAE370",
             "NURS665"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE374",
+            "AAE350",
+            "MUS497",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PER251",
+            "MAT128",
+            "HIS372",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "PHED610"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282cc70100",
+      "login": "",
+      "name": "User 31",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE391",
+            "AAE350",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ASL493",
+            "MAT128",
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECED501",
+            "PHY426",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ENG342"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282ccd0100",
+      "login": "",
+      "name": "User 32",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE273",
+            "AAE355",
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPW310",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "WGS365",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPN102",
+            "AAE391",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PER251"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282cd30100",
+      "login": "",
+      "name": "User 33",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MAT128",
+            "AAE350",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "JPW310",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHY426",
+            "HIS372"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ECED501",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "JPN101",
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "COM242",
+            "MAT229",
+            "WGS365",
+            "AAE355"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282cdb0100",
+      "login": "",
+      "name": "User 34",
+      "credits": 12,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS224",
+            "PHL421",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "COM242",
+            "PHY426"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MAT229",
+            "JPW310"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282ce10100",
+      "login": "",
+      "name": "User 35",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS224",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE375",
+            "PER251",
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MUS406",
+            "AAH391"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "HIS372",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "BUS495"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282ce90100",
+      "login": "",
+      "name": "User 36",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ENG342",
+            "JPN101",
+            "JPW310",
+            "COM442"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHL421",
+            "AAE375",
+            "PHY426",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "BUS495"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282cef0100",
+      "login": "",
+      "name": "User 37",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MAT229",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM442"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE373",
+            "AAS201",
+            "NURS665",
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPW310"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282cf40100",
+      "login": "",
+      "name": "User 38",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE273",
+            "ENGL508",
+            "AAE490",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS497",
+            "JPN101",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "MUS421"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282cfb0100",
+      "login": "",
+      "name": "User 39",
+      "credits": 12,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHL421",
+            "AAE374",
+            "MUS497",
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PER251",
+            "AAE302",
+            "ENG342"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH391",
+            "ENGL508",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "COM442",
+            "MAT128"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282c020200",
+      "login": "",
+      "name": "User 40",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ENG342"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM442",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS201",
+            "ENGL508"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "ASL493"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0272696e282c090200",
+      "login": "",
+      "name": "User 41",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE370",
+            "AAS201",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PHY426",
+            "JPN102",
+            "AAE273",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPW310",
+            "MUS497",
+            "CSC307"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c0e0200",
+      "login": "",
+      "name": "User 42",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS224",
+            "COM442"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ENGL508"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE374",
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPW310",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PHED610"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "COM242",
+            "AAE355",
+            "AAE391",
+            "AAE375"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c150200",
+      "login": "",
+      "name": "User 43",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PHY426",
+            "ECED501",
+            "AAE302",
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MAT229",
+            "AAE375",
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "WGS365",
+            "AAE373",
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE273",
+            "MUS224"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c1a0200",
+      "login": "",
+      "name": "User 44",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "JPN102",
+            "AAH391",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE350",
+            "AAE391",
+            "AAE302",
+            "AAE373"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ENG342",
+            "JPW310"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c1e0200",
+      "login": "",
+      "name": "User 45",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE375",
+            "PER251",
+            "MAT128",
+            "NURS665"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPW310",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH391",
+            "AAE273",
+            "AAE490",
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "WGS365",
+            "MUS224",
+            "ENG342"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c250200",
+      "login": "",
+      "name": "User 46",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "HIS372"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPN102",
+            "PER251"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE370",
+            "AAE273",
+            "ASL493",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPN101",
+            "ENGL508",
+            "AAE373",
+            "MAT128"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c2a0200",
+      "login": "",
+      "name": "User 47",
+      "credits": 12,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350",
+            "PHED610",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "BUS495",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAS201",
+            "AAE391",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHL421",
+            "NURS665",
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PER251",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "ENGL508",
+            "CSC307",
+            "AAH391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c310200",
+      "login": "",
+      "name": "User 48",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "HIS372",
+            "MUS497",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPN101",
+            "ENG342",
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MUS421",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "COM442",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "WGS365"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c370200",
+      "login": "",
+      "name": "User 49",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS421",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS406",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECED501",
+            "AAE350",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE374",
+            "MAT229",
+            "NURS665"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c3c0200",
+      "login": "",
+      "name": "User 50",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS497",
+            "PHED610"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ECED501",
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ENGL508"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MUS224",
+            "NURS665"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH391",
+            "AAE273",
+            "ENG342"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c420200",
+      "login": "",
+      "name": "User 51",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ENG342",
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE373",
+            "MUS406",
+            "JPN102",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MUS421",
+            "COM442",
+            "PHED610",
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PHY426"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c480200",
+      "login": "",
+      "name": "User 52",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PHY426",
+            "ENGL508"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE350",
+            "ASL493",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "MAT229",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "AAE373",
+            "AAE370"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c500200",
+      "login": "",
+      "name": "User 53",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS497",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE350",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MUS421",
+            "MUS406",
+            "AAE302",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MAT128"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c550200",
+      "login": "",
+      "name": "User 54",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS497",
+            "COM442",
+            "COM242",
+            "PHY426"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH391",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MUS224",
+            "ASL493",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "HIS372",
+            "AAE350",
+            "NURS665",
+            "AAE391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0372696e282c5c0200",
+      "login": "",
+      "name": "User 55",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE374",
+            "COM242",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE373",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ENG342"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c620200",
+      "login": "",
+      "name": "User 56",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS497",
+            "AAE302",
+            "PER251",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ASL493",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPN102",
+            "MUS224",
+            "AAE374"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c670200",
+      "login": "",
+      "name": "User 57",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS201",
+            "AAH391",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE302",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "CSC307",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "COM442",
+            "ENGL508",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "HIS372"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "ECED501",
+            "AAE373"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c700200",
+      "login": "",
+      "name": "User 58",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE355",
+            "AAE374",
+            "PHED610",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PHY426",
+            "PER251"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE375"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c750200",
+      "login": "",
+      "name": "User 59",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "JPW310",
+            "MAT128",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM442",
+            "AAE374",
+            "AAE373",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ASL493",
+            "HIS372"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE355",
+            "AAE302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c7a0200",
+      "login": "",
+      "name": "User 60",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "NURS665",
+            "MAT128",
+            "MAT229",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE490",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "COM242",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH320",
+            "AAE355",
+            "MUS497"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c800200",
+      "login": "",
+      "name": "User 61",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PHY426",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE373",
+            "AAH391",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "COM442",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE370",
+            "JPW310",
+            "AAS201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c860200",
+      "login": "",
+      "name": "User 62",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE373",
+            "JPN102",
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE490",
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MAT128",
+            "PER251",
+            "ECED501",
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHL421"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c8b0200",
+      "login": "",
+      "name": "User 63",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ECED501",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH391",
+            "ENG342"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c920200",
+      "login": "",
+      "name": "User 64",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPN101",
+            "AAE490",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "CSC307",
+            "AAS201",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MAT128",
+            "MUS421",
+            "ENGL508"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "BUS495"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "PER251"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282c9b0200",
+      "login": "",
+      "name": "User 65",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS421",
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "COM242"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PER251"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE374",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE355",
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "NURS665"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282ca30200",
+      "login": "",
+      "name": "User 66",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "CSC307",
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE374",
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "COM242"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ECED501",
+            "PHED610",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE375",
+            "PER251"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282ca90200",
+      "login": "",
+      "name": "User 67",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PHY426"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHED610",
+            "MUS406",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "JPW310",
+            "AAS201",
+            "MUS224",
+            "CSC307"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282cad0200",
+      "login": "",
+      "name": "User 68",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH320",
+            "AAS201",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS406",
+            "PHY426",
+            "COM242",
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE374",
+            "MUS224",
+            "AAH391",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE355",
+            "BUS495",
+            "JPN102"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282cb30200",
+      "login": "",
+      "name": "User 69",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MAT229",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE391",
+            "JPW310",
+            "ENGL508",
+            "PER251"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "COM442"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "HIS372",
+            "ASL493",
+            "JPN102",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "PHL421",
+            "AAS201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0472696e282cbb0200",
+      "login": "",
+      "name": "User 70",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH391",
+            "HIS372",
+            "AAE373",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPW310",
+            "AAE375",
+            "CSC307",
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MUS406",
+            "AAE374",
+            "ENGL508",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE302",
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "WGS365"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282cc10200",
+      "login": "",
+      "name": "User 71",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "HIS372",
+            "AAS201",
+            "AAE490",
+            "NURS665"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "WGS365",
+            "AAE302",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PHY426"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHL421",
+            "AAE375",
+            "AAE373",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAH391",
+            "MUS497",
+            "COM242"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282cc70200",
+      "login": "",
+      "name": "User 72",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE302",
+            "AAE490",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM442",
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH391",
+            "AAE273",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "BUS495",
+            "AAS201",
+            "HIS372",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MUS224",
+            "MUS497"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282ccd0200",
+      "login": "",
+      "name": "User 73",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE302",
+            "JPW310",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHED610",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ENG342",
+            "AAE350"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282cd20200",
+      "login": "",
+      "name": "User 74",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "NURS665",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHY426",
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PHL421",
+            "AAE355",
+            "JPN101",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MUS224"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282cd70200",
+      "login": "",
+      "name": "User 75",
+      "credits": 12,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PHL421",
+            "AAE490",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ENG342",
+            "AAE273",
+            "WGS365",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE375",
+            "AAE355",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "CSC307"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282cdd0200",
+      "login": "",
+      "name": "User 76",
+      "credits": 1,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "JPN101",
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PHL421",
+            "AAE302",
+            "AAE373",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE355",
+            "MUS421"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "NURS665",
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE374",
+            "COM442"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282ce40200",
+      "login": "",
+      "name": "User 77",
+      "credits": 5,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE355"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAH391",
+            "JPN102",
+            "NURS665"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "JPN101",
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "PER251",
+            "AAE373",
+            "ENGL508"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 7,
+          "courses": [
+            "AAE391",
+            "PHED610",
+            "WGS365"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282ced0200",
+      "login": "",
+      "name": "User 78",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "ASL493",
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS406",
+            "HIS372",
+            "PHY426"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "NURS665"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE373",
+            "AAS201",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE355",
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAH320",
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "COM242",
+            "JPW310",
+            "AAH391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282cf50200",
+      "login": "",
+      "name": "User 79",
+      "credits": 4,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE375",
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ECED501",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MUS406",
+            "AAE350",
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "JPN101",
+            "COM442",
+            "CSC307",
+            "PER251"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "NURS665"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282cfb0200",
+      "login": "",
+      "name": "User 80",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECED501",
+            "AAE373",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "NURS665",
+            "AAH391"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ASL493",
+            "ENGL508",
+            "PER251"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "AAE273",
+            "MAT229",
+            "MUS224",
+            "WGS365"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "PHED610"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282c030300",
+      "login": "",
+      "name": "User 81",
+      "credits": 6,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350",
+            "AAE490",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ENG342",
+            "AAE374",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "MAT128",
+            "JPW310",
+            "WGS365",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHY426"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0572696e282c080300",
+      "login": "",
+      "name": "User 82",
+      "credits": 7,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS406",
+            "HIS372",
+            "AAE273"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "ASL493",
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE350",
+            "ENG342",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE373",
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "BUS495",
+            "ENGL508",
+            "AAE355",
+            "PER251"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "WGS365"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c100300",
+      "login": "",
+      "name": "User 83",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE374",
+            "ASL493",
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM442",
+            "HIS372",
+            "MUS224",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "CSC307",
+            "AAH320"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "BUS495"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c160300",
+      "login": "",
+      "name": "User 84",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE490"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "BUS495",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE302",
+            "MAT229",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "HIS372",
+            "WGS365",
+            "AAS201"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c1b0300",
+      "login": "",
+      "name": "User 85",
+      "credits": 10,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE370",
+            "ASL493",
+            "AAE373",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPW310",
+            "ENG342",
+            "AAE355",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH391",
+            "WGS365",
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHY426"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c200300",
+      "login": "",
+      "name": "User 86",
+      "credits": 11,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "JPN101",
+            "AAE355",
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE391",
+            "AAS201",
+            "MUS224",
+            "ENG342"
           ]
         },
         {
           "priority": 2,
           "courses": [
             "ENGL508",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "COM442",
+            "AAE373",
+            "MUS421",
+            "PHL421"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c260300",
+      "login": "",
+      "name": "User 87",
+      "credits": 8,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE374",
+            "AAE355",
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAS201",
+            "AAE391",
+            "COM242",
+            "NURS665"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "PHED610",
+            "ENG342"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c2a0300",
+      "login": "",
+      "name": "User 88",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAH391",
+            "MUS406",
+            "MUS224"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "BUS495",
+            "JPN102",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHY426",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE350",
+            "ASL493"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c300300",
+      "login": "",
+      "name": "User 89",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350",
+            "CSC307",
+            "PHL421"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "JPN101",
+            "MUS421",
+            "COM242",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ENG342",
+            "ECED501",
+            "COM442"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "HIS372",
+            "MAT128",
+            "AAE355"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c350300",
+      "login": "",
+      "name": "User 90",
+      "credits": 9,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS201",
+            "BUS495",
+            "CSC307",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "MUS406",
+            "COM442"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "JPW310",
+            "AAE350",
+            "PHL421",
+            "AAE391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c390300",
+      "login": "",
+      "name": "User 91",
+      "credits": 15,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAH391",
+            "AAE273",
+            "ECED501",
+            "JPN101"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MAT128"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "PER251"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "ASL493"
+          ]
+        },
+        {
+          "priority": 6,
+          "courses": [
+            "WGS365",
+            "ENG342",
+            "AAE391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c410300",
+      "login": "",
+      "name": "User 92",
+      "credits": 0,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "PHED610",
+            "WGS365",
+            "MUS497"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "COM242",
+            "JPN101",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH391",
+            "MAT229",
+            "MUS406"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAE373",
+            "COM442",
+            "ECED501"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0672696e282c470300",
+      "login": "",
+      "name": "User 93",
+      "credits": 12,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MAT128",
+            "COM242"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "PHED610",
+            "AAE370"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ENGL508",
+            "MAT229"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ENG342",
+            "AAE375",
+            "AAE350",
+            "JPN102"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 5,
+          "courses": [
+            "HIS372",
+            "AAE355"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0772696e282c4e0300",
+      "login": "",
+      "name": "User 94",
+      "credits": 3,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE302",
+            "AAE370",
+            "AAE490",
+            "PHED610"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE374",
+            "MUS406",
+            "COM442"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH320",
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "PHL421",
+            "BUS495",
+            "AAE391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0772696e282c530300",
+      "login": "",
+      "name": "User 95",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAE350",
+            "PHY426",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE375",
+            "ECED501",
             "PER251",
-            "WGS365"
+            "CSC307"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "BUS495",
+            "JPN101",
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ENG342",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "ASL493"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0772696e282c590300",
+      "login": "",
+      "name": "User 96",
+      "credits": 13,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "MUS406",
+            "AAH320",
+            "PHY426"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "AAE370",
+            "NURS665"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "ECED501",
+            "ENG342",
+            "ENGL508"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "MUS497",
+            "HIS372",
+            "PHED610"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MAT128",
+            "AAE373"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0772696e282c5f0300",
+      "login": "",
+      "name": "User 97",
+      "credits": 14,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "WGS365",
+            "JPN102",
+            "JPW310"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "CSC307",
+            "AAE375",
+            "AAE350"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAH320",
+            "BUS495",
+            "AAH391",
+            "AAE374"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "AAS201"
+          ]
+        },
+        {
+          "priority": 4,
+          "courses": [
+            "MUS406",
+            "MAT229",
+            "AAE490",
+            "ASL493"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "535e9e0772696e282c650300",
+      "login": "",
+      "name": "User 98",
+      "credits": 2,
+      "bins": [
+        {
+          "priority": 0,
+          "courses": [
+            "AAS201",
+            "AAE302"
+          ]
+        },
+        {
+          "priority": 1,
+          "courses": [
+            "NURS665",
+            "AAE370",
+            "AAE490",
+            "AAE375"
+          ]
+        },
+        {
+          "priority": 2,
+          "courses": [
+            "AAE373",
+            "AAE391"
+          ]
+        },
+        {
+          "priority": 3,
+          "courses": [
+            "ENG342"
           ]
         }
       ]
