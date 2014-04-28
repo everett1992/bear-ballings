@@ -15,13 +15,13 @@ JSON.load = function(url, callback) {
     request.send();
 };
 
-JSON.send = function(url, json, callback) {
+JSON.send = function(url, type, json, callback) {
     var request = new XMLHttpRequest();
-    request.open("POST", url, true);
+    request.open(type, url, true);
     request.setRequestHeader("Content-Type", "application/json");
     request.onreadystatechange = function() {
         if (request.readyState == 4) {
-            if (request.status == 200)
+            if (request.status >= 200 && request.status < 300)
                 callback(json);
             else {
                 console.log(request.response);
