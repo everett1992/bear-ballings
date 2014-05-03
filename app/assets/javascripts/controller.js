@@ -8,11 +8,10 @@ define(['model', 'view'], function(model, view) {
         view.bins.setBins(model.user.bins);
         view.searchbox.addListener(function(form) {
             view.courses.setCourses(_.filter(model.courses.courses, function(c) {
-                var term = form.filter;
-                return (c.department.indexOf(term) >= 0 ||
-                        c.number.toString().indexOf(term) >= 0 ||
-                        (c.department+c.number.toString()).indexOf(term) >= 0 ||
-                        c.title.indexOf(term) >= 0);
+                // Lowercase the search body and the term to match insensitive.
+                var term = form.filter.toLowerCase();
+                var search = (c.id + ' ' + c.title).toLowerCase();
+                return search.indexOf(term) >= 0;
             }));
         });
         view.courses.setCourses(model.courses.courses);
