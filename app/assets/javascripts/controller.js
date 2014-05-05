@@ -8,10 +8,9 @@ define(['model', 'view'], function(model, view) {
         view.bins.setBins(model.user.bins);
         view.searchbox.addListener(function(form) {
             view.courses.setCourses(_.filter(model.courses.courses, function(c) {
-                // Lowercase the search body and the term to match insensitive.
-                var term = form.filter.toLowerCase();
+                var terms = form.filter.toLowerCase().split(/\s/);
                 var search = (c.id + ' ' + c.title).toLowerCase();
-                return search.indexOf(term) >= 0;
+                return _(terms).every(function(term) { return search.indexOf(term) >= 0});
             }));
         });
         view.courses.setCourses(model.courses.courses);
